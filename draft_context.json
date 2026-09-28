@@ -1,0 +1,35 @@
+{
+  "_instructions": "This file is your STATIC cached prefix. Regenerate it right before the draft from a live source (e.g. FantasyPros consensus rankings + ADP) so it isn't stale. The assistant script loads it verbatim and marks it cacheable. Keep it token-efficient: a ranked list with tiers/notes beats raw article text.",
+
+  "league_settings": {
+    "teams": 12,
+    "scoring": "0.5 PPR",
+    "roster": { "QB": 1, "RB": 2, "WR": 2, "TE": 1, "FLEX": 1, "DST": 1, "K": 1, "BENCH": 7 },
+    "snake": true
+  },
+
+  "rankings": [
+    {
+      "rank": 1,
+      "name": "EXAMPLE PLAYER",
+      "pos": "RB",
+      "team": "XYZ",
+      "tier": 1,
+      "adp": 1.2,
+      "bye": 9,
+      "vor": 78.4,
+      "notes": "Populate these from your live source. One concise line of expert-consensus reasoning per player."
+    },
+    {
+      "rank": 2,
+      "name": "EXAMPLE PLAYER 2",
+      "pos": "WR",
+      "team": "ABC",
+      "tier": 1,
+      "adp": 2.1,
+      "bye": 7,
+      "vor": 74.9,
+      "notes": "..."
+    }
+  ]
+}

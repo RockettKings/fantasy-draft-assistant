@@ -1,0 +1,181 @@
+{
+ "_meta": {
+  "purpose": "Do-not-draft / bust consensus. NOT a ban list \u2014 a DISCOUNT trigger. These are bad VALUE at current ADP (injury, workload, role, or unsustainable 2025), but the manager will gamble when a player slides far enough past ADP that reward beats risk. See draft_strategy.md rule 4 for the price thresholds by risk type.",
+  "espn_note": "ESPN entries are Eric Karabell's 'Do Not Draft' list (confirmed names only; full list is longer). Others labeled by source.",
+  "stat_line": "Real 2025 regular-season actuals from nflverse \u2014 NOT a projection."
+ },
+ "avoid": [
+  {
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "team": "SF",
+   "source": "ESPN (Karabell)",
+   "reason": "400+ touches and 900+ snaps in 2025; RBs historically don't repeat after 400-carry seasons, plus a long injury history.",
+   "stat_line_2025": {
+    "season": 2025,
+    "games": 17,
+    "ppg_ppr": 24.5,
+    "rushing": {
+     "yards": 1202,
+     "tds": 10
+    },
+    "receiving": {
+     "rec": 102,
+     "yards": 924,
+     "tds": 7
+    }
+   }
+  },
+  {
+   "name": "Malik Nabers",
+   "pos": "WR",
+   "team": "NYG",
+   "source": "ESPN (Karabell)",
+   "reason": "ACL + meniscus tear in Week 4 2025 that needed a follow-up procedure; Week 1 availability uncertain.",
+   "stat_line_2025": {
+    "season": 2025,
+    "games": 4,
+    "ppg_ppr": 14.3,
+    "receiving": {
+     "rec": 18,
+     "yards": 271,
+     "tds": 2
+    }
+   }
+  },
+  {
+   "name": "Cam Skattebo",
+   "pos": "RB",
+   "team": "NYG",
+   "source": "ESPN (Karabell)",
+   "reason": "Reckless style = injury risk; likely a committee with Tracy/Singletary/Harris; ADP too rich for that role.",
+   "stat_line_2025": {
+    "season": 2025,
+    "games": 8,
+    "ppg_ppr": 16.0,
+    "rushing": {
+     "yards": 410,
+     "tds": 5
+    },
+    "receiving": {
+     "rec": 24,
+     "yards": 207,
+     "tds": 2
+    }
+   }
+  },
+  {
+   "name": "Jaxson Dart",
+   "pos": "QB",
+   "team": "NYG",
+   "source": "ESPN (Karabell)",
+   "reason": "Young Giants trio barely shared the field in 2025; availability and consistency unproven at his cost.",
+   "stat_line_2025": {
+    "season": 2025,
+    "games": 14,
+    "ppg_ppr": 17.3,
+    "passing": {
+     "yards": 2272,
+     "tds": 15
+    },
+    "rushing": {
+     "yards": 487,
+     "tds": 9
+    }
+   }
+  },
+  {
+   "name": "De'Von Achane",
+   "pos": "RB",
+   "team": "MIA",
+   "source": "Sporting News",
+   "reason": "Loses McDaniel's RB-centric scheme; Miami offense looks shakier, threatening his volume.",
+   "stat_line_2025": {
+    "season": 2025,
+    "games": 16,
+    "ppg_ppr": 20.2,
+    "rushing": {
+     "yards": 1350,
+     "tds": 8
+    },
+    "receiving": {
+     "rec": 67,
+     "yards": 488,
+     "tds": 4
+    }
+   }
+  },
+  {
+   "name": "Jerry Jeudy",
+   "pos": "WR",
+   "team": "CLE",
+   "source": "FantasyPros",
+   "reason": "Finished WR51 in 2025 with poor yards-per-route and points below expectation; Browns drafted two WRs early under new staff.",
+   "stat_line_2025": {
+    "season": 2025,
+    "games": 17,
+    "ppg_ppr": 7.1,
+    "rushing": {
+     "yards": 5,
+     "tds": 0
+    },
+    "receiving": {
+     "rec": 50,
+     "yards": 602,
+     "tds": 2
+    }
+   }
+  },
+  {
+   "name": "Matthew Stafford",
+   "pos": "QB",
+   "team": "LAR",
+   "source": "FantasyPros",
+   "reason": "46 pass TDs on a 7.7% TD rate is historically unsustainable; no rushing to fall back on if TDs regress.",
+   "stat_line_2025": {
+    "season": 2025,
+    "games": 17,
+    "ppg_ppr": 20.6,
+    "passing": {
+     "yards": 4707,
+     "tds": 46
+    },
+    "rushing": {
+     "yards": 1,
+     "tds": 0
+    }
+   }
+  },
+  {
+   "name": "Bhayshul Tuten",
+   "pos": "RB",
+   "team": "JAX",
+   "source": "FanDuel / ESPN tiers",
+   "reason": "ADP climbed into the top ~60 on breakout hype, but his role is uncertain and he's shown little as a pass-catcher.",
+   "stat_line_2025": {
+    "season": 2025,
+    "games": 15,
+    "ppg_ppr": 5.9,
+    "rushing": {
+     "yards": 307,
+     "tds": 5
+    },
+    "receiving": {
+     "rec": 10,
+     "yards": 79,
+     "tds": 2
+    }
+   }
+  },
+  {
+   "name": "Jeremiyah Love",
+   "pos": "RB",
+   "team": "ARI",
+   "source": "Sporting News (hype caution)",
+   "reason": "Rookie hype outrunning reality: preseason high-ankle sprain, Allgeier starting Week 1, backfield crowded with Conner/Benson.",
+   "stat_line_2025": {
+    "note": "no 2025 NFL stats (rookie)"
+   }
+  }
+ ]
+}

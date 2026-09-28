@@ -1,0 +1,114 @@
+{
+ "_meta": {
+  "purpose": "2026 rookie class upside board. Rookies have NO NFL stats, so this is built from draft capital, landing spot, projected role, and preseason news \u2014 not from player_stats.json. Treat as ceiling bets: first-year value is lowest, so mid/late picks on high-ceiling rookies are where leagues get won.",
+  "as_of": "late Aug / early Sep 2026 \u2014 VERIFY with live news on draft day (roles and injuries move fast)",
+  "sources": "consensus of PFN, Yahoo/Sporting News, ESPN (Clay), SI, RotoBaller, DraftSharks",
+  "avoid_flag": "players carrying an 'avoid' field are on a do-not-draft/bust list (see espn_avoid_2026.json)"
+ },
+ "rookies": [
+  {
+   "name": "Jeremiyah Love",
+   "pos": "RB",
+   "team": "ARI",
+   "draft_capital": "1st round, 3rd overall (first RB top-5 since Barkley 2018)",
+   "role": "Do-it-all three-down back; Doak Walker winner. BUT LaFleur easing him in \u2014 sharing 1st-team reps with Tyler Allgeier, James Conner returning as RB3.",
+   "upside": "RB1 ceiling on draft-capital alone; the 9 most recent top-12 RBs all finished top-12 as rookies.",
+   "risk": "Crowded backfield early; Cardinals offense modest with Jacoby Brissett at QB.",
+   "adp_note": "Highest rookie ADP \u2014 not a discount. Priced as a real pick.",
+   "avoid": {
+    "source": "Sporting News (hype caution)",
+    "reason": "Rookie hype outrunning reality: preseason high-ankle sprain, Allgeier starting Week 1, backfield crowded with Conner/Benson."
+   }
+  },
+  {
+   "name": "Jadarian Price",
+   "pos": "RB",
+   "team": "SEA",
+   "draft_capital": "Notre Dame (behind Love in college); mid-round NFL pick",
+   "role": "Path to 15-20 touches Week 1 if Zach Charbonnet (ACL) isn't back; Seattle led NFL in RB carries inside the 20.",
+   "upside": "Some analysts flip him ABOVE Love for pure upside \u2014 best offensive environment of the rookie RBs.",
+   "risk": "Charbonnet return date, possible Super Bowl hangover, new OC, Aug lower-body soreness (George Holani took 1st-team reps).",
+   "adp_note": "~RB41 on Sleeper \u2014 big discount for the ceiling. Prime value target."
+  },
+  {
+   "name": "Jordyn Tyson",
+   "pos": "WR",
+   "team": "NO",
+   "draft_capital": "early-round WR",
+   "role": "Pairs with Chris Olave under Kellen Moore's pass-friendly offense.",
+   "upside": "Viewed by several as the best pure WR talent in the class \u2014 can surpass Tate as rookie WR1.",
+   "risk": "Likely the WR2 on his own team; hamstring/ankle question.",
+   "adp_note": "Check live ADP."
+  },
+  {
+   "name": "Carnell Tate",
+   "pos": "WR",
+   "team": "TEN",
+   "draft_capital": "highest-drafted rookie WR",
+   "role": "Good chance to lead Titans in WR volume; grows with Cam Ward in year 2.",
+   "upside": "Team WR1 target share as a rookie; projected ~PPR WR39.",
+   "risk": "Daboll's TEN offense may lag; QB still developing.",
+   "adp_note": "Check live ADP."
+  },
+  {
+   "name": "KC Concepcion",
+   "pos": "WR",
+   "team": "CLE",
+   "draft_capital": "rookie WR, climbing boards",
+   "role": "Browns manufacturing touches \u2014 sweeps, screens, slot volume. High PPR floor.",
+   "upside": "PPR-friendly engineered usage with room for explosive games; some now have him top-5 rookie.",
+   "risk": "Shaky Cleveland QB situation caps the ceiling; Jeudy + Boston compete for targets.",
+   "adp_note": "~11th round ADP \u2014 cheap PPR floor."
+  },
+  {
+   "name": "De'Zhaun Stribling",
+   "pos": "WR",
+   "team": "SF",
+   "draft_capital": "rookie WR",
+   "role": "Flashing in camp with Deebo (30, injury-prone) and Pearsall banged up; 49ers pass offense elite (top-8 YPA, top-5 pass yards 3 straight years).",
+   "upside": "One injury ahead of him unlocks real volume in a great offense \u2014 classic league-winner profile.",
+   "risk": "Needs an injury/opportunity to matter; buried if everyone's healthy.",
+   "adp_note": "~11th round ADP \u2014 pure upside stash."
+  },
+  {
+   "name": "Makai Lemon",
+   "pos": "WR",
+   "team": "PHI",
+   "draft_capital": "top-5 rookie board",
+   "role": "Lands in Philadelphia's offense; rookie WR depth behind established options.",
+   "upside": "Top-tier rookie talent; ceiling tied to carving a role.",
+   "risk": "Target competition in an established offense.",
+   "adp_note": "Check live ADP."
+  },
+  {
+   "name": "Kenyon Sadiq",
+   "pos": "TE",
+   "team": "NYJ",
+   "draft_capital": "16th overall",
+   "role": "Elite athletic profile (4.39 forty, 43.5\" vertical); first rookie TE off the board.",
+   "upside": "TE is thin \u2014 an athletic move TE who hits is a positional edge.",
+   "risk": "Rookie TEs historically take a year+ to produce.",
+   "adp_note": "Late/dart-throw; check live ADP."
+  },
+  {
+   "name": "Fernando Mendoza",
+   "pos": "QB",
+   "team": "LV",
+   "draft_capital": "No. 1 overall pick (Heisman, national title at Indiana)",
+   "role": "Rookie QB1 of the class; steps into the Raiders' offense.",
+   "upside": "Top pedigree; QB1 rookie with rushing/passing tools.",
+   "risk": "Rookie QBs are volatile; supporting cast questions.",
+   "adp_note": "Streaming/QB2 range \u2014 check live ADP."
+  },
+  {
+   "name": "Nicholas Singleton",
+   "pos": "RB",
+   "team": "TEN",
+   "draft_capital": "later-round pick \u2014 talent-vs-capital discount",
+   "role": "Penn State product; overlooked backfield asset.",
+   "upside": "Deep sleeper whose talent outruns his draft slot if given a role.",
+   "risk": "Buried on depth chart; needs opportunity.",
+   "adp_note": "Very late \u2014 pure lottery ticket."
+  }
+ ]
+}

@@ -1,0 +1,3803 @@
+{
+ "_meta": {
+  "source": "nflverse \u2014 real 2025 regular season",
+  "snap_pct": "avg % of team offensive snaps (workload/role)",
+  "ngs": "separation/air_yards_share/yac_above_exp/catch_pct (receiving); ryoe_per_att/efficiency/rush_pct_over_exp (rushing). Talent vs scheme signal.",
+  "redzone": "carries & targets inside the 20/10/5 = touchdown equity. rz_touches_pg = red-zone touches per game.",
+  "avoid_flag": "players carrying an 'avoid' field are on a do-not-draft/bust list (see espn_avoid_2026.json)"
+ },
+ "players": [
+  {
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "team": "SF",
+   "snap_pct": 83.1,
+   "ngs": {
+    "ryoe_per_att": -0.62,
+    "rush_efficiency": 4.73,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 75,
+    "carries_in10": 37,
+    "carries_in5": 20,
+    "targets_in20": 25,
+    "targets_in10": 13,
+    "rz_touches_pg": 5.9
+   },
+   "avoid": {
+    "source": "ESPN (Karabell)",
+    "reason": "400+ touches and 900+ snaps in 2025; RBs historically don't repeat after 400-carry seasons, plus a long injury history."
+   }
+  },
+  {
+   "name": "Puka Nacua",
+   "pos": "WR",
+   "team": "LA",
+   "snap_pct": 68.2,
+   "ngs": {
+    "avg_separation": 2.77,
+    "air_yards_share": 32.8,
+    "yac_above_exp": 1.44,
+    "catch_pct": 74.6
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 1,
+    "carries_in5": 0,
+    "targets_in20": 17,
+    "targets_in10": 10,
+    "rz_touches_pg": 1.1
+   }
+  },
+  {
+   "name": "Bijan Robinson",
+   "pos": "RB",
+   "team": "ATL",
+   "snap_pct": 78.2,
+   "ngs": {
+    "ryoe_per_att": 0.71,
+    "rush_efficiency": 4.6,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 36,
+    "carries_in10": 18,
+    "carries_in5": 11,
+    "targets_in20": 13,
+    "targets_in10": 4,
+    "rz_touches_pg": 2.9
+   }
+  },
+  {
+   "name": "Jahmyr Gibbs",
+   "pos": "RB",
+   "team": "DET",
+   "snap_pct": 67.0,
+   "ngs": {
+    "ryoe_per_att": 1.01,
+    "rush_efficiency": 4.28,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 52,
+    "carries_in10": 22,
+    "carries_in5": 10,
+    "targets_in20": 15,
+    "targets_in10": 4,
+    "rz_touches_pg": 3.9
+   }
+  },
+  {
+   "name": "Josh Allen",
+   "pos": "QB",
+   "team": "BUF",
+   "snap_pct": 92.2,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 33,
+    "carries_in10": 22,
+    "carries_in5": 17,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 2.1
+   }
+  },
+  {
+   "name": "Jonathan Taylor",
+   "pos": "RB",
+   "team": "IND",
+   "snap_pct": 82.6,
+   "ngs": {
+    "ryoe_per_att": 0.53,
+    "rush_efficiency": 3.99,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 71,
+    "carries_in10": 40,
+    "carries_in5": 24,
+    "targets_in20": 5,
+    "targets_in10": 2,
+    "rz_touches_pg": 4.5
+   }
+  },
+  {
+   "name": "Jaxon Smith-Njigba",
+   "pos": "WR",
+   "team": "SEA",
+   "snap_pct": 77.4,
+   "ngs": {
+    "avg_separation": 2.98,
+    "air_yards_share": 50.8,
+    "yac_above_exp": 0.63,
+    "catch_pct": 73.9
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 17,
+    "targets_in10": 7,
+    "rz_touches_pg": 1.0
+   }
+  },
+  {
+   "name": "Drake Maye",
+   "pos": "QB",
+   "team": "NE",
+   "snap_pct": 95.8,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 22,
+    "carries_in10": 15,
+    "carries_in5": 4,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.3
+   }
+  },
+  {
+   "name": "Matthew Stafford",
+   "pos": "QB",
+   "team": "LA",
+   "snap_pct": 98.5,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 7,
+    "carries_in10": 4,
+    "carries_in5": 3,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.4
+   },
+   "avoid": {
+    "source": "FantasyPros",
+    "reason": "46 pass TDs on a 7.7% TD rate is historically unsustainable; no rushing to fall back on if TDs regress."
+   }
+  },
+  {
+   "name": "Trevor Lawrence",
+   "pos": "QB",
+   "team": "JAX",
+   "snap_pct": 96.7,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 24,
+    "carries_in10": 15,
+    "carries_in5": 11,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.4
+   }
+  },
+  {
+   "name": "Amon-Ra St. Brown",
+   "pos": "WR",
+   "team": "DET",
+   "snap_pct": 85.2,
+   "ngs": {
+    "avg_separation": 3.01,
+    "air_yards_share": 41.9,
+    "yac_above_exp": 0.31,
+    "catch_pct": 69.4
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 35,
+    "targets_in10": 21,
+    "rz_touches_pg": 2.1
+   }
+  },
+  {
+   "name": "De'Von Achane",
+   "pos": "RB",
+   "team": "MIA",
+   "snap_pct": 75.4,
+   "ngs": {
+    "ryoe_per_att": 0.52,
+    "rush_efficiency": 4.4,
+    "rush_pct_over_exp": 0.3
+   },
+   "redzone": {
+    "carries_in20": 32,
+    "carries_in10": 11,
+    "carries_in5": 5,
+    "targets_in20": 11,
+    "targets_in10": 5,
+    "rz_touches_pg": 2.7
+   },
+   "avoid": {
+    "source": "Sporting News",
+    "reason": "Loses McDaniel's RB-centric scheme; Miami offense looks shakier, threatening his volume."
+   }
+  },
+  {
+   "name": "Caleb Williams",
+   "pos": "QB",
+   "team": "CHI",
+   "snap_pct": 99.1,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 20,
+    "carries_in10": 7,
+    "carries_in5": 2,
+    "targets_in20": 1,
+    "targets_in10": 1,
+    "rz_touches_pg": 1.2
+   }
+  },
+  {
+   "name": "Trey McBride",
+   "pos": "TE",
+   "team": "ARI",
+   "snap_pct": 91.4,
+   "ngs": {
+    "avg_separation": 3.02,
+    "air_yards_share": 26.0,
+    "yac_above_exp": 0.57,
+    "catch_pct": 73.9
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 34,
+    "targets_in10": 12,
+    "rz_touches_pg": 2.0
+   }
+  },
+  {
+   "name": "Dak Prescott",
+   "pos": "QB",
+   "team": "DAL",
+   "snap_pct": 95.1,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 12,
+    "carries_in10": 10,
+    "carries_in5": 7,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "Ja'Marr Chase",
+   "pos": "WR",
+   "team": "CIN",
+   "snap_pct": 94.4,
+   "ngs": {
+    "avg_separation": 3.01,
+    "air_yards_share": 37.0,
+    "yac_above_exp": 1.48,
+    "catch_pct": 66.8
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 22,
+    "targets_in10": 8,
+    "rz_touches_pg": 1.4
+   }
+  },
+  {
+   "name": "Bo Nix",
+   "pos": "QB",
+   "team": "DEN",
+   "snap_pct": 99.6,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 17,
+    "carries_in10": 6,
+    "carries_in5": 1,
+    "targets_in20": 1,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.1
+   }
+  },
+  {
+   "name": "James Cook",
+   "pos": "RB",
+   "team": "BUF",
+   "snap_pct": 57.2,
+   "ngs": {
+    "ryoe_per_att": 0.95,
+    "rush_efficiency": 3.54,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 56,
+    "carries_in10": 26,
+    "carries_in5": 16,
+    "targets_in20": 3,
+    "targets_in10": 1,
+    "rz_touches_pg": 3.5
+   }
+  },
+  {
+   "name": "Jalen Hurts",
+   "pos": "QB",
+   "team": "PHI",
+   "snap_pct": 97.6,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 27,
+    "carries_in10": 15,
+    "carries_in5": 12,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.7
+   }
+  },
+  {
+   "name": "Jared Goff",
+   "pos": "QB",
+   "team": "DET",
+   "snap_pct": 98.5,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 3,
+    "carries_in10": 2,
+    "carries_in5": 0,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.2
+   }
+  },
+  {
+   "name": "George Pickens",
+   "pos": "WR",
+   "team": "DAL",
+   "snap_pct": 81.1,
+   "ngs": {
+    "avg_separation": 2.38,
+    "air_yards_share": 35.8,
+    "yac_above_exp": 2.25,
+    "catch_pct": 69.1
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 24,
+    "targets_in10": 11,
+    "rz_touches_pg": 1.4
+   }
+  },
+  {
+   "name": "Justin Herbert",
+   "pos": "QB",
+   "team": "LAC",
+   "snap_pct": 96.8,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 14,
+    "carries_in10": 7,
+    "carries_in5": 4,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Patrick Mahomes",
+   "pos": "QB",
+   "team": "KC",
+   "snap_pct": 97.4,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 15,
+    "carries_in10": 5,
+    "carries_in5": 2,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.1
+   }
+  },
+  {
+   "name": "Chase Brown",
+   "pos": "RB",
+   "team": "CIN",
+   "snap_pct": 66.6,
+   "ngs": {
+    "ryoe_per_att": 0.45,
+    "rush_efficiency": 5.94,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 37,
+    "carries_in10": 19,
+    "carries_in5": 13,
+    "targets_in20": 12,
+    "targets_in10": 7,
+    "rz_touches_pg": 2.9
+   }
+  },
+  {
+   "name": "Derrick Henry",
+   "pos": "RB",
+   "team": "BAL",
+   "snap_pct": 54.5,
+   "ngs": {
+    "ryoe_per_att": 1.11,
+    "rush_efficiency": 3.78,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 63,
+    "carries_in10": 40,
+    "carries_in5": 27,
+    "targets_in20": 2,
+    "targets_in10": 0,
+    "rz_touches_pg": 3.8
+   }
+  },
+  {
+   "name": "Baker Mayfield",
+   "pos": "QB",
+   "team": "TB",
+   "snap_pct": 97.1,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 9,
+    "carries_in10": 1,
+    "carries_in5": 1,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "Chris Olave",
+   "pos": "WR",
+   "team": "NO",
+   "snap_pct": 84.3,
+   "ngs": {
+    "avg_separation": 2.94,
+    "air_yards_share": 43.0,
+    "yac_above_exp": -0.58,
+    "catch_pct": 63.2
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 15,
+    "targets_in10": 4,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Kyren Williams",
+   "pos": "RB",
+   "team": "LA",
+   "snap_pct": 68.3,
+   "ngs": {
+    "ryoe_per_att": 0.47,
+    "rush_efficiency": 3.42,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 53,
+    "carries_in10": 30,
+    "carries_in5": 18,
+    "targets_in20": 10,
+    "targets_in10": 3,
+    "rz_touches_pg": 3.7
+   }
+  },
+  {
+   "name": "Travis Etienne",
+   "pos": "RB",
+   "team": "JAX",
+   "snap_pct": 60.1,
+   "ngs": {
+    "ryoe_per_att": 0.16,
+    "rush_efficiency": 4.5,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 54,
+    "carries_in10": 26,
+    "carries_in5": 12,
+    "targets_in20": 10,
+    "targets_in10": 6,
+    "rz_touches_pg": 3.8
+   }
+  },
+  {
+   "name": "Ashton Jeanty",
+   "pos": "RB",
+   "team": "LV",
+   "snap_pct": 77.9,
+   "ngs": {
+    "ryoe_per_att": -0.26,
+    "rush_efficiency": 4.46,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 35,
+    "carries_in10": 17,
+    "carries_in5": 11,
+    "targets_in20": 10,
+    "targets_in10": 3,
+    "rz_touches_pg": 2.6
+   }
+  },
+  {
+   "name": "Zay Flowers",
+   "pos": "WR",
+   "team": "BAL",
+   "snap_pct": 86.5,
+   "ngs": {
+    "avg_separation": 3.57,
+    "air_yards_share": 38.1,
+    "yac_above_exp": 0.4,
+    "catch_pct": 74.0
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 12,
+    "targets_in10": 6,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Javonte Williams",
+   "pos": "RB",
+   "team": "DAL",
+   "snap_pct": 69.0,
+   "ngs": {
+    "ryoe_per_att": 0.67,
+    "rush_efficiency": 3.36,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 54,
+    "carries_in10": 28,
+    "carries_in5": 20,
+    "targets_in20": 12,
+    "targets_in10": 5,
+    "rz_touches_pg": 4.1
+   }
+  },
+  {
+   "name": "Jaxson Dart",
+   "pos": "QB",
+   "team": "NYG",
+   "snap_pct": 83.6,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 22,
+    "carries_in10": 12,
+    "carries_in5": 7,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.6
+   },
+   "avoid": {
+    "source": "ESPN (Karabell)",
+    "reason": "Young Giants trio barely shared the field in 2025; availability and consistency unproven at his cost."
+   }
+  },
+  {
+   "name": "Josh Jacobs",
+   "pos": "RB",
+   "team": "GB",
+   "snap_pct": 59.1,
+   "ngs": {
+    "ryoe_per_att": -0.1,
+    "rush_efficiency": 4.1,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 52,
+    "carries_in10": 30,
+    "carries_in5": 20,
+    "targets_in20": 6,
+    "targets_in10": 2,
+    "rz_touches_pg": 3.9
+   }
+  },
+  {
+   "name": "Sam Darnold",
+   "pos": "QB",
+   "team": "SEA",
+   "snap_pct": 96.2,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 6,
+    "carries_in10": 4,
+    "carries_in5": 2,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.4
+   }
+  },
+  {
+   "name": "Jordan Love",
+   "pos": "QB",
+   "team": "GB",
+   "snap_pct": 94.3,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 6,
+    "carries_in10": 3,
+    "carries_in5": 2,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.4
+   }
+  },
+  {
+   "name": "Saquon Barkley",
+   "pos": "RB",
+   "team": "PHI",
+   "snap_pct": 78.3,
+   "ngs": {
+    "ryoe_per_att": 0.28,
+    "rush_efficiency": 4.58,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 44,
+    "carries_in10": 25,
+    "carries_in5": 15,
+    "targets_in20": 8,
+    "targets_in10": 4,
+    "rz_touches_pg": 3.2
+   }
+  },
+  {
+   "name": "D'Andre Swift",
+   "pos": "RB",
+   "team": "CHI",
+   "snap_pct": 57.9,
+   "ngs": {
+    "ryoe_per_att": 0.42,
+    "rush_efficiency": 4.04,
+    "rush_pct_over_exp": 0.5
+   },
+   "redzone": {
+    "carries_in20": 40,
+    "carries_in10": 24,
+    "carries_in5": 14,
+    "targets_in20": 1,
+    "targets_in10": 0,
+    "rz_touches_pg": 2.6
+   }
+  },
+  {
+   "name": "Jacoby Brissett",
+   "pos": "QB",
+   "team": "ARI",
+   "snap_pct": 85.7,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 5,
+    "carries_in10": 5,
+    "carries_in5": 3,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.4
+   }
+  },
+  {
+   "name": "Aaron Rodgers",
+   "pos": "QB",
+   "team": "PIT",
+   "snap_pct": 95.7,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 3,
+    "carries_in10": 2,
+    "carries_in5": 2,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.2
+   }
+  },
+  {
+   "name": "Daniel Jones",
+   "pos": "QB",
+   "team": "IND",
+   "snap_pct": 91.5,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 16,
+    "carries_in10": 10,
+    "carries_in5": 6,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.2
+   }
+  },
+  {
+   "name": "Nico Collins",
+   "pos": "WR",
+   "team": "HOU",
+   "snap_pct": 77.2,
+   "ngs": {
+    "avg_separation": 2.21,
+    "air_yards_share": 38.5,
+    "yac_above_exp": 1.21,
+    "catch_pct": 56.9
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 1,
+    "carries_in5": 0,
+    "targets_in20": 19,
+    "targets_in10": 10,
+    "rz_touches_pg": 1.3
+   }
+  },
+  {
+   "name": "Davante Adams",
+   "pos": "WR",
+   "team": "LA",
+   "snap_pct": 71.4,
+   "ngs": {
+    "avg_separation": 2.11,
+    "air_yards_share": 35.9,
+    "yac_above_exp": -0.69,
+    "catch_pct": 53.2
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 32,
+    "targets_in10": 23,
+    "rz_touches_pg": 2.3
+   }
+  },
+  {
+   "name": "Kenny Gainwell",
+   "pos": "RB",
+   "team": "PIT",
+   "snap_pct": 49.6,
+   "ngs": {
+    "ryoe_per_att": 0.67,
+    "rush_efficiency": 3.2,
+    "rush_pct_over_exp": 0.5
+   },
+   "redzone": {
+    "carries_in20": 23,
+    "carries_in10": 16,
+    "carries_in5": 9,
+    "targets_in20": 17,
+    "targets_in10": 6,
+    "rz_touches_pg": 2.4
+   }
+  },
+  {
+   "name": "Michael Wilson",
+   "pos": "WR",
+   "team": "ARI",
+   "snap_pct": 81.4,
+   "ngs": {
+    "avg_separation": 2.29,
+    "air_yards_share": 40.0,
+    "yac_above_exp": 0.64,
+    "catch_pct": 60.7
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 17,
+    "targets_in10": 5,
+    "rz_touches_pg": 1.0
+   }
+  },
+  {
+   "name": "A.J. Brown",
+   "pos": "WR",
+   "team": "PHI",
+   "snap_pct": 90.7,
+   "ngs": {
+    "avg_separation": 2.11,
+    "air_yards_share": 42.7,
+    "yac_above_exp": 0.96,
+    "catch_pct": 61.8
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 13,
+    "targets_in10": 5,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Jameson Williams",
+   "pos": "WR",
+   "team": "DET",
+   "snap_pct": 90.2,
+   "ngs": {
+    "avg_separation": 3.23,
+    "air_yards_share": 36.4,
+    "yac_above_exp": 1.72,
+    "catch_pct": 68.1
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 1,
+    "carries_in5": 0,
+    "targets_in20": 9,
+    "targets_in10": 4,
+    "rz_touches_pg": 0.6
+   }
+  },
+  {
+   "name": "Courtland Sutton",
+   "pos": "WR",
+   "team": "DEN",
+   "snap_pct": 85.4,
+   "ngs": {
+    "avg_separation": 2.35,
+    "air_yards_share": 38.2,
+    "yac_above_exp": 0.18,
+    "catch_pct": 60.4
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 20,
+    "targets_in10": 8,
+    "rz_touches_pg": 1.2
+   }
+  },
+  {
+   "name": "Bryce Young",
+   "pos": "QB",
+   "team": "CAR",
+   "snap_pct": 96.8,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 11,
+    "carries_in10": 5,
+    "carries_in5": 2,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "Wan'Dale Robinson",
+   "pos": "WR",
+   "team": "NYG",
+   "snap_pct": 90.8,
+   "ngs": {
+    "avg_separation": 3.43,
+    "air_yards_share": 30.9,
+    "yac_above_exp": 0.39,
+    "catch_pct": 66.7
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 14,
+    "targets_in10": 6,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Jaylen Warren",
+   "pos": "RB",
+   "team": "PIT",
+   "snap_pct": 50.8,
+   "ngs": {
+    "ryoe_per_att": 0.76,
+    "rush_efficiency": 4.08,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 40,
+    "carries_in10": 22,
+    "carries_in5": 14,
+    "targets_in20": 5,
+    "targets_in10": 4,
+    "rz_touches_pg": 2.8
+   }
+  },
+  {
+   "name": "Rico Dowdle",
+   "pos": "RB",
+   "team": "CAR",
+   "snap_pct": 56.1,
+   "ngs": {
+    "ryoe_per_att": 0.5,
+    "rush_efficiency": 3.75,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 35,
+    "carries_in10": 14,
+    "carries_in5": 9,
+    "targets_in20": 5,
+    "targets_in10": 1,
+    "rz_touches_pg": 2.4
+   }
+  },
+  {
+   "name": "Lamar Jackson",
+   "pos": "QB",
+   "team": "BAL",
+   "snap_pct": 92.2,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 13,
+    "carries_in10": 5,
+    "carries_in5": 1,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.0
+   }
+  },
+  {
+   "name": "Tetairoa McMillan",
+   "pos": "WR",
+   "team": "CAR",
+   "snap_pct": 87.2,
+   "ngs": {
+    "avg_separation": 2.63,
+    "air_yards_share": 46.2,
+    "yac_above_exp": -0.31,
+    "catch_pct": 59.4
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 15,
+    "targets_in10": 6,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "team": "CIN",
+   "snap_pct": 80.9,
+   "ngs": {
+    "avg_separation": 1.86,
+    "air_yards_share": 37.1,
+    "yac_above_exp": 0.43,
+    "catch_pct": 59.3
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 16,
+    "targets_in10": 8,
+    "rz_touches_pg": 1.1
+   }
+  },
+  {
+   "name": "Kyle Pitts",
+   "pos": "TE",
+   "team": "ATL",
+   "snap_pct": 88.0,
+   "ngs": {
+    "avg_separation": 3.3,
+    "air_yards_share": 24.2,
+    "yac_above_exp": -0.48,
+    "catch_pct": 73.2
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 13,
+    "targets_in10": 7,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Stefon Diggs",
+   "pos": "WR",
+   "team": "NE",
+   "snap_pct": 53.8,
+   "ngs": {
+    "avg_separation": 2.84,
+    "air_yards_share": 25.0,
+    "yac_above_exp": 0.44,
+    "catch_pct": 78.4
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 12,
+    "targets_in10": 7,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "team": "HOU",
+   "snap_pct": 91.2,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 8,
+    "carries_in10": 3,
+    "carries_in5": 2,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.6
+   }
+  },
+  {
+   "name": "Breece Hall",
+   "pos": "RB",
+   "team": "NYJ",
+   "snap_pct": 64.4,
+   "ngs": {
+    "ryoe_per_att": 0.53,
+    "rush_efficiency": 4.33,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 24,
+    "carries_in10": 10,
+    "carries_in5": 4,
+    "targets_in20": 9,
+    "targets_in10": 3,
+    "rz_touches_pg": 2.1
+   }
+  },
+  {
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "team": "DEN",
+   "snap_pct": 42.1,
+   "ngs": {
+    "ryoe_per_att": -1.08,
+    "rush_efficiency": 5.43,
+    "rush_pct_over_exp": 0.3
+   },
+   "redzone": {
+    "carries_in20": 29,
+    "carries_in10": 15,
+    "carries_in5": 10,
+    "targets_in20": 11,
+    "targets_in10": 6,
+    "rz_touches_pg": 2.4
+   }
+  },
+  {
+   "name": "TreVeyon Henderson",
+   "pos": "RB",
+   "team": "NE",
+   "snap_pct": 45.9,
+   "ngs": {
+    "ryoe_per_att": 0.92,
+    "rush_efficiency": 3.84,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 36,
+    "carries_in10": 21,
+    "carries_in5": 8,
+    "targets_in20": 4,
+    "targets_in10": 3,
+    "rz_touches_pg": 2.4
+   }
+  },
+  {
+   "name": "Michael Pittman",
+   "pos": "WR",
+   "team": "IND",
+   "snap_pct": 85.5,
+   "ngs": {
+    "avg_separation": 2.96,
+    "air_yards_share": 24.5,
+    "yac_above_exp": 0.43,
+    "catch_pct": 75.6
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 18,
+    "targets_in10": 10,
+    "rz_touches_pg": 1.1
+   }
+  },
+  {
+   "name": "Drake London",
+   "pos": "WR",
+   "team": "ATL",
+   "snap_pct": 90.7,
+   "ngs": {
+    "avg_separation": 2.76,
+    "air_yards_share": 43.5,
+    "yac_above_exp": 0.62,
+    "catch_pct": 60.3
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 16,
+    "targets_in10": 9,
+    "rz_touches_pg": 1.3
+   }
+  },
+  {
+   "name": "DeVonta Smith",
+   "pos": "WR",
+   "team": "PHI",
+   "snap_pct": 84.4,
+   "ngs": {
+    "avg_separation": 3.01,
+    "air_yards_share": 36.9,
+    "yac_above_exp": -0.09,
+    "catch_pct": 64.0
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 12,
+    "targets_in10": 4,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "Justin Jefferson",
+   "pos": "WR",
+   "team": "MIN",
+   "snap_pct": 94.2,
+   "ngs": {
+    "avg_separation": 3.19,
+    "air_yards_share": 41.1,
+    "yac_above_exp": 0.91,
+    "catch_pct": 59.7
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 19,
+    "targets_in10": 11,
+    "rz_touches_pg": 1.1
+   }
+  },
+  {
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "team": "DAL",
+   "snap_pct": 72.9,
+   "ngs": {
+    "avg_separation": 2.79,
+    "air_yards_share": 36.6,
+    "yac_above_exp": 0.61,
+    "catch_pct": 65.2
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 17,
+    "targets_in10": 7,
+    "rz_touches_pg": 1.3
+   }
+  },
+  {
+   "name": "Emeka Egbuka",
+   "pos": "WR",
+   "team": "TB",
+   "snap_pct": 77.6,
+   "ngs": {
+    "avg_separation": 2.59,
+    "air_yards_share": 39.1,
+    "yac_above_exp": 1.06,
+    "catch_pct": 52.4
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 1,
+    "carries_in5": 1,
+    "targets_in20": 15,
+    "targets_in10": 5,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Jaylen Waddle",
+   "pos": "WR",
+   "team": "MIA",
+   "snap_pct": 77.6,
+   "ngs": {
+    "avg_separation": 2.84,
+    "air_yards_share": 47.6,
+    "yac_above_exp": 0.42,
+    "catch_pct": 67.7
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 11,
+    "targets_in10": 5,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "Travis Kelce",
+   "pos": "TE",
+   "team": "KC",
+   "snap_pct": 81.9,
+   "ngs": {
+    "avg_separation": 3.09,
+    "air_yards_share": 19.6,
+    "yac_above_exp": 0.18,
+    "catch_pct": 71.6
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 1,
+    "carries_in5": 1,
+    "targets_in20": 13,
+    "targets_in10": 8,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Kenneth Walker III",
+   "pos": "RB",
+   "team": "SEA",
+   "snap_pct": 46.9,
+   "ngs": {
+    "ryoe_per_att": 0.59,
+    "rush_efficiency": 5.0,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 34,
+    "carries_in10": 10,
+    "carries_in5": 8,
+    "targets_in20": 3,
+    "targets_in10": 1,
+    "rz_touches_pg": 2.2
+   }
+  },
+  {
+   "name": "Tyler Warren",
+   "pos": "TE",
+   "team": "IND",
+   "snap_pct": 83.8,
+   "ngs": {
+    "avg_separation": 3.28,
+    "air_yards_share": 15.9,
+    "yac_above_exp": 0.72,
+    "catch_pct": 67.1
+   },
+   "redzone": {
+    "carries_in20": 4,
+    "carries_in10": 4,
+    "carries_in5": 3,
+    "targets_in20": 23,
+    "targets_in10": 13,
+    "rz_touches_pg": 1.6
+   }
+  },
+  {
+   "name": "Deebo Samuel Sr.",
+   "pos": "WR",
+   "team": "WAS",
+   "snap_pct": 72.2,
+   "ngs": {
+    "avg_separation": 3.45,
+    "air_yards_share": 15.0,
+    "yac_above_exp": 0.3,
+    "catch_pct": 73.0
+   },
+   "redzone": {
+    "carries_in20": 4,
+    "carries_in10": 2,
+    "carries_in5": 1,
+    "targets_in20": 13,
+    "targets_in10": 8,
+    "rz_touches_pg": 1.1
+   }
+  },
+  {
+   "name": "Jake Ferguson",
+   "pos": "TE",
+   "team": "DAL",
+   "snap_pct": 66.7,
+   "ngs": {
+    "avg_separation": 3.38,
+    "air_yards_share": 9.9,
+    "yac_above_exp": 0.23,
+    "catch_pct": 83.5
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 25,
+    "targets_in10": 14,
+    "rz_touches_pg": 1.5
+   }
+  },
+  {
+   "name": "DK Metcalf",
+   "pos": "WR",
+   "team": "PIT",
+   "snap_pct": 87.3,
+   "ngs": {
+    "avg_separation": 2.77,
+    "air_yards_share": 39.3,
+    "yac_above_exp": 2.8,
+    "catch_pct": 58.0
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 1,
+    "carries_in5": 0,
+    "targets_in20": 13,
+    "targets_in10": 7,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Cam Ward",
+   "pos": "QB",
+   "team": "TEN",
+   "snap_pct": 94.6,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 10,
+    "carries_in10": 8,
+    "carries_in5": 2,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.6
+   }
+  },
+  {
+   "name": "Harold Fannin Jr.",
+   "pos": "TE",
+   "team": "CLE",
+   "snap_pct": 75.9,
+   "ngs": {
+    "avg_separation": 2.97,
+    "air_yards_share": 22.5,
+    "yac_above_exp": 1.27,
+    "catch_pct": 65.3
+   },
+   "redzone": {
+    "carries_in20": 2,
+    "carries_in10": 1,
+    "carries_in5": 1,
+    "targets_in20": 11,
+    "targets_in10": 4,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Tony Pollard",
+   "pos": "RB",
+   "team": "TEN",
+   "snap_pct": 62.5,
+   "ngs": {
+    "ryoe_per_att": 0.31,
+    "rush_efficiency": 4.18,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 19,
+    "carries_in10": 12,
+    "carries_in5": 4,
+    "targets_in20": 1,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.2
+   }
+  },
+  {
+   "name": "Dallas Goedert",
+   "pos": "TE",
+   "team": "PHI",
+   "snap_pct": 84.6,
+   "ngs": {
+    "avg_separation": 3.33,
+    "air_yards_share": 23.7,
+    "yac_above_exp": 0.01,
+    "catch_pct": 66.1
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 15,
+    "targets_in10": 9,
+    "rz_touches_pg": 1.0
+   }
+  },
+  {
+   "name": "Parker Washington",
+   "pos": "WR",
+   "team": "JAX",
+   "snap_pct": 61.4,
+   "ngs": {
+    "avg_separation": 2.44,
+    "air_yards_share": 36.1,
+    "yac_above_exp": 1.83,
+    "catch_pct": 63.3
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 1,
+    "carries_in5": 1,
+    "targets_in20": 16,
+    "targets_in10": 6,
+    "rz_touches_pg": 1.1
+   }
+  },
+  {
+   "name": "Alec Pierce",
+   "pos": "WR",
+   "team": "IND",
+   "snap_pct": 85.9,
+   "ngs": {
+    "avg_separation": 2.11,
+    "air_yards_share": 49.2,
+    "yac_above_exp": 0.87,
+    "catch_pct": 55.3
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 9,
+    "targets_in10": 4,
+    "rz_touches_pg": 0.6
+   }
+  },
+  {
+   "name": "Keenan Allen",
+   "pos": "WR",
+   "team": "LAC",
+   "snap_pct": 55.5,
+   "ngs": {
+    "avg_separation": 2.66,
+    "air_yards_share": 24.8,
+    "yac_above_exp": 0.49,
+    "catch_pct": 64.8
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 16,
+    "targets_in10": 7,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Zach Charbonnet",
+   "pos": "RB",
+   "team": "SEA",
+   "snap_pct": 48.4,
+   "ngs": {
+    "ryoe_per_att": 0.32,
+    "rush_efficiency": 6.49,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 52,
+    "carries_in10": 32,
+    "carries_in5": 19,
+    "targets_in20": 3,
+    "targets_in10": 1,
+    "rz_touches_pg": 3.4
+   }
+  },
+  {
+   "name": "Ladd McConkey",
+   "pos": "WR",
+   "team": "LAC",
+   "snap_pct": 77.5,
+   "ngs": {
+    "avg_separation": 3.2,
+    "air_yards_share": 29.4,
+    "yac_above_exp": 1.44,
+    "catch_pct": 61.3
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 15,
+    "targets_in10": 6,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Juwan Johnson",
+   "pos": "TE",
+   "team": "NO",
+   "snap_pct": 75.0,
+   "ngs": {
+    "avg_separation": 3.33,
+    "air_yards_share": 18.7,
+    "yac_above_exp": -0.22,
+    "catch_pct": 69.7
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 8,
+    "targets_in10": 1,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "Rhamondre Stevenson",
+   "pos": "RB",
+   "team": "NE",
+   "snap_pct": 59.4,
+   "ngs": {
+    "ryoe_per_att": 0.54,
+    "rush_efficiency": 4.58,
+    "rush_pct_over_exp": 0.5
+   },
+   "redzone": {
+    "carries_in20": 27,
+    "carries_in10": 17,
+    "carries_in5": 12,
+    "targets_in20": 6,
+    "targets_in10": 1,
+    "rz_touches_pg": 2.4
+   }
+  },
+  {
+   "name": "Hunter Henry",
+   "pos": "TE",
+   "team": "NE",
+   "snap_pct": 79.4,
+   "ngs": {
+    "avg_separation": 2.94,
+    "air_yards_share": 21.2,
+    "yac_above_exp": 0.24,
+    "catch_pct": 70.8
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 22,
+    "targets_in10": 10,
+    "rz_touches_pg": 1.3
+   }
+  },
+  {
+   "name": "Dalton Schultz",
+   "pos": "TE",
+   "team": "HOU",
+   "snap_pct": 71.1,
+   "ngs": {
+    "avg_separation": 3.81,
+    "air_yards_share": 18.4,
+    "yac_above_exp": -0.09,
+    "catch_pct": 80.2
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 12,
+    "targets_in10": 7,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "Brock Purdy",
+   "pos": "QB",
+   "team": "SF",
+   "snap_pct": 97.8,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 7,
+    "carries_in10": 3,
+    "carries_in5": 2,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Troy Franklin",
+   "pos": "WR",
+   "team": "DEN",
+   "snap_pct": 59.6,
+   "ngs": {
+    "avg_separation": 3.04,
+    "air_yards_share": 36.8,
+    "yac_above_exp": 0.61,
+    "catch_pct": 63.3
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 21,
+    "targets_in10": 11,
+    "rz_touches_pg": 1.2
+   }
+  },
+  {
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "team": "LV",
+   "snap_pct": 85.9,
+   "ngs": {
+    "avg_separation": 2.96,
+    "air_yards_share": 23.2,
+    "yac_above_exp": 1.03,
+    "catch_pct": 76.1
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 18,
+    "targets_in10": 10,
+    "rz_touches_pg": 1.5
+   }
+  },
+  {
+   "name": "Jakobi Meyers",
+   "pos": "WR",
+   "team": "JAX",
+   "snap_pct": 85.0,
+   "ngs": {
+    "avg_separation": 2.76,
+    "air_yards_share": 26.9,
+    "yac_above_exp": 0.29,
+    "catch_pct": 67.8
+   },
+   "redzone": {
+    "carries_in20": 2,
+    "carries_in10": 1,
+    "carries_in5": 1,
+    "targets_in20": 15,
+    "targets_in10": 6,
+    "rz_touches_pg": 1.1
+   }
+  },
+  {
+   "name": "Geno Smith",
+   "pos": "QB",
+   "team": "LV",
+   "snap_pct": 96.5,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 7,
+    "carries_in10": 2,
+    "carries_in5": 2,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "Jauan Jennings",
+   "pos": "WR",
+   "team": "SF",
+   "snap_pct": 82.1,
+   "ngs": {
+    "avg_separation": 2.23,
+    "air_yards_share": 29.7,
+    "yac_above_exp": 0.7,
+    "catch_pct": 62.0
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 22,
+    "targets_in10": 11,
+    "rz_touches_pg": 1.5
+   }
+  },
+  {
+   "name": "DJ Moore",
+   "pos": "WR",
+   "team": "CHI",
+   "snap_pct": 84.8,
+   "ngs": {
+    "avg_separation": 3.56,
+    "air_yards_share": 23.0,
+    "yac_above_exp": 0.69,
+    "catch_pct": 68.4
+   },
+   "redzone": {
+    "carries_in20": 2,
+    "carries_in10": 1,
+    "carries_in5": 0,
+    "targets_in20": 11,
+    "targets_in10": 6,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Quentin Johnston",
+   "pos": "WR",
+   "team": "LAC",
+   "snap_pct": 76.9,
+   "ngs": {
+    "avg_separation": 2.44,
+    "air_yards_share": 35.9,
+    "yac_above_exp": 0.95,
+    "catch_pct": 58.5
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 15,
+    "targets_in10": 7,
+    "rz_touches_pg": 1.2
+   }
+  },
+  {
+   "name": "Quinshon Judkins",
+   "pos": "RB",
+   "team": "CLE",
+   "snap_pct": 50.5,
+   "ngs": {
+    "ryoe_per_att": 0.22,
+    "rush_efficiency": 4.56,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 33,
+    "carries_in10": 19,
+    "carries_in5": 12,
+    "targets_in20": 1,
+    "targets_in10": 0,
+    "rz_touches_pg": 2.4
+   }
+  },
+  {
+   "name": "David Montgomery",
+   "pos": "RB",
+   "team": "DET",
+   "snap_pct": 37.1,
+   "ngs": {
+    "ryoe_per_att": 0.8,
+    "rush_efficiency": 4.55,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 35,
+    "carries_in10": 25,
+    "carries_in5": 17,
+    "targets_in20": 2,
+    "targets_in10": 0,
+    "rz_touches_pg": 2.2
+   }
+  },
+  {
+   "name": "Khalil Shakir",
+   "pos": "WR",
+   "team": "BUF",
+   "snap_pct": 59.8,
+   "ngs": {
+    "avg_separation": 3.74,
+    "air_yards_share": 8.9,
+    "yac_above_exp": 2.38,
+    "catch_pct": 82.1
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 15,
+    "targets_in10": 6,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Romeo Doubs",
+   "pos": "WR",
+   "team": "GB",
+   "snap_pct": 77.6,
+   "ngs": {
+    "avg_separation": 2.37,
+    "air_yards_share": 39.4,
+    "yac_above_exp": 0.24,
+    "catch_pct": 65.7
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 18,
+    "targets_in10": 9,
+    "rz_touches_pg": 1.1
+   }
+  },
+  {
+   "name": "Colston Loveland",
+   "pos": "TE",
+   "team": "CHI",
+   "snap_pct": 64.5,
+   "ngs": {
+    "avg_separation": 3.52,
+    "air_yards_share": 24.9,
+    "yac_above_exp": 0.74,
+    "catch_pct": 66.0
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 1,
+    "carries_in5": 0,
+    "targets_in20": 15,
+    "targets_in10": 7,
+    "rz_touches_pg": 1.0
+   }
+  },
+  {
+   "name": "Tre Tucker",
+   "pos": "WR",
+   "team": "LV",
+   "snap_pct": 94.8,
+   "ngs": {
+    "avg_separation": 3.56,
+    "air_yards_share": 30.4,
+    "yac_above_exp": 0.66,
+    "catch_pct": 63.0
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 10,
+    "targets_in10": 5,
+    "rz_touches_pg": 0.6
+   }
+  },
+  {
+   "name": "George Kittle",
+   "pos": "TE",
+   "team": "SF",
+   "snap_pct": 81.2,
+   "ngs": {
+    "avg_separation": 3.69,
+    "air_yards_share": 22.7,
+    "yac_above_exp": 0.83,
+    "catch_pct": 83.5
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 13,
+    "targets_in10": 5,
+    "rz_touches_pg": 1.3
+   }
+  },
+  {
+   "name": "Tyrone Tracy Jr.",
+   "pos": "RB",
+   "team": "NYG",
+   "snap_pct": 54.5,
+   "ngs": {
+    "ryoe_per_att": 0.21,
+    "rush_efficiency": 4.14,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 21,
+    "carries_in10": 6,
+    "carries_in5": 2,
+    "targets_in20": 5,
+    "targets_in10": 1,
+    "rz_touches_pg": 1.7
+   }
+  },
+  {
+   "name": "Tua Tagovailoa",
+   "pos": "QB",
+   "team": "MIA",
+   "snap_pct": 95.4,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 2,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.1
+   }
+  },
+  {
+   "name": "Tyler Shough",
+   "pos": "QB",
+   "team": "NO",
+   "snap_pct": 83.5,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 14,
+    "carries_in10": 11,
+    "carries_in5": 6,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.3
+   }
+  },
+  {
+   "name": "Rashid Shaheed",
+   "pos": "WR",
+   "team": "SEA",
+   "snap_pct": 60.9,
+   "ngs": {
+    "avg_separation": 2.79,
+    "air_yards_share": 31.0,
+    "yac_above_exp": -0.2,
+    "catch_pct": 65.1
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 9,
+    "targets_in10": 2,
+    "rz_touches_pg": 0.6
+   }
+  },
+  {
+   "name": "Rashee Rice",
+   "pos": "WR",
+   "team": "KC",
+   "snap_pct": 74.9,
+   "ngs": {
+    "avg_separation": 3.56,
+    "air_yards_share": 15.8,
+    "yac_above_exp": 0.33,
+    "catch_pct": 67.6
+   },
+   "redzone": {
+    "carries_in20": 3,
+    "carries_in10": 3,
+    "carries_in5": 2,
+    "targets_in20": 19,
+    "targets_in10": 15,
+    "rz_touches_pg": 2.8
+   }
+  },
+  {
+   "name": "AJ Barner",
+   "pos": "TE",
+   "team": "SEA",
+   "snap_pct": 77.3,
+   "ngs": {
+    "avg_separation": 4.49,
+    "air_yards_share": 11.4,
+    "yac_above_exp": 0.79,
+    "catch_pct": 77.5
+   },
+   "redzone": {
+    "carries_in20": 3,
+    "carries_in10": 2,
+    "carries_in5": 1,
+    "targets_in20": 13,
+    "targets_in10": 6,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Kyle Monangai",
+   "pos": "RB",
+   "team": "CHI",
+   "snap_pct": 40.9,
+   "ngs": {
+    "ryoe_per_att": 0.17,
+    "rush_efficiency": 3.99,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 38,
+    "carries_in10": 21,
+    "carries_in5": 12,
+    "targets_in20": 3,
+    "targets_in10": 1,
+    "rz_touches_pg": 2.4
+   }
+  },
+  {
+   "name": "Joe Flacco",
+   "pos": "QB",
+   "team": "CIN",
+   "snap_pct": 77.8,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 7,
+    "carries_in10": 6,
+    "carries_in5": 3,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "Rome Odunze",
+   "pos": "WR",
+   "team": "CHI",
+   "snap_pct": 88.1,
+   "ngs": {
+    "avg_separation": 2.76,
+    "air_yards_share": 38.6,
+    "yac_above_exp": 1.31,
+    "catch_pct": 45.6
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 13,
+    "targets_in10": 6,
+    "rz_touches_pg": 1.1
+   }
+  },
+  {
+   "name": "Kareem Hunt",
+   "pos": "RB",
+   "team": "KC",
+   "snap_pct": 47.1,
+   "ngs": {
+    "ryoe_per_att": -0.17,
+    "rush_efficiency": 3.81,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 38,
+    "carries_in10": 21,
+    "carries_in5": 15,
+    "targets_in20": 5,
+    "targets_in10": 1,
+    "rz_touches_pg": 2.5
+   }
+  },
+  {
+   "name": "Woody Marks",
+   "pos": "RB",
+   "team": "HOU",
+   "snap_pct": 51.5,
+   "ngs": {
+    "ryoe_per_att": 0.04,
+    "rush_efficiency": 4.91,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 33,
+    "carries_in10": 15,
+    "carries_in5": 9,
+    "targets_in20": 8,
+    "targets_in10": 3,
+    "rz_touches_pg": 2.6
+   }
+  },
+  {
+   "name": "Rachaad White",
+   "pos": "RB",
+   "team": "TB",
+   "snap_pct": 51.1,
+   "ngs": {
+    "ryoe_per_att": -0.02,
+    "rush_efficiency": 3.91,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 19,
+    "carries_in10": 10,
+    "carries_in5": 9,
+    "targets_in20": 10,
+    "targets_in10": 1,
+    "rz_touches_pg": 1.7
+   }
+  },
+  {
+   "name": "Justin Fields",
+   "pos": "QB",
+   "team": "NYJ",
+   "snap_pct": 89.8,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 13,
+    "carries_in10": 7,
+    "carries_in5": 5,
+    "targets_in20": 1,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.6
+   }
+  },
+  {
+   "name": "Jacory Croskey-Merritt",
+   "pos": "RB",
+   "team": "WAS",
+   "snap_pct": 39.5,
+   "ngs": {
+    "ryoe_per_att": 1.08,
+    "rush_efficiency": 3.95,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 32,
+    "carries_in10": 21,
+    "carries_in5": 13,
+    "targets_in20": 1,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.9
+   }
+  },
+  {
+   "name": "Brian Thomas Jr.",
+   "pos": "WR",
+   "team": "JAX",
+   "snap_pct": 77.6,
+   "ngs": {
+    "avg_separation": 2.53,
+    "air_yards_share": 34.9,
+    "yac_above_exp": 0.43,
+    "catch_pct": 52.2
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 1,
+    "carries_in5": 0,
+    "targets_in20": 7,
+    "targets_in10": 5,
+    "rz_touches_pg": 0.6
+   }
+  },
+  {
+   "name": "Bucky Irving",
+   "pos": "RB",
+   "team": "TB",
+   "snap_pct": 61.6,
+   "ngs": {
+    "ryoe_per_att": -0.64,
+    "rush_efficiency": 4.43,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 18,
+    "carries_in10": 6,
+    "carries_in5": 0,
+    "targets_in20": 4,
+    "targets_in10": 1,
+    "rz_touches_pg": 2.2
+   }
+  },
+  {
+   "name": "Josh Downs",
+   "pos": "WR",
+   "team": "IND",
+   "snap_pct": 58.7,
+   "ngs": {
+    "avg_separation": 2.54,
+    "air_yards_share": 20.2,
+    "yac_above_exp": -0.14,
+    "catch_pct": 62.2
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 15,
+    "targets_in10": 5,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Marquise Brown",
+   "pos": "WR",
+   "team": "KC",
+   "snap_pct": 53.5,
+   "ngs": {
+    "avg_separation": 2.88,
+    "air_yards_share": 30.3,
+    "yac_above_exp": 0.17,
+    "catch_pct": 64.9
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 10,
+    "targets_in10": 8,
+    "rz_touches_pg": 0.6
+   }
+  },
+  {
+   "name": "Omarion Hampton",
+   "pos": "RB",
+   "team": "LAC",
+   "snap_pct": 63.4,
+   "ngs": {
+    "ryoe_per_att": 0.8,
+    "rush_efficiency": 4.29,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 26,
+    "carries_in10": 15,
+    "carries_in5": 8,
+    "targets_in20": 2,
+    "targets_in10": 1,
+    "rz_touches_pg": 3.1
+   }
+  },
+  {
+   "name": "Jordan Addison",
+   "pos": "WR",
+   "team": "MIN",
+   "snap_pct": 85.1,
+   "ngs": {
+    "avg_separation": 2.93,
+    "air_yards_share": 42.6,
+    "yac_above_exp": 1.15,
+    "catch_pct": 53.0
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 13,
+    "targets_in10": 5,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Joe Burrow",
+   "pos": "QB",
+   "team": "CIN",
+   "snap_pct": 87.8,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 2,
+    "carries_in10": 1,
+    "carries_in5": 1,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.2
+   }
+  },
+  {
+   "name": "Christian Watson",
+   "pos": "WR",
+   "team": "GB",
+   "snap_pct": 67.7,
+   "ngs": {
+    "avg_separation": 2.11,
+    "air_yards_share": 36.4,
+    "yac_above_exp": 0.1,
+    "catch_pct": 58.7
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 6,
+    "targets_in10": 4,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "Oronde Gadsden II",
+   "pos": "TE",
+   "team": "LAC",
+   "snap_pct": 62.6,
+   "ngs": {
+    "avg_separation": 3.26,
+    "air_yards_share": 22.4,
+    "yac_above_exp": 1.13,
+    "catch_pct": 73.0
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 15,
+    "targets_in10": 5,
+    "rz_touches_pg": 1.0
+   }
+  },
+  {
+   "name": "Mark Andrews",
+   "pos": "TE",
+   "team": "BAL",
+   "snap_pct": 61.7,
+   "ngs": {
+    "avg_separation": 2.91,
+    "air_yards_share": 20.6,
+    "yac_above_exp": 0.0,
+    "catch_pct": 65.8
+   },
+   "redzone": {
+    "carries_in20": 3,
+    "carries_in10": 3,
+    "carries_in5": 3,
+    "targets_in20": 15,
+    "targets_in10": 9,
+    "rz_touches_pg": 1.1
+   }
+  },
+  {
+   "name": "Mac Jones",
+   "pos": "QB",
+   "team": "SF",
+   "snap_pct": 74.4,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 3,
+    "carries_in10": 1,
+    "carries_in5": 1,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.3
+   }
+  },
+  {
+   "name": "Colby Parkinson",
+   "pos": "TE",
+   "team": "LA",
+   "snap_pct": 60.4,
+   "ngs": {
+    "avg_separation": 3.29,
+    "air_yards_share": 9.7,
+    "yac_above_exp": 1.16,
+    "catch_pct": 68.2
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 22,
+    "targets_in10": 10,
+    "rz_touches_pg": 1.6
+   }
+  },
+  {
+   "name": "Jayden Higgins",
+   "pos": "WR",
+   "team": "HOU",
+   "snap_pct": 57.2,
+   "ngs": {
+    "avg_separation": 2.45,
+    "air_yards_share": 28.2,
+    "yac_above_exp": -0.18,
+    "catch_pct": 60.4
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 9,
+    "targets_in10": 4,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "Jordan Mason",
+   "pos": "RB",
+   "team": "MIN",
+   "snap_pct": 42.8,
+   "ngs": {
+    "ryoe_per_att": 0.76,
+    "rush_efficiency": 4.1,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 29,
+    "carries_in10": 9,
+    "carries_in5": 7,
+    "targets_in20": 1,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.9
+   }
+  },
+  {
+   "name": "Chimere Dike",
+   "pos": "WR",
+   "team": "TEN",
+   "snap_pct": 59.3,
+   "ngs": {
+    "avg_separation": 3.51,
+    "air_yards_share": 25.3,
+    "yac_above_exp": -0.33,
+    "catch_pct": 65.2
+   },
+   "redzone": {
+    "carries_in20": 2,
+    "carries_in10": 2,
+    "carries_in5": 2,
+    "targets_in20": 14,
+    "targets_in10": 5,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Luther Burden III",
+   "pos": "WR",
+   "team": "CHI",
+   "snap_pct": 39.7,
+   "ngs": {
+    "avg_separation": 4.36,
+    "air_yards_share": 17.6,
+    "yac_above_exp": 1.55,
+    "catch_pct": 64.2
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 4,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.3
+   }
+  },
+  {
+   "name": "Marvin Harrison Jr.",
+   "pos": "WR",
+   "team": "ARI",
+   "snap_pct": 71.2,
+   "ngs": {
+    "avg_separation": 2.5,
+    "air_yards_share": 40.6,
+    "yac_above_exp": 0.86,
+    "catch_pct": 58.6
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 11,
+    "targets_in10": 6,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Theo Johnson",
+   "pos": "TE",
+   "team": "NYG",
+   "snap_pct": 86.7,
+   "ngs": {
+    "avg_separation": 2.89,
+    "air_yards_share": 22.9,
+    "yac_above_exp": -0.48,
+    "catch_pct": 62.9
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 14,
+    "targets_in10": 6,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Cam Skattebo",
+   "pos": "RB",
+   "team": "NYG",
+   "snap_pct": 52.2,
+   "ngs": {
+    "ryoe_per_att": 0.68,
+    "rush_efficiency": 3.68,
+    "rush_pct_over_exp": 0.5
+   },
+   "redzone": {
+    "carries_in20": 24,
+    "carries_in10": 13,
+    "carries_in5": 10,
+    "targets_in20": 4,
+    "targets_in10": 1,
+    "rz_touches_pg": 3.5
+   },
+   "avoid": {
+    "source": "ESPN (Karabell)",
+    "reason": "Reckless style = injury risk; likely a committee with Tracy/Singletary/Harris; ADP too rich for that role."
+   }
+  },
+  {
+   "name": "Zach Ertz",
+   "pos": "TE",
+   "team": "WAS",
+   "snap_pct": 66.5,
+   "ngs": {
+    "avg_separation": 2.64,
+    "air_yards_share": 22.8,
+    "yac_above_exp": -0.58,
+    "catch_pct": 68.9
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 9,
+    "targets_in10": 6,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "Dalton Kincaid",
+   "pos": "TE",
+   "team": "BUF",
+   "snap_pct": 37.4,
+   "ngs": {
+    "avg_separation": 3.53,
+    "air_yards_share": 27.3,
+    "yac_above_exp": 1.2,
+    "catch_pct": 84.3
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 9,
+    "targets_in10": 5,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Marcus Mariota",
+   "pos": "QB",
+   "team": "WAS",
+   "snap_pct": 74.5,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 8,
+    "carries_in10": 3,
+    "carries_in5": 3,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Chuba Hubbard",
+   "pos": "RB",
+   "team": "CAR",
+   "snap_pct": 45.8,
+   "ngs": {
+    "ryoe_per_att": -0.31,
+    "rush_efficiency": 3.89,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 19,
+    "carries_in10": 8,
+    "carries_in5": 2,
+    "targets_in20": 6,
+    "targets_in10": 4,
+    "rz_touches_pg": 1.7
+   }
+  },
+  {
+   "name": "J.J. McCarthy",
+   "pos": "QB",
+   "team": "MIN",
+   "snap_pct": 91.6,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 6,
+    "carries_in10": 4,
+    "carries_in5": 1,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.6
+   }
+  },
+  {
+   "name": "Kayshon Boutte",
+   "pos": "WR",
+   "team": "NE",
+   "snap_pct": 67.5,
+   "ngs": {
+    "avg_separation": 2.33,
+    "air_yards_share": 34.4,
+    "yac_above_exp": 0.27,
+    "catch_pct": 58.8
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 4,
+    "targets_in10": 2,
+    "rz_touches_pg": 0.3
+   }
+  },
+  {
+   "name": "Chig Okonkwo",
+   "pos": "TE",
+   "team": "TEN",
+   "snap_pct": 63.7,
+   "ngs": {
+    "avg_separation": 3.75,
+    "air_yards_share": 9.0,
+    "yac_above_exp": 1.91,
+    "catch_pct": 71.5
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 5,
+    "targets_in10": 3,
+    "rz_touches_pg": 0.3
+   }
+  },
+  {
+   "name": "Tyler Allgeier",
+   "pos": "RB",
+   "team": "ATL",
+   "snap_pct": 30.2,
+   "ngs": {
+    "ryoe_per_att": -0.03,
+    "rush_efficiency": 4.86,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 32,
+    "carries_in10": 19,
+    "carries_in5": 10,
+    "targets_in20": 1,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.9
+   }
+  },
+  {
+   "name": "Cade Otton",
+   "pos": "TE",
+   "team": "TB",
+   "snap_pct": 93.5,
+   "ngs": {
+    "avg_separation": 3.65,
+    "air_yards_share": 15.7,
+    "yac_above_exp": 1.24,
+    "catch_pct": 71.4
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 7,
+    "targets_in10": 3,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "Blake Corum",
+   "pos": "RB",
+   "team": "LA",
+   "snap_pct": 29.1,
+   "ngs": {
+    "ryoe_per_att": 0.49,
+    "rush_efficiency": 3.71,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 27,
+    "carries_in10": 16,
+    "carries_in5": 13,
+    "targets_in20": 1,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.6
+   }
+  },
+  {
+   "name": "Jerry Jeudy",
+   "pos": "WR",
+   "team": "CLE",
+   "snap_pct": 84.5,
+   "ngs": {
+    "avg_separation": 2.36,
+    "air_yards_share": 38.6,
+    "yac_above_exp": 0.18,
+    "catch_pct": 45.6
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 9,
+    "targets_in10": 3,
+    "rz_touches_pg": 0.5
+   },
+   "avoid": {
+    "source": "FantasyPros",
+    "reason": "Finished WR51 in 2025 with poor yards-per-route and points below expectation; Browns drafted two WRs early under new staff."
+   }
+  },
+  {
+   "name": "Michael Penix Jr.",
+   "pos": "QB",
+   "team": "ATL",
+   "snap_pct": 93.2,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 3,
+    "carries_in10": 3,
+    "carries_in5": 2,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.3
+   }
+  },
+  {
+   "name": "Aaron Jones",
+   "pos": "RB",
+   "team": "MIN",
+   "snap_pct": 55.1,
+   "ngs": {
+    "ryoe_per_att": -0.42,
+    "rush_efficiency": 4.07,
+    "rush_pct_over_exp": 0.3
+   },
+   "redzone": {
+    "carries_in20": 14,
+    "carries_in10": 6,
+    "carries_in5": 3,
+    "targets_in20": 5,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.6
+   }
+  },
+  {
+   "name": "Brenton Strange",
+   "pos": "TE",
+   "team": "JAX",
+   "snap_pct": 74.8,
+   "ngs": {
+    "avg_separation": 3.61,
+    "air_yards_share": 12.7,
+    "yac_above_exp": -0.34,
+    "catch_pct": 72.5
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 10,
+    "targets_in10": 3,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Kimani Vidal",
+   "pos": "RB",
+   "team": "LAC",
+   "snap_pct": 54.5,
+   "ngs": {
+    "ryoe_per_att": 0.17,
+    "rush_efficiency": 4.26,
+    "rush_pct_over_exp": 0.3
+   },
+   "redzone": {
+    "carries_in20": 26,
+    "carries_in10": 11,
+    "carries_in5": 7,
+    "targets_in20": 6,
+    "targets_in10": 3,
+    "rz_touches_pg": 2.5
+   }
+  },
+  {
+   "name": "Tucker Kraft",
+   "pos": "TE",
+   "team": "GB",
+   "snap_pct": 86.0,
+   "ngs": {
+    "avg_separation": 3.75,
+    "air_yards_share": 12.1,
+    "yac_above_exp": 3.87,
+    "catch_pct": 78.4
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 12,
+    "targets_in10": 3,
+    "rz_touches_pg": 1.5
+   }
+  },
+  {
+   "name": "Malik Washington",
+   "pos": "WR",
+   "team": "MIA",
+   "snap_pct": 57.0,
+   "ngs": {
+    "avg_separation": 4.11,
+    "air_yards_share": 12.3,
+    "yac_above_exp": 0.9,
+    "catch_pct": 68.9
+   },
+   "redzone": {
+    "carries_in20": 3,
+    "carries_in10": 1,
+    "carries_in5": 0,
+    "targets_in20": 11,
+    "targets_in10": 7,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Elic Ayomanor",
+   "pos": "WR",
+   "team": "TEN",
+   "snap_pct": 80.6,
+   "ngs": {
+    "avg_separation": 2.66,
+    "air_yards_share": 36.1,
+    "yac_above_exp": -0.22,
+    "catch_pct": 45.4
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 8,
+    "targets_in10": 6,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "Cooper Kupp",
+   "pos": "WR",
+   "team": "SEA",
+   "snap_pct": 75.6,
+   "ngs": {
+    "avg_separation": 2.89,
+    "air_yards_share": 22.1,
+    "yac_above_exp": 0.45,
+    "catch_pct": 69.4
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 13,
+    "targets_in10": 5,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "J.K. Dobbins",
+   "pos": "RB",
+   "team": "DEN",
+   "snap_pct": 51.1,
+   "ngs": {
+    "ryoe_per_att": 1.15,
+    "rush_efficiency": 3.63,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 20,
+    "carries_in10": 11,
+    "carries_in5": 7,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 2.0
+   }
+  },
+  {
+   "name": "Jayden Daniels",
+   "pos": "QB",
+   "team": "WAS",
+   "snap_pct": 90.3,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 7,
+    "carries_in10": 3,
+    "carries_in5": 3,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.0
+   }
+  },
+  {
+   "name": "Terry McLaurin",
+   "pos": "WR",
+   "team": "WAS",
+   "snap_pct": 70.4,
+   "ngs": {
+    "avg_separation": 2.44,
+    "air_yards_share": 44.1,
+    "yac_above_exp": 0.46,
+    "catch_pct": 56.7
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 8,
+    "targets_in10": 3,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Ryan Flournoy",
+   "pos": "WR",
+   "team": "DAL",
+   "snap_pct": 44.8,
+   "ngs": {
+    "avg_separation": 3.38,
+    "air_yards_share": 26.4,
+    "yac_above_exp": 1.32,
+    "catch_pct": 67.5
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 7,
+    "targets_in10": 5,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "Pat Freiermuth",
+   "pos": "TE",
+   "team": "PIT",
+   "snap_pct": 50.4,
+   "ngs": {
+    "avg_separation": 3.22,
+    "air_yards_share": 24.9,
+    "yac_above_exp": 4.66,
+    "catch_pct": 65.8
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 9,
+    "targets_in10": 4,
+    "rz_touches_pg": 0.6
+   }
+  },
+  {
+   "name": "Mack Hollins",
+   "pos": "WR",
+   "team": "NE",
+   "snap_pct": 67.7,
+   "ngs": {
+    "avg_separation": 2.86,
+    "air_yards_share": 34.3,
+    "yac_above_exp": -0.21,
+    "catch_pct": 64.4
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 5,
+    "targets_in10": 3,
+    "rz_touches_pg": 0.4
+   }
+  },
+  {
+   "name": "T.J. Hockenson",
+   "pos": "TE",
+   "team": "MIN",
+   "snap_pct": 77.9,
+   "ngs": {
+    "avg_separation": 3.77,
+    "air_yards_share": 12.6,
+    "yac_above_exp": -0.16,
+    "catch_pct": 80.0
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 11,
+    "targets_in10": 3,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Tyjae Spears",
+   "pos": "RB",
+   "team": "TEN",
+   "snap_pct": 45.9,
+   "ngs": {
+    "ryoe_per_att": -0.57,
+    "rush_efficiency": 4.96,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 10,
+    "carries_in10": 5,
+    "carries_in5": 2,
+    "targets_in20": 7,
+    "targets_in10": 3,
+    "rz_touches_pg": 1.3
+   }
+  },
+  {
+   "name": "Xavier Worthy",
+   "pos": "WR",
+   "team": "KC",
+   "snap_pct": 70.6,
+   "ngs": {
+    "avg_separation": 3.71,
+    "air_yards_share": 31.3,
+    "yac_above_exp": -1.05,
+    "catch_pct": 60.0
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 6,
+    "targets_in10": 2,
+    "rz_touches_pg": 0.4
+   }
+  },
+  {
+   "name": "Devin Singletary",
+   "pos": "RB",
+   "team": "NYG",
+   "snap_pct": 27.6,
+   "ngs": {
+    "ryoe_per_att": -0.21,
+    "rush_efficiency": 4.11,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 22,
+    "carries_in10": 17,
+    "carries_in5": 10,
+    "targets_in20": 2,
+    "targets_in10": 1,
+    "rz_touches_pg": 1.4
+   }
+  },
+  {
+   "name": "Sam LaPorta",
+   "pos": "TE",
+   "team": "DET",
+   "snap_pct": 90.7,
+   "ngs": {
+    "avg_separation": 3.7,
+    "air_yards_share": 24.4,
+    "yac_above_exp": 1.86,
+    "catch_pct": 81.7
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 6,
+    "targets_in10": 3,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "Dawson Knox",
+   "pos": "TE",
+   "team": "BUF",
+   "snap_pct": 58.3,
+   "ngs": {
+    "avg_separation": 4.49,
+    "air_yards_share": 15.7,
+    "yac_above_exp": -0.13,
+    "catch_pct": 71.4
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 13,
+    "targets_in10": 8,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Kirk Cousins",
+   "pos": "QB",
+   "team": "ATL",
+   "snap_pct": 86.1,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 1,
+    "carries_in5": 1,
+    "targets_in20": 0,
+    "targets_in10": 0,
+    "rz_touches_pg": 0.1
+   }
+  },
+  {
+   "name": "Evan Engram",
+   "pos": "TE",
+   "team": "DEN",
+   "snap_pct": 42.1,
+   "ngs": {
+    "avg_separation": 4.85,
+    "air_yards_share": 13.1,
+    "yac_above_exp": 0.23,
+    "catch_pct": 65.2
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 11,
+    "targets_in10": 1,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "Keon Coleman",
+   "pos": "WR",
+   "team": "BUF",
+   "snap_pct": 65.2,
+   "ngs": {
+    "avg_separation": 2.42,
+    "air_yards_share": 33.3,
+    "yac_above_exp": -0.34,
+    "catch_pct": 54.3
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 12,
+    "targets_in10": 9,
+    "rz_touches_pg": 1.0
+   }
+  },
+  {
+   "name": "Alvin Kamara",
+   "pos": "RB",
+   "team": "NO",
+   "snap_pct": 63.7,
+   "ngs": {
+    "ryoe_per_att": -0.85,
+    "rush_efficiency": 4.53,
+    "rush_pct_over_exp": 0.3
+   },
+   "redzone": {
+    "carries_in20": 15,
+    "carries_in10": 6,
+    "carries_in5": 2,
+    "targets_in20": 5,
+    "targets_in10": 2,
+    "rz_touches_pg": 1.8
+   }
+  },
+  {
+   "name": "Jalen Nailor",
+   "pos": "WR",
+   "team": "MIN",
+   "snap_pct": 65.4,
+   "ngs": {
+    "avg_separation": 2.61,
+    "air_yards_share": 29.2,
+    "yac_above_exp": 1.58,
+    "catch_pct": 65.8
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 13,
+    "targets_in10": 7,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Ty Johnson",
+   "pos": "RB",
+   "team": "BUF",
+   "snap_pct": 29.6,
+   "ngs": {
+    "ryoe_per_att": 0.15,
+    "rush_efficiency": 6.56,
+    "rush_pct_over_exp": 0.5
+   },
+   "redzone": {
+    "carries_in20": 19,
+    "carries_in10": 11,
+    "carries_in5": 6,
+    "targets_in20": 4,
+    "targets_in10": 1,
+    "rz_touches_pg": 1.4
+   }
+  },
+  {
+   "name": "Garrett Wilson",
+   "pos": "WR",
+   "team": "NYJ",
+   "snap_pct": 87.0,
+   "ngs": {
+    "avg_separation": 3.24,
+    "air_yards_share": 46.4,
+    "yac_above_exp": -0.15,
+    "catch_pct": 62.9
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 5,
+    "targets_in10": 2,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "Spencer Rattler",
+   "pos": "QB",
+   "team": "NO",
+   "snap_pct": 81.7,
+   "ngs": {},
+   "redzone": {
+    "carries_in20": 5,
+    "carries_in10": 1,
+    "carries_in5": 1,
+    "targets_in20": 1,
+    "targets_in10": 1,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "Michael Carter",
+   "pos": "RB",
+   "team": "ARI",
+   "snap_pct": 45.2,
+   "ngs": {
+    "ryoe_per_att": -0.18,
+    "rush_efficiency": 3.83,
+    "rush_pct_over_exp": 0.3
+   },
+   "redzone": {
+    "carries_in20": 8,
+    "carries_in10": 4,
+    "carries_in5": 3,
+    "targets_in20": 7,
+    "targets_in10": 3,
+    "rz_touches_pg": 1.2
+   }
+  },
+  {
+   "name": "Darius Slayton",
+   "pos": "WR",
+   "team": "NYG",
+   "snap_pct": 81.3,
+   "ngs": {
+    "avg_separation": 2.74,
+    "air_yards_share": 36.0,
+    "yac_above_exp": 0.8,
+    "catch_pct": 49.2
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 8,
+    "targets_in10": 7,
+    "rz_touches_pg": 0.6
+   }
+  },
+  {
+   "name": "Xavier Hutchinson",
+   "pos": "WR",
+   "team": "HOU",
+   "snap_pct": 57.5,
+   "ngs": {
+    "avg_separation": 2.53,
+    "air_yards_share": 24.8,
+    "yac_above_exp": 0.52,
+    "catch_pct": 54.9
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 7,
+    "targets_in10": 4,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "DeMario Douglas",
+   "pos": "WR",
+   "team": "NE",
+   "snap_pct": 25.9,
+   "ngs": {
+    "avg_separation": 3.88,
+    "air_yards_share": 20.6,
+    "yac_above_exp": 0.55,
+    "catch_pct": 51.7
+   },
+   "redzone": {
+    "carries_in20": 1,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 7,
+    "targets_in10": 4,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "Marvin Mims Jr.",
+   "pos": "WR",
+   "team": "DEN",
+   "snap_pct": 36.9,
+   "ngs": {
+    "avg_separation": 3.9,
+    "air_yards_share": 21.1,
+    "yac_above_exp": 0.32,
+    "catch_pct": 76.5
+   },
+   "redzone": {
+    "carries_in20": 2,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 3,
+    "targets_in10": 1,
+    "rz_touches_pg": 0.3
+   }
+  },
+  {
+   "name": "Emanuel Wilson",
+   "pos": "RB",
+   "team": "GB",
+   "snap_pct": 31.1,
+   "ngs": {
+    "ryoe_per_att": 0.16,
+    "rush_efficiency": 4.07,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 24,
+    "carries_in10": 8,
+    "carries_in5": 4,
+    "targets_in20": 3,
+    "targets_in10": 2,
+    "rz_touches_pg": 1.6
+   }
+  },
+  {
+   "name": "Jake Tonges",
+   "pos": "TE",
+   "team": "SF",
+   "snap_pct": 33.2,
+   "ngs": {
+    "avg_separation": 3.92,
+    "air_yards_share": 14.5,
+    "yac_above_exp": 0.26,
+    "catch_pct": 75.1
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 7,
+    "targets_in10": 5,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "Bam Knight",
+   "pos": "RB",
+   "team": "ARI",
+   "snap_pct": 33.1,
+   "ngs": {
+    "ryoe_per_att": -0.84,
+    "rush_efficiency": 6.21,
+    "rush_pct_over_exp": 0.3
+   },
+   "redzone": {
+    "carries_in20": 17,
+    "carries_in10": 14,
+    "carries_in5": 8,
+    "targets_in20": 6,
+    "targets_in10": 1,
+    "rz_touches_pg": 1.9
+   }
+  },
+  {
+   "name": "Tez Johnson",
+   "pos": "WR",
+   "team": "TB",
+   "snap_pct": 47.1,
+   "ngs": {
+    "avg_separation": 3.2,
+    "air_yards_share": 24.1,
+    "yac_above_exp": 0.1,
+    "catch_pct": 69.3
+   },
+   "redzone": {
+    "carries_in20": 2,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 7,
+    "targets_in10": 1,
+    "rz_touches_pg": 0.6
+   }
+  },
+  {
+   "name": "Kendrick Bourne",
+   "pos": "WR",
+   "team": "SF",
+   "snap_pct": 56.7,
+   "ngs": {
+    "avg_separation": 2.38,
+    "air_yards_share": 25.0,
+    "yac_above_exp": 2.41,
+    "catch_pct": 68.3
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 2,
+    "targets_in10": 1,
+    "rz_touches_pg": 0.1
+   }
+  },
+  {
+   "name": "Chris Rodriguez Jr.",
+   "pos": "RB",
+   "team": "WAS",
+   "snap_pct": 31.2,
+   "ngs": {
+    "ryoe_per_att": 0.38,
+    "rush_efficiency": 3.38,
+    "rush_pct_over_exp": 0.5
+   },
+   "redzone": {
+    "carries_in20": 33,
+    "carries_in10": 22,
+    "carries_in5": 14,
+    "targets_in20": 1,
+    "targets_in10": 0,
+    "rz_touches_pg": 2.8
+   }
+  },
+  {
+   "name": "Gunnar Helm",
+   "pos": "TE",
+   "team": "TEN",
+   "snap_pct": 52.6,
+   "ngs": {
+    "avg_separation": 3.13,
+    "air_yards_share": 13.7,
+    "yac_above_exp": -0.83,
+    "catch_pct": 82.3
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 8,
+    "targets_in10": 3,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "Sean Tucker",
+   "pos": "RB",
+   "team": "TB",
+   "snap_pct": 15.8,
+   "ngs": {
+    "ryoe_per_att": 0.57,
+    "rush_efficiency": 4.03,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 21,
+    "carries_in10": 14,
+    "carries_in5": 11,
+    "targets_in20": 3,
+    "targets_in10": 1,
+    "rz_touches_pg": 1.4
+   }
+  },
+  {
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "team": "CAR",
+   "snap_pct": 69.4,
+   "ngs": {
+    "avg_separation": 2.69,
+    "air_yards_share": 39.7,
+    "yac_above_exp": 0.59,
+    "catch_pct": 71.8
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 5,
+    "targets_in10": 4,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "Andrei Iosivas",
+   "pos": "WR",
+   "team": "CIN",
+   "snap_pct": 76.2,
+   "ngs": {
+    "avg_separation": 2.25,
+    "air_yards_share": 22.1,
+    "yac_above_exp": 0.22,
+    "catch_pct": 57.3
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 7,
+    "targets_in10": 4,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "Xavier Legette",
+   "pos": "WR",
+   "team": "CAR",
+   "snap_pct": 67.9,
+   "ngs": {
+    "avg_separation": 2.47,
+    "air_yards_share": 30.8,
+    "yac_above_exp": -0.99,
+    "catch_pct": 49.4
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 12,
+    "targets_in10": 3,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Mason Taylor",
+   "pos": "TE",
+   "team": "NYJ",
+   "snap_pct": 81.1,
+   "ngs": {
+    "avg_separation": 3.35,
+    "air_yards_share": 17.9,
+    "yac_above_exp": -0.23,
+    "catch_pct": 65.4
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 9,
+    "targets_in10": 4,
+    "rz_touches_pg": 0.7
+   }
+  },
+  {
+   "name": "Darren Waller",
+   "pos": "TE",
+   "team": "MIA",
+   "snap_pct": 45.0,
+   "ngs": {
+    "avg_separation": 2.29,
+    "air_yards_share": 28.6,
+    "yac_above_exp": -0.45,
+    "catch_pct": 82.5
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 8,
+    "targets_in10": 6,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Ricky Pearsall",
+   "pos": "WR",
+   "team": "SF",
+   "snap_pct": 78.1,
+   "ngs": {
+    "avg_separation": 2.28,
+    "air_yards_share": 40.6,
+    "yac_above_exp": -0.61,
+    "catch_pct": 70.8
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 4,
+    "targets_in10": 2,
+    "rz_touches_pg": 0.4
+   }
+  },
+  {
+   "name": "Bhayshul Tuten",
+   "pos": "RB",
+   "team": "JAX",
+   "snap_pct": 21.1,
+   "ngs": {
+    "ryoe_per_att": 0.9,
+    "rush_efficiency": 3.88,
+    "rush_pct_over_exp": 0.5
+   },
+   "redzone": {
+    "carries_in20": 26,
+    "carries_in10": 9,
+    "carries_in5": 8,
+    "targets_in20": 2,
+    "targets_in10": 1,
+    "rz_touches_pg": 1.9
+   },
+   "avoid": {
+    "source": "FanDuel / ESPN tiers",
+    "reason": "ADP climbed into the top ~60 on breakout hype, but his role is uncertain and he's shown little as a pass-catcher."
+   }
+  },
+  {
+   "name": "Nick Chubb",
+   "pos": "RB",
+   "team": "HOU",
+   "snap_pct": 32.2,
+   "ngs": {
+    "ryoe_per_att": 0.55,
+    "rush_efficiency": 3.55,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 13,
+    "carries_in10": 6,
+    "carries_in5": 6,
+    "targets_in20": 2,
+    "targets_in10": 0,
+    "rz_touches_pg": 1.0
+   }
+  },
+  {
+   "name": "Adonai Mitchell",
+   "pos": "WR",
+   "team": "NYJ",
+   "snap_pct": 50.6,
+   "ngs": {
+    "avg_separation": 2.71,
+    "air_yards_share": 54.3,
+    "yac_above_exp": -0.16,
+    "catch_pct": 39.8
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 8,
+    "targets_in10": 2,
+    "rz_touches_pg": 0.5
+   }
+  },
+  {
+   "name": "Dylan Sampson",
+   "pos": "RB",
+   "team": "CLE",
+   "snap_pct": 26.5,
+   "ngs": {
+    "ryoe_per_att": -0.56,
+    "rush_efficiency": 6.68,
+    "rush_pct_over_exp": 0.3
+   },
+   "redzone": {
+    "carries_in20": 7,
+    "carries_in10": 1,
+    "carries_in5": 0,
+    "targets_in20": 6,
+    "targets_in10": 2,
+    "rz_touches_pg": 0.9
+   }
+  },
+  {
+   "name": "Isiah Pacheco",
+   "pos": "RB",
+   "team": "KC",
+   "snap_pct": 51.7,
+   "ngs": {
+    "ryoe_per_att": -0.72,
+    "rush_efficiency": 4.79,
+    "rush_pct_over_exp": 0.4
+   },
+   "redzone": {
+    "carries_in20": 20,
+    "carries_in10": 7,
+    "carries_in5": 0,
+    "targets_in20": 4,
+    "targets_in10": 2,
+    "rz_touches_pg": 1.8
+   }
+  },
+  {
+   "name": "David Njoku",
+   "pos": "TE",
+   "team": "CLE",
+   "snap_pct": 63.9,
+   "ngs": {
+    "avg_separation": 2.65,
+    "air_yards_share": 16.2,
+    "yac_above_exp": 1.14,
+    "catch_pct": 66.3
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 9,
+    "targets_in10": 3,
+    "rz_touches_pg": 0.8
+   }
+  },
+  {
+   "name": "Calvin Austin III",
+   "pos": "WR",
+   "team": "PIT",
+   "snap_pct": 53.5,
+   "ngs": {
+    "avg_separation": 2.74,
+    "air_yards_share": 36.4,
+    "yac_above_exp": 0.49,
+    "catch_pct": 59.8
+   },
+   "redzone": {
+    "carries_in20": 0,
+    "carries_in10": 0,
+    "carries_in5": 0,
+    "targets_in20": 4,
+    "targets_in10": 1,
+    "rz_touches_pg": 0.3
+   }
+  }
+ ]
+}

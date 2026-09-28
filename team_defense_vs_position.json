@@ -1,0 +1,586 @@
+{
+ "_meta": {
+  "source": "nflverse \u2014 real 2025 regular season",
+  "metric": "PPR fantasy points allowed per game by each defense to each position",
+  "rank_softest": "1 = allowed the most points to that position (best matchup to attack)",
+  "use": "Weekly lineup tool. Minor draft input (matchup < season-long talent/volume)."
+ },
+ "defense_vs_position": {
+  "PHI": {
+   "QB": {
+    "ppr_allowed_pg": 14.5,
+    "rank_softest": 23
+   },
+   "WR": {
+    "ppr_allowed_pg": 26.8,
+    "rank_softest": 26
+   },
+   "RB": {
+    "ppr_allowed_pg": 22.8,
+    "rank_softest": 13
+   },
+   "TE": {
+    "ppr_allowed_pg": 8.3,
+    "rank_softest": 31
+   }
+  },
+  "SF": {
+   "TE": {
+    "ppr_allowed_pg": 14.8,
+    "rank_softest": 9
+   },
+   "RB": {
+    "ppr_allowed_pg": 23.6,
+    "rank_softest": 10
+   },
+   "WR": {
+    "ppr_allowed_pg": 32.2,
+    "rank_softest": 12
+   },
+   "QB": {
+    "ppr_allowed_pg": 17.1,
+    "rank_softest": 13
+   }
+  },
+  "IND": {
+   "TE": {
+    "ppr_allowed_pg": 15.2,
+    "rank_softest": 7
+   },
+   "QB": {
+    "ppr_allowed_pg": 16.9,
+    "rank_softest": 15
+   },
+   "WR": {
+    "ppr_allowed_pg": 36.1,
+    "rank_softest": 3
+   },
+   "RB": {
+    "ppr_allowed_pg": 19.9,
+    "rank_softest": 23
+   }
+  },
+  "CIN": {
+   "TE": {
+    "ppr_allowed_pg": 20.9,
+    "rank_softest": 1
+   },
+   "RB": {
+    "ppr_allowed_pg": 28.3,
+    "rank_softest": 1
+   },
+   "WR": {
+    "ppr_allowed_pg": 25.3,
+    "rank_softest": 31
+   },
+   "QB": {
+    "ppr_allowed_pg": 18.4,
+    "rank_softest": 7
+   }
+  },
+  "LA": {
+   "WR": {
+    "ppr_allowed_pg": 31.7,
+    "rank_softest": 13
+   },
+   "RB": {
+    "ppr_allowed_pg": 20.2,
+    "rank_softest": 21
+   },
+   "QB": {
+    "ppr_allowed_pg": 15.2,
+    "rank_softest": 19
+   },
+   "TE": {
+    "ppr_allowed_pg": 13.1,
+    "rank_softest": 18
+   }
+  },
+  "BUF": {
+   "RB": {
+    "ppr_allowed_pg": 23.9,
+    "rank_softest": 9
+   },
+   "QB": {
+    "ppr_allowed_pg": 13.1,
+    "rank_softest": 29
+   },
+   "WR": {
+    "ppr_allowed_pg": 26.5,
+    "rank_softest": 28
+   },
+   "TE": {
+    "ppr_allowed_pg": 8.0,
+    "rank_softest": 32
+   }
+  },
+  "NE": {
+   "RB": {
+    "ppr_allowed_pg": 18.8,
+    "rank_softest": 28
+   },
+   "QB": {
+    "ppr_allowed_pg": 14.7,
+    "rank_softest": 22
+   },
+   "TE": {
+    "ppr_allowed_pg": 14.7,
+    "rank_softest": 12
+   },
+   "WR": {
+    "ppr_allowed_pg": 29.2,
+    "rank_softest": 20
+   }
+  },
+  "NO": {
+   "TE": {
+    "ppr_allowed_pg": 12.5,
+    "rank_softest": 19
+   },
+   "WR": {
+    "ppr_allowed_pg": 27.8,
+    "rank_softest": 21
+   },
+   "QB": {
+    "ppr_allowed_pg": 14.0,
+    "rank_softest": 25
+   },
+   "RB": {
+    "ppr_allowed_pg": 20.7,
+    "rank_softest": 20
+   }
+  },
+  "CAR": {
+   "RB": {
+    "ppr_allowed_pg": 24.1,
+    "rank_softest": 8
+   },
+   "TE": {
+    "ppr_allowed_pg": 13.7,
+    "rank_softest": 15
+   },
+   "QB": {
+    "ppr_allowed_pg": 13.8,
+    "rank_softest": 27
+   },
+   "WR": {
+    "ppr_allowed_pg": 26.6,
+    "rank_softest": 27
+   }
+  },
+  "SEA": {
+   "TE": {
+    "ppr_allowed_pg": 14.7,
+    "rank_softest": 11
+   },
+   "RB": {
+    "ppr_allowed_pg": 18.5,
+    "rank_softest": 30
+   },
+   "WR": {
+    "ppr_allowed_pg": 26.3,
+    "rank_softest": 29
+   },
+   "QB": {
+    "ppr_allowed_pg": 14.0,
+    "rank_softest": 26
+   }
+  },
+  "MIN": {
+   "RB": {
+    "ppr_allowed_pg": 19.6,
+    "rank_softest": 24
+   },
+   "TE": {
+    "ppr_allowed_pg": 10.7,
+    "rank_softest": 27
+   },
+   "WR": {
+    "ppr_allowed_pg": 23.7,
+    "rank_softest": 32
+   },
+   "QB": {
+    "ppr_allowed_pg": 11.1,
+    "rank_softest": 32
+   }
+  },
+  "DAL": {
+   "RB": {
+    "ppr_allowed_pg": 24.9,
+    "rank_softest": 6
+   },
+   "WR": {
+    "ppr_allowed_pg": 39.3,
+    "rank_softest": 1
+   },
+   "TE": {
+    "ppr_allowed_pg": 12.3,
+    "rank_softest": 20
+   },
+   "QB": {
+    "ppr_allowed_pg": 23.3,
+    "rank_softest": 1
+   }
+  },
+  "JAX": {
+   "RB": {
+    "ppr_allowed_pg": 18.3,
+    "rank_softest": 31
+   },
+   "TE": {
+    "ppr_allowed_pg": 14.8,
+    "rank_softest": 10
+   },
+   "QB": {
+    "ppr_allowed_pg": 15.9,
+    "rank_softest": 18
+   },
+   "WR": {
+    "ppr_allowed_pg": 31.2,
+    "rank_softest": 16
+   }
+  },
+  "DEN": {
+   "RB": {
+    "ppr_allowed_pg": 16.9,
+    "rank_softest": 32
+   },
+   "QB": {
+    "ppr_allowed_pg": 14.2,
+    "rank_softest": 24
+   },
+   "WR": {
+    "ppr_allowed_pg": 27.0,
+    "rank_softest": 24
+   },
+   "TE": {
+    "ppr_allowed_pg": 13.7,
+    "rank_softest": 16
+   }
+  },
+  "GB": {
+   "RB": {
+    "ppr_allowed_pg": 21.5,
+    "rank_softest": 16
+   },
+   "TE": {
+    "ppr_allowed_pg": 12.1,
+    "rank_softest": 22
+   },
+   "WR": {
+    "ppr_allowed_pg": 31.3,
+    "rank_softest": 15
+   },
+   "QB": {
+    "ppr_allowed_pg": 15.0,
+    "rank_softest": 21
+   }
+  },
+  "CHI": {
+   "WR": {
+    "ppr_allowed_pg": 36.2,
+    "rank_softest": 2
+   },
+   "RB": {
+    "ppr_allowed_pg": 21.2,
+    "rank_softest": 19
+   },
+   "TE": {
+    "ppr_allowed_pg": 13.1,
+    "rank_softest": 17
+   },
+   "QB": {
+    "ppr_allowed_pg": 18.1,
+    "rank_softest": 11
+   }
+  },
+  "NYJ": {
+   "TE": {
+    "ppr_allowed_pg": 15.2,
+    "rank_softest": 8
+   },
+   "RB": {
+    "ppr_allowed_pg": 28.0,
+    "rank_softest": 2
+   },
+   "QB": {
+    "ppr_allowed_pg": 19.9,
+    "rank_softest": 2
+   },
+   "WR": {
+    "ppr_allowed_pg": 30.3,
+    "rank_softest": 17
+   }
+  },
+  "CLE": {
+   "QB": {
+    "ppr_allowed_pg": 13.3,
+    "rank_softest": 28
+   },
+   "RB": {
+    "ppr_allowed_pg": 21.9,
+    "rank_softest": 15
+   },
+   "WR": {
+    "ppr_allowed_pg": 26.9,
+    "rank_softest": 25
+   },
+   "TE": {
+    "ppr_allowed_pg": 12.1,
+    "rank_softest": 23
+   }
+  },
+  "ARI": {
+   "RB": {
+    "ppr_allowed_pg": 26.2,
+    "rank_softest": 3
+   },
+   "TE": {
+    "ppr_allowed_pg": 16.9,
+    "rank_softest": 2
+   },
+   "WR": {
+    "ppr_allowed_pg": 30.2,
+    "rank_softest": 18
+   },
+   "QB": {
+    "ppr_allowed_pg": 17.0,
+    "rank_softest": 14
+   }
+  },
+  "LAC": {
+   "RB": {
+    "ppr_allowed_pg": 18.5,
+    "rank_softest": 29
+   },
+   "TE": {
+    "ppr_allowed_pg": 10.5,
+    "rank_softest": 28
+   },
+   "WR": {
+    "ppr_allowed_pg": 27.4,
+    "rank_softest": 22
+   },
+   "QB": {
+    "ppr_allowed_pg": 12.6,
+    "rank_softest": 31
+   }
+  },
+  "PIT": {
+   "QB": {
+    "ppr_allowed_pg": 18.8,
+    "rank_softest": 6
+   },
+   "WR": {
+    "ppr_allowed_pg": 35.2,
+    "rank_softest": 7
+   },
+   "TE": {
+    "ppr_allowed_pg": 16.6,
+    "rank_softest": 3
+   },
+   "RB": {
+    "ppr_allowed_pg": 19.5,
+    "rank_softest": 25
+   }
+  },
+  "TEN": {
+   "QB": {
+    "ppr_allowed_pg": 19.0,
+    "rank_softest": 5
+   },
+   "RB": {
+    "ppr_allowed_pg": 21.4,
+    "rank_softest": 18
+   },
+   "WR": {
+    "ppr_allowed_pg": 35.6,
+    "rank_softest": 6
+   },
+   "TE": {
+    "ppr_allowed_pg": 14.2,
+    "rank_softest": 13
+   }
+  },
+  "NYG": {
+   "WR": {
+    "ppr_allowed_pg": 33.8,
+    "rank_softest": 9
+   },
+   "TE": {
+    "ppr_allowed_pg": 11.4,
+    "rank_softest": 24
+   },
+   "QB": {
+    "ppr_allowed_pg": 18.3,
+    "rank_softest": 8
+   },
+   "RB": {
+    "ppr_allowed_pg": 25.7,
+    "rank_softest": 4
+   }
+  },
+  "KC": {
+   "RB": {
+    "ppr_allowed_pg": 19.2,
+    "rank_softest": 27
+   },
+   "QB": {
+    "ppr_allowed_pg": 15.1,
+    "rank_softest": 20
+   },
+   "WR": {
+    "ppr_allowed_pg": 27.3,
+    "rank_softest": 23
+   },
+   "TE": {
+    "ppr_allowed_pg": 11.0,
+    "rank_softest": 25
+   }
+  },
+  "DET": {
+   "QB": {
+    "ppr_allowed_pg": 18.2,
+    "rank_softest": 9
+   },
+   "TE": {
+    "ppr_allowed_pg": 13.7,
+    "rank_softest": 14
+   },
+   "RB": {
+    "ppr_allowed_pg": 19.4,
+    "rank_softest": 26
+   },
+   "WR": {
+    "ppr_allowed_pg": 35.7,
+    "rank_softest": 5
+   }
+  },
+  "HOU": {
+   "QB": {
+    "ppr_allowed_pg": 12.8,
+    "rank_softest": 30
+   },
+   "TE": {
+    "ppr_allowed_pg": 12.3,
+    "rank_softest": 21
+   },
+   "WR": {
+    "ppr_allowed_pg": 25.9,
+    "rank_softest": 30
+   },
+   "RB": {
+    "ppr_allowed_pg": 20.0,
+    "rank_softest": 22
+   }
+  },
+  "TB": {
+   "WR": {
+    "ppr_allowed_pg": 31.5,
+    "rank_softest": 14
+   },
+   "QB": {
+    "ppr_allowed_pg": 19.5,
+    "rank_softest": 4
+   },
+   "RB": {
+    "ppr_allowed_pg": 22.1,
+    "rank_softest": 14
+   },
+   "TE": {
+    "ppr_allowed_pg": 15.8,
+    "rank_softest": 6
+   }
+  },
+  "LV": {
+   "WR": {
+    "ppr_allowed_pg": 33.5,
+    "rank_softest": 11
+   },
+   "TE": {
+    "ppr_allowed_pg": 10.1,
+    "rank_softest": 30
+   },
+   "QB": {
+    "ppr_allowed_pg": 16.1,
+    "rank_softest": 17
+   },
+   "RB": {
+    "ppr_allowed_pg": 22.9,
+    "rank_softest": 12
+   }
+  },
+  "WAS": {
+   "TE": {
+    "ppr_allowed_pg": 15.9,
+    "rank_softest": 5
+   },
+   "WR": {
+    "ppr_allowed_pg": 34.9,
+    "rank_softest": 8
+   },
+   "RB": {
+    "ppr_allowed_pg": 25.5,
+    "rank_softest": 5
+   },
+   "QB": {
+    "ppr_allowed_pg": 19.6,
+    "rank_softest": 3
+   }
+  },
+  "ATL": {
+   "QB": {
+    "ppr_allowed_pg": 16.3,
+    "rank_softest": 16
+   },
+   "RB": {
+    "ppr_allowed_pg": 21.5,
+    "rank_softest": 17
+   },
+   "TE": {
+    "ppr_allowed_pg": 10.2,
+    "rank_softest": 29
+   },
+   "WR": {
+    "ppr_allowed_pg": 33.6,
+    "rank_softest": 10
+   }
+  },
+  "MIA": {
+   "RB": {
+    "ppr_allowed_pg": 24.9,
+    "rank_softest": 7
+   },
+   "TE": {
+    "ppr_allowed_pg": 16.3,
+    "rank_softest": 4
+   },
+   "WR": {
+    "ppr_allowed_pg": 29.9,
+    "rank_softest": 19
+   },
+   "QB": {
+    "ppr_allowed_pg": 18.2,
+    "rank_softest": 10
+   }
+  },
+  "BAL": {
+   "RB": {
+    "ppr_allowed_pg": 23.1,
+    "rank_softest": 11
+   },
+   "WR": {
+    "ppr_allowed_pg": 36.0,
+    "rank_softest": 4
+   },
+   "QB": {
+    "ppr_allowed_pg": 17.7,
+    "rank_softest": 12
+   },
+   "TE": {
+    "ppr_allowed_pg": 10.9,
+    "rank_softest": 26
+   }
+  }
+ }
+}

@@ -1,0 +1,7709 @@
+{
+ "_meta": {
+  "source": "nflverse (nflreadpy) \u2014 real regular-season data",
+  "primary_season": 2025,
+  "seasons_pulled": [
+   2023,
+   2024,
+   2025
+  ],
+  "players": 200,
+  "note": "Historical stats only \u2014 NOT a projection. Pair with live ADP/expert rankings for the actual pick. Rookies won't appear (no NFL history); add them from a rankings source.",
+  "glossary": {
+   "wopr": "1.5*target_share + 0.7*air_yards_share; best single WR/TE opportunity metric",
+   "boom_rate": "share of games at/above a startable weekly PPR score",
+   "floor/ceiling": "25th / 85th percentile weekly PPR"
+  },
+  "avoid_flag": "players carrying an 'avoid' field are on a do-not-draft/bust list (see espn_avoid_2026.json)"
+ },
+ "players": [
+  {
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "team": "SF",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 24.5,
+   "opportunity": {
+    "touches_pg": 24.3,
+    "targets_pg": 7.6,
+    "target_share": 0.234,
+    "air_yards_share": 0.078,
+    "wopr": 0.405
+   },
+   "efficiency": {
+    "ypt": 7.16,
+    "yac_per_rec": 7.06,
+    "epa_pg": 1.01
+   },
+   "consistency": {
+    "ppr_std": 8.2,
+    "floor": 17.6,
+    "ceiling": 34.3,
+    "boom_rate": 0.88
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 24.5,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 12.0,
+     "games": 4
+    },
+    "2025": {
+     "ppg_ppr": 24.5,
+     "games": 17
+    }
+   },
+   "avoid": {
+    "source": "ESPN (Karabell)",
+    "reason": "400+ touches and 900+ snaps in 2025; RBs historically don't repeat after 400-carry seasons, plus a long injury history."
+   }
+  },
+  {
+   "name": "Puka Nacua",
+   "pos": "WR",
+   "team": "LA",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 23.4,
+   "opportunity": {
+    "touches_pg": 8.7,
+    "targets_pg": 10.4,
+    "target_share": 0.301,
+    "air_yards_share": 0.319,
+    "wopr": 0.675
+   },
+   "efficiency": {
+    "ypt": 10.33,
+    "yac_per_rec": 5.16,
+    "epa_pg": 7.81
+   },
+   "consistency": {
+    "ppr_std": 10.2,
+    "floor": 16.7,
+    "ceiling": 35.7,
+    "boom_rate": 0.81
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 17.6,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 18.8,
+     "games": 11
+    },
+    "2025": {
+     "ppg_ppr": 23.4,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Bijan Robinson",
+   "pos": "RB",
+   "team": "ATL",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 21.8,
+   "opportunity": {
+    "touches_pg": 21.5,
+    "targets_pg": 6.1,
+    "target_share": 0.198,
+    "air_yards_share": 0.021,
+    "wopr": 0.311
+   },
+   "efficiency": {
+    "ypt": 7.96,
+    "yac_per_rec": 10.85,
+    "epa_pg": 0.84
+   },
+   "consistency": {
+    "ppr_std": 10.3,
+    "floor": 14.7,
+    "ceiling": 30.3,
+    "boom_rate": 0.71
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 14.5,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 20.1,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 21.8,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Jahmyr Gibbs",
+   "pos": "RB",
+   "team": "DET",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 21.6,
+   "opportunity": {
+    "touches_pg": 18.8,
+    "targets_pg": 5.5,
+    "target_share": 0.162,
+    "air_yards_share": 0.015,
+    "wopr": 0.253
+   },
+   "efficiency": {
+    "ypt": 6.55,
+    "yac_per_rec": 7.99,
+    "epa_pg": 0.89
+   },
+   "consistency": {
+    "ppr_std": 13.5,
+    "floor": 11.6,
+    "ceiling": 37.0,
+    "boom_rate": 0.71
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 16.1,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 21.3,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 21.6,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Josh Allen",
+   "pos": "QB",
+   "team": "BUF",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 22.8,
+   "opportunity": {
+    "touches_pg": 7.0,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 6.88
+   },
+   "consistency": {
+    "ppr_std": 10.4,
+    "floor": 16.7,
+    "ceiling": 37.8,
+    "boom_rate": 0.56
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 23.1,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 23.7,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 22.8,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Jonathan Taylor",
+   "pos": "RB",
+   "team": "IND",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 21.3,
+   "opportunity": {
+    "touches_pg": 21.7,
+    "targets_pg": 3.2,
+    "target_share": 0.11,
+    "air_yards_share": -0.011,
+    "wopr": 0.157
+   },
+   "efficiency": {
+    "ypt": 6.87,
+    "yac_per_rec": 9.43,
+    "epa_pg": 1.65
+   },
+   "consistency": {
+    "ppr_std": 12.4,
+    "floor": 12.8,
+    "ceiling": 34.2,
+    "boom_rate": 0.59
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 15.6,
+     "games": 10
+    },
+    "2024": {
+     "ppg_ppr": 17.5,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 21.3,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Jaxon Smith-Njigba",
+   "pos": "WR",
+   "team": "SEA",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 21.2,
+   "opportunity": {
+    "touches_pg": 7.4,
+    "targets_pg": 9.6,
+    "target_share": 0.368,
+    "air_yards_share": 0.503,
+    "wopr": 0.904
+   },
+   "efficiency": {
+    "ypt": 11.0,
+    "yac_per_rec": 4.44,
+    "epa_pg": 5.34
+   },
+   "consistency": {
+    "ppr_std": 7.5,
+    "floor": 18.3,
+    "ceiling": 28.1,
+    "boom_rate": 0.82
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 8.8,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 14.9,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 21.2,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Drake Maye",
+   "pos": "QB",
+   "team": "NE",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 20.7,
+   "opportunity": {
+    "touches_pg": 6.1,
+    "targets_pg": 0.1,
+    "target_share": 0.001,
+    "air_yards_share": -0.001,
+    "wopr": 0.001
+   },
+   "efficiency": {
+    "ypt": 2.0,
+    "yac_per_rec": 10.0,
+    "epa_pg": 10.36
+   },
+   "consistency": {
+    "ppr_std": 5.4,
+    "floor": 16.0,
+    "ceiling": 26.3,
+    "boom_rate": 0.53
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 13.6,
+     "games": 13
+    },
+    "2025": {
+     "ppg_ppr": 20.7,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Matthew Stafford",
+   "pos": "QB",
+   "team": "LA",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 20.6,
+   "opportunity": {
+    "touches_pg": 1.7,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 6.98
+   },
+   "consistency": {
+    "ppr_std": 7.0,
+    "floor": 13.6,
+    "ceiling": 27.4,
+    "boom_rate": 0.59
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 16.2,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 13.4,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 20.6,
+     "games": 17
+    }
+   },
+   "avoid": {
+    "source": "FantasyPros",
+    "reason": "46 pass TDs on a 7.7% TD rate is historically unsustainable; no rushing to fall back on if TDs regress."
+   }
+  },
+  {
+   "name": "Trevor Lawrence",
+   "pos": "QB",
+   "team": "JAX",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 19.9,
+   "opportunity": {
+    "touches_pg": 4.8,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 3.84
+   },
+   "consistency": {
+    "ppr_std": 8.8,
+    "floor": 15.0,
+    "ceiling": 26.2,
+    "boom_rate": 0.41
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 16.4,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 14.5,
+     "games": 10
+    },
+    "2025": {
+     "ppg_ppr": 19.9,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Amon-Ra St. Brown",
+   "pos": "WR",
+   "team": "DET",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 19.1,
+   "opportunity": {
+    "touches_pg": 7.1,
+    "targets_pg": 10.1,
+    "target_share": 0.317,
+    "air_yards_share": 0.387,
+    "wopr": 0.746
+   },
+   "efficiency": {
+    "ypt": 8.15,
+    "yac_per_rec": 4.87,
+    "epa_pg": 3.3
+   },
+   "consistency": {
+    "ppr_std": 10.9,
+    "floor": 13.7,
+    "ceiling": 29.9,
+    "boom_rate": 0.65
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 20.7,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 18.6,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 19.1,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "De'Von Achane",
+   "pos": "RB",
+   "team": "MIA",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 20.2,
+   "opportunity": {
+    "touches_pg": 19.1,
+    "targets_pg": 5.3,
+    "target_share": 0.188,
+    "air_yards_share": 0.011,
+    "wopr": 0.289
+   },
+   "efficiency": {
+    "ypt": 5.74,
+    "yac_per_rec": 8.24,
+    "epa_pg": 0.24
+   },
+   "consistency": {
+    "ppr_std": 7.0,
+    "floor": 16.6,
+    "ceiling": 26.2,
+    "boom_rate": 0.88
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 17.3,
+     "games": 11
+    },
+    "2024": {
+     "ppg_ppr": 17.6,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 20.2,
+     "games": 16
+    }
+   },
+   "avoid": {
+    "source": "Sporting News",
+    "reason": "Loses McDaniel's RB-centric scheme; Miami offense looks shakier, threatening his volume."
+   }
+  },
+  {
+   "name": "Caleb Williams",
+   "pos": "QB",
+   "team": "CHI",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 18.7,
+   "opportunity": {
+    "touches_pg": 4.6,
+    "targets_pg": 0.1,
+    "target_share": 0.003,
+    "air_yards_share": -0.001,
+    "wopr": 0.005
+   },
+   "efficiency": {
+    "ypt": 11.0,
+    "yac_per_rec": 12.5,
+    "epa_pg": 3.11
+   },
+   "consistency": {
+    "ppr_std": 8.2,
+    "floor": 11.8,
+    "ceiling": 25.1,
+    "boom_rate": 0.47
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 15.0,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 18.7,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Trey McBride",
+   "pos": "TE",
+   "team": "ARI",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 18.6,
+   "opportunity": {
+    "touches_pg": 7.4,
+    "targets_pg": 9.9,
+    "target_share": 0.279,
+    "air_yards_share": 0.246,
+    "wopr": 0.59
+   },
+   "efficiency": {
+    "ypt": 7.33,
+    "yac_per_rec": 4.63,
+    "epa_pg": 4.28
+   },
+   "consistency": {
+    "ppr_std": 8.4,
+    "floor": 12.2,
+    "ceiling": 27.7,
+    "boom_rate": 0.82
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 10.7,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 15.2,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 18.6,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Dak Prescott",
+   "pos": "QB",
+   "team": "DAL",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 18.5,
+   "opportunity": {
+    "touches_pg": 3.1,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 6.17
+   },
+   "consistency": {
+    "ppr_std": 8.3,
+    "floor": 12.0,
+    "ceiling": 27.1,
+    "boom_rate": 0.53
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 20.2,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 14.6,
+     "games": 8
+    },
+    "2025": {
+     "ppg_ppr": 18.5,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Ja'Marr Chase",
+   "pos": "WR",
+   "team": "CIN",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 19.6,
+   "opportunity": {
+    "touches_pg": 8.0,
+    "targets_pg": 11.6,
+    "target_share": 0.321,
+    "air_yards_share": 0.366,
+    "wopr": 0.737
+   },
+   "efficiency": {
+    "ypt": 7.63,
+    "yac_per_rec": 5.12,
+    "epa_pg": 2.59
+   },
+   "consistency": {
+    "ppr_std": 10.3,
+    "floor": 10.2,
+    "ceiling": 29.0,
+    "boom_rate": 0.69
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 16.4,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 23.7,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 19.6,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Bo Nix",
+   "pos": "QB",
+   "team": "DEN",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 17.9,
+   "opportunity": {
+    "touches_pg": 4.9,
+    "targets_pg": 0.1,
+    "target_share": 0.002,
+    "air_yards_share": 0.0,
+    "wopr": 0.003
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 4.19
+   },
+   "consistency": {
+    "ppr_std": 8.4,
+    "floor": 13.4,
+    "ceiling": 25.7,
+    "boom_rate": 0.29
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 18.7,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 17.9,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "James Cook",
+   "pos": "RB",
+   "team": "BUF",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 17.8,
+   "opportunity": {
+    "touches_pg": 20.1,
+    "targets_pg": 2.4,
+    "target_share": 0.082,
+    "air_yards_share": 0.006,
+    "wopr": 0.127
+   },
+   "efficiency": {
+    "ypt": 7.28,
+    "yac_per_rec": 8.24,
+    "epa_pg": 0.84
+   },
+   "consistency": {
+    "ppr_std": 9.2,
+    "floor": 10.7,
+    "ceiling": 26.5,
+    "boom_rate": 0.59
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 13.7,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 16.7,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 17.8,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Jalen Hurts",
+   "pos": "QB",
+   "team": "PHI",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 18.8,
+   "opportunity": {
+    "touches_pg": 6.6,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 3.19
+   },
+   "consistency": {
+    "ppr_std": 7.6,
+    "floor": 14.5,
+    "ceiling": 25.4,
+    "boom_rate": 0.44
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 21.0,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 21.0,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 18.8,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Jared Goff",
+   "pos": "QB",
+   "team": "DET",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 17.5,
+   "opportunity": {
+    "touches_pg": 1.1,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 5.41
+   },
+   "consistency": {
+    "ppr_std": 7.5,
+    "floor": 12.7,
+    "ceiling": 25.5,
+    "boom_rate": 0.35
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 17.0,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 19.1,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 17.5,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "George Pickens",
+   "pos": "WR",
+   "team": "DAL",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 17.2,
+   "opportunity": {
+    "touches_pg": 5.5,
+    "targets_pg": 8.1,
+    "target_share": 0.225,
+    "air_yards_share": 0.322,
+    "wopr": 0.563
+   },
+   "efficiency": {
+    "ypt": 10.43,
+    "yac_per_rec": 5.15,
+    "epa_pg": 5.22
+   },
+   "consistency": {
+    "ppr_std": 9.7,
+    "floor": 11.8,
+    "ceiling": 29.6,
+    "boom_rate": 0.47
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 12.3,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 11.7,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 17.2,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Justin Herbert",
+   "pos": "QB",
+   "team": "LAC",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 17.9,
+   "opportunity": {
+    "touches_pg": 5.2,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 2.0
+   },
+   "consistency": {
+    "ppr_std": 7.7,
+    "floor": 12.8,
+    "ceiling": 27.9,
+    "boom_rate": 0.31
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 18.0,
+     "games": 13
+    },
+    "2024": {
+     "ppg_ppr": 16.8,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 17.9,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Patrick Mahomes",
+   "pos": "QB",
+   "team": "KC",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 20.4,
+   "opportunity": {
+    "touches_pg": 4.6,
+    "targets_pg": 0.1,
+    "target_share": 0.002,
+    "air_yards_share": -0.002,
+    "wopr": 0.002
+   },
+   "efficiency": {
+    "ypt": -10.0,
+    "yac_per_rec": -2.0,
+    "epa_pg": 6.78
+   },
+   "consistency": {
+    "ppr_std": 8.0,
+    "floor": 13.2,
+    "ceiling": 27.3,
+    "boom_rate": 0.57
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 17.5,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 17.7,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 20.4,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "Chase Brown",
+   "pos": "RB",
+   "team": "CIN",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 16.6,
+   "opportunity": {
+    "touches_pg": 17.7,
+    "targets_pg": 5.2,
+    "target_share": 0.143,
+    "air_yards_share": 0.014,
+    "wopr": 0.224
+   },
+   "efficiency": {
+    "ypt": 4.97,
+    "yac_per_rec": 6.52,
+    "epa_pg": -0.86
+   },
+   "consistency": {
+    "ppr_std": 7.3,
+    "floor": 11.8,
+    "ceiling": 25.5,
+    "boom_rate": 0.59
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 4.5,
+     "games": 12
+    },
+    "2024": {
+     "ppg_ppr": 15.9,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 16.6,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Derrick Henry",
+   "pos": "RB",
+   "team": "BAL",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 16.4,
+   "opportunity": {
+    "touches_pg": 18.9,
+    "targets_pg": 1.2,
+    "target_share": 0.049,
+    "air_yards_share": 0.002,
+    "wopr": 0.075
+   },
+   "efficiency": {
+    "ypt": 7.14,
+    "yac_per_rec": 9.0,
+    "epa_pg": 0.34
+   },
+   "consistency": {
+    "ppr_std": 10.0,
+    "floor": 10.7,
+    "ceiling": 22.8,
+    "boom_rate": 0.41
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 14.5,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 19.8,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 16.4,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Baker Mayfield",
+   "pos": "QB",
+   "team": "TB",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 16.0,
+   "opportunity": {
+    "touches_pg": 3.2,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 2.14
+   },
+   "consistency": {
+    "ppr_std": 6.2,
+    "floor": 12.7,
+    "ceiling": 22.6,
+    "boom_rate": 0.18
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 16.1,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 21.5,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 16.0,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Chris Olave",
+   "pos": "WR",
+   "team": "NO",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 16.8,
+   "opportunity": {
+    "touches_pg": 6.3,
+    "targets_pg": 9.8,
+    "target_share": 0.292,
+    "air_yards_share": 0.41,
+    "wopr": 0.725
+   },
+   "efficiency": {
+    "ypt": 7.46,
+    "yac_per_rec": 2.89,
+    "epa_pg": 1.92
+   },
+   "consistency": {
+    "ppr_std": 7.9,
+    "floor": 12.4,
+    "ceiling": 25.9,
+    "boom_rate": 0.5
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 14.5,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 9.6,
+     "games": 8
+    },
+    "2025": {
+     "ppg_ppr": 16.8,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Kyren Williams",
+   "pos": "RB",
+   "team": "LA",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 15.5,
+   "opportunity": {
+    "touches_pg": 17.4,
+    "targets_pg": 2.9,
+    "target_share": 0.081,
+    "air_yards_share": 0.021,
+    "wopr": 0.136
+   },
+   "efficiency": {
+    "ypt": 5.62,
+    "yac_per_rec": 4.31,
+    "epa_pg": 0.79
+   },
+   "consistency": {
+    "ppr_std": 6.1,
+    "floor": 11.1,
+    "ceiling": 21.8,
+    "boom_rate": 0.53
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 21.2,
+     "games": 12
+    },
+    "2024": {
+     "ppg_ppr": 17.0,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 15.5,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Travis Etienne",
+   "pos": "RB",
+   "team": "JAX",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 14.9,
+   "opportunity": {
+    "touches_pg": 17.4,
+    "targets_pg": 3.1,
+    "target_share": 0.098,
+    "air_yards_share": -0.017,
+    "wopr": 0.135
+   },
+   "efficiency": {
+    "ypt": 5.62,
+    "yac_per_rec": 9.42,
+    "epa_pg": -0.58
+   },
+   "consistency": {
+    "ppr_std": 6.9,
+    "floor": 9.5,
+    "ceiling": 20.6,
+    "boom_rate": 0.59
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 16.6,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 8.7,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 14.9,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Ashton Jeanty",
+   "pos": "RB",
+   "team": "LV",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 14.4,
+   "opportunity": {
+    "touches_pg": 18.9,
+    "targets_pg": 4.3,
+    "target_share": 0.148,
+    "air_yards_share": -0.058,
+    "wopr": 0.181
+   },
+   "efficiency": {
+    "ypt": 4.74,
+    "yac_per_rec": 8.22,
+    "epa_pg": -4.53
+   },
+   "consistency": {
+    "ppr_std": 8.7,
+    "floor": 8.2,
+    "ceiling": 24.8,
+    "boom_rate": 0.41
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 14.4,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Zay Flowers",
+   "pos": "WR",
+   "team": "BAL",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 14.3,
+   "opportunity": {
+    "touches_pg": 5.6,
+    "targets_pg": 6.9,
+    "target_share": 0.299,
+    "air_yards_share": 0.36,
+    "wopr": 0.701
+   },
+   "efficiency": {
+    "ypt": 10.26,
+    "yac_per_rec": 5.33,
+    "epa_pg": 2.88
+   },
+   "consistency": {
+    "ppr_std": 7.5,
+    "floor": 11.4,
+    "ceiling": 21.2,
+    "boom_rate": 0.29
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 12.9,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 12.3,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 14.3,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Javonte Williams",
+   "pos": "RB",
+   "team": "DAL",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 15.2,
+   "opportunity": {
+    "touches_pg": 17.9,
+    "targets_pg": 3.2,
+    "target_share": 0.086,
+    "air_yards_share": -0.015,
+    "wopr": 0.119
+   },
+   "efficiency": {
+    "ypt": 2.69,
+    "yac_per_rec": 5.89,
+    "epa_pg": -0.66
+   },
+   "consistency": {
+    "ppr_std": 6.0,
+    "floor": 11.4,
+    "ceiling": 20.4,
+    "boom_rate": 0.5
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 11.2,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 9.3,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 15.2,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Jaxson Dart",
+   "pos": "QB",
+   "team": "NYG",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 17.3,
+   "opportunity": {
+    "touches_pg": 6.1,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 2.97
+   },
+   "consistency": {
+    "ppr_std": 10.2,
+    "floor": 13.6,
+    "ceiling": 26.3,
+    "boom_rate": 0.5
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 17.3,
+     "games": 14
+    }
+   },
+   "avoid": {
+    "source": "ESPN (Karabell)",
+    "reason": "Young Giants trio barely shared the field in 2025; availability and consistency unproven at his cost."
+   }
+  },
+  {
+   "name": "Josh Jacobs",
+   "pos": "RB",
+   "team": "GB",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 15.8,
+   "opportunity": {
+    "touches_pg": 18.0,
+    "targets_pg": 2.9,
+    "target_share": 0.102,
+    "air_yards_share": -0.04,
+    "wopr": 0.124
+   },
+   "efficiency": {
+    "ypt": 6.41,
+    "yac_per_rec": 8.44,
+    "epa_pg": -0.2
+   },
+   "consistency": {
+    "ppr_std": 9.0,
+    "floor": 12.4,
+    "ceiling": 23.2,
+    "boom_rate": 0.47
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 13.9,
+     "games": 13
+    },
+    "2024": {
+     "ppg_ppr": 17.2,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 15.8,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Sam Darnold",
+   "pos": "QB",
+   "team": "SEA",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 13.8,
+   "opportunity": {
+    "touches_pg": 2.1,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 3.62
+   },
+   "consistency": {
+    "ppr_std": 8.0,
+    "floor": 6.1,
+    "ceiling": 22.3,
+    "boom_rate": 0.24
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 2.3,
+     "games": 10
+    },
+    "2024": {
+     "ppg_ppr": 18.1,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 13.8,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Jordan Love",
+   "pos": "QB",
+   "team": "GB",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 15.7,
+   "opportunity": {
+    "touches_pg": 3.1,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 8.2
+   },
+   "consistency": {
+    "ppr_std": 7.4,
+    "floor": 11.1,
+    "ceiling": 25.8,
+    "boom_rate": 0.27
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 18.8,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 15.6,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 15.7,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Saquon Barkley",
+   "pos": "RB",
+   "team": "PHI",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 14.5,
+   "opportunity": {
+    "touches_pg": 19.8,
+    "targets_pg": 3.1,
+    "target_share": 0.121,
+    "air_yards_share": -0.007,
+    "wopr": 0.176
+   },
+   "efficiency": {
+    "ypt": 5.46,
+    "yac_per_rec": 8.0,
+    "epa_pg": -1.82
+   },
+   "consistency": {
+    "ppr_std": 7.2,
+    "floor": 9.5,
+    "ceiling": 18.4,
+    "boom_rate": 0.5
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 15.9,
+     "games": 14
+    },
+    "2024": {
+     "ppg_ppr": 22.2,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 14.5,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "D'Andre Swift",
+   "pos": "RB",
+   "team": "CHI",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 14.3,
+   "opportunity": {
+    "touches_pg": 16.1,
+    "targets_pg": 3.0,
+    "target_share": 0.094,
+    "air_yards_share": -0.007,
+    "wopr": 0.135
+   },
+   "efficiency": {
+    "ypt": 6.23,
+    "yac_per_rec": 10.5,
+    "epa_pg": 0.87
+   },
+   "consistency": {
+    "ppr_std": 6.7,
+    "floor": 9.5,
+    "ceiling": 21.9,
+    "boom_rate": 0.44
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 12.5,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 12.6,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 14.3,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Jacoby Brissett",
+   "pos": "QB",
+   "team": "ARI",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 16.2,
+   "opportunity": {
+    "touches_pg": 2.7,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 0.3
+   },
+   "consistency": {
+    "ppr_std": 7.6,
+    "floor": 15.6,
+    "ceiling": 20.7,
+    "boom_rate": 0.29
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 11.4,
+     "games": 2
+    },
+    "2024": {
+     "ppg_ppr": 6.5,
+     "games": 7
+    },
+    "2025": {
+     "ppg_ppr": 16.2,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "Aaron Rodgers",
+   "pos": "QB",
+   "team": "PIT",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 14.2,
+   "opportunity": {
+    "touches_pg": 1.4,
+    "targets_pg": 0.1,
+    "target_share": 0.002,
+    "air_yards_share": -0.003,
+    "wopr": 0.001
+   },
+   "efficiency": {
+    "ypt": -9.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 1.49
+   },
+   "consistency": {
+    "ppr_std": 6.2,
+    "floor": 10.4,
+    "ceiling": 21.5,
+    "boom_rate": 0.19
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 0.0,
+     "games": 1
+    },
+    "2024": {
+     "ppg_ppr": 15.1,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 14.2,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Daniel Jones",
+   "pos": "QB",
+   "team": "IND",
+   "season": 2025,
+   "games": 13,
+   "ppg_ppr": 17.4,
+   "opportunity": {
+    "touches_pg": 3.5,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 6.26
+   },
+   "consistency": {
+    "ppr_std": 7.1,
+    "floor": 15.5,
+    "ceiling": 22.8,
+    "boom_rate": 0.38
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 9.5,
+     "games": 6
+    },
+    "2024": {
+     "ppg_ppr": 13.5,
+     "games": 10
+    },
+    "2025": {
+     "ppg_ppr": 17.4,
+     "games": 13
+    }
+   }
+  },
+  {
+   "name": "Nico Collins",
+   "pos": "WR",
+   "team": "HOU",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 15.1,
+   "opportunity": {
+    "touches_pg": 4.9,
+    "targets_pg": 8.0,
+    "target_share": 0.242,
+    "air_yards_share": 0.351,
+    "wopr": 0.609
+   },
+   "efficiency": {
+    "ypt": 9.31,
+    "yac_per_rec": 4.56,
+    "epa_pg": 2.75
+   },
+   "consistency": {
+    "ppr_std": 6.5,
+    "floor": 9.9,
+    "ceiling": 22.6,
+    "boom_rate": 0.47
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 17.4,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 17.6,
+     "games": 12
+    },
+    "2025": {
+     "ppg_ppr": 15.1,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Davante Adams",
+   "pos": "WR",
+   "team": "LA",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 15.9,
+   "opportunity": {
+    "touches_pg": 4.3,
+    "targets_pg": 8.1,
+    "target_share": 0.251,
+    "air_yards_share": 0.357,
+    "wopr": 0.627
+   },
+   "efficiency": {
+    "ypt": 6.92,
+    "yac_per_rec": 1.95,
+    "epa_pg": 1.93
+   },
+   "consistency": {
+    "ppr_std": 6.8,
+    "floor": 9.1,
+    "ceiling": 23.0,
+    "boom_rate": 0.5
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 15.6,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 17.2,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 15.9,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "Kenny Gainwell",
+   "pos": "RB",
+   "team": "PIT",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 13.0,
+   "opportunity": {
+    "touches_pg": 11.0,
+    "targets_pg": 5.0,
+    "target_share": 0.163,
+    "air_yards_share": -0.014,
+    "wopr": 0.234
+   },
+   "efficiency": {
+    "ypt": 5.72,
+    "yac_per_rec": 7.23,
+    "epa_pg": 0.19
+   },
+   "consistency": {
+    "ppr_std": 9.4,
+    "floor": 6.5,
+    "ceiling": 23.8,
+    "boom_rate": 0.41
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 6.1,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 3.7,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 13.0,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Michael Wilson",
+   "pos": "WR",
+   "team": "ARI",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 13.0,
+   "opportunity": {
+    "touches_pg": 4.6,
+    "targets_pg": 7.4,
+    "target_share": 0.192,
+    "air_yards_share": 0.312,
+    "wopr": 0.507
+   },
+   "efficiency": {
+    "ypt": 7.98,
+    "yac_per_rec": 3.5,
+    "epa_pg": 1.51
+   },
+   "consistency": {
+    "ppr_std": 10.6,
+    "floor": 6.6,
+    "ceiling": 21.8,
+    "boom_rate": 0.35
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 8.8,
+     "games": 13
+    },
+    "2024": {
+     "ppg_ppr": 7.8,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 13.0,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "A.J. Brown",
+   "pos": "WR",
+   "team": "PHI",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 14.7,
+   "opportunity": {
+    "touches_pg": 5.2,
+    "targets_pg": 8.1,
+    "target_share": 0.287,
+    "air_yards_share": 0.355,
+    "wopr": 0.678
+   },
+   "efficiency": {
+    "ypt": 8.29,
+    "yac_per_rec": 3.44,
+    "epa_pg": 2.25
+   },
+   "consistency": {
+    "ppr_std": 9.8,
+    "floor": 9.3,
+    "ceiling": 25.0,
+    "boom_rate": 0.4
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 17.0,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 16.7,
+     "games": 13
+    },
+    "2025": {
+     "ppg_ppr": 14.7,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Jameson Williams",
+   "pos": "WR",
+   "team": "DET",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 12.9,
+   "opportunity": {
+    "touches_pg": 4.2,
+    "targets_pg": 6.0,
+    "target_share": 0.186,
+    "air_yards_share": 0.319,
+    "wopr": 0.503
+   },
+   "efficiency": {
+    "ypt": 10.95,
+    "yac_per_rec": 6.78,
+    "epa_pg": 3.22
+   },
+   "consistency": {
+    "ppr_std": 9.0,
+    "floor": 5.7,
+    "ceiling": 23.9,
+    "boom_rate": 0.47
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 6.7,
+     "games": 12
+    },
+    "2024": {
+     "ppg_ppr": 14.1,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 12.9,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Courtland Sutton",
+   "pos": "WR",
+   "team": "DEN",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 12.9,
+   "opportunity": {
+    "touches_pg": 4.4,
+    "targets_pg": 7.3,
+    "target_share": 0.211,
+    "air_yards_share": 0.344,
+    "wopr": 0.557
+   },
+   "efficiency": {
+    "ypt": 8.2,
+    "yac_per_rec": 3.0,
+    "epa_pg": 2.44
+   },
+   "consistency": {
+    "ppr_std": 7.5,
+    "floor": 8.0,
+    "ceiling": 20.6,
+    "boom_rate": 0.47
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 11.9,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 15.0,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 12.9,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Bryce Young",
+   "pos": "QB",
+   "team": "CAR",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 13.6,
+   "opportunity": {
+    "touches_pg": 3.4,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": -1.11
+   },
+   "consistency": {
+    "ppr_std": 7.7,
+    "floor": 8.9,
+    "ceiling": 21.3,
+    "boom_rate": 0.19
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 9.8,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 13.9,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 13.6,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Wan'Dale Robinson",
+   "pos": "WR",
+   "team": "NYG",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 13.6,
+   "opportunity": {
+    "touches_pg": 5.9,
+    "targets_pg": 8.8,
+    "target_share": 0.303,
+    "air_yards_share": 0.285,
+    "wopr": 0.653
+   },
+   "efficiency": {
+    "ypt": 7.24,
+    "yac_per_rec": 4.2,
+    "epa_pg": 1.34
+   },
+   "consistency": {
+    "ppr_std": 8.2,
+    "floor": 7.8,
+    "ceiling": 22.3,
+    "boom_rate": 0.38
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 8.9,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 10.7,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 13.6,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Jaylen Warren",
+   "pos": "RB",
+   "team": "PIT",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 13.6,
+   "opportunity": {
+    "touches_pg": 15.7,
+    "targets_pg": 2.8,
+    "target_share": 0.096,
+    "air_yards_share": -0.045,
+    "wopr": 0.112
+   },
+   "efficiency": {
+    "ypt": 7.4,
+    "yac_per_rec": 10.98,
+    "epa_pg": 0.63
+   },
+   "consistency": {
+    "ppr_std": 5.6,
+    "floor": 9.3,
+    "ceiling": 17.4,
+    "boom_rate": 0.31
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 11.6,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 8.3,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 13.6,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Rico Dowdle",
+   "pos": "RB",
+   "team": "CAR",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 12.7,
+   "opportunity": {
+    "touches_pg": 16.2,
+    "targets_pg": 2.9,
+    "target_share": 0.11,
+    "air_yards_share": -0.032,
+    "wopr": 0.143
+   },
+   "efficiency": {
+    "ypt": 5.94,
+    "yac_per_rec": 8.97,
+    "epa_pg": -0.19
+   },
+   "consistency": {
+    "ppr_std": 9.8,
+    "floor": 5.4,
+    "ceiling": 28.1,
+    "boom_rate": 0.29
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 5.7,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 12.4,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 12.7,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Lamar Jackson",
+   "pos": "QB",
+   "team": "BAL",
+   "season": 2025,
+   "games": 13,
+   "ppg_ppr": 16.5,
+   "opportunity": {
+    "touches_pg": 5.2,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 2.98
+   },
+   "consistency": {
+    "ppr_std": 9.1,
+    "floor": 7.2,
+    "ceiling": 26.3,
+    "boom_rate": 0.46
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 20.7,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 25.3,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 16.5,
+     "games": 13
+    }
+   }
+  },
+  {
+   "name": "Tetairoa McMillan",
+   "pos": "WR",
+   "team": "CAR",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 12.6,
+   "opportunity": {
+    "touches_pg": 4.1,
+    "targets_pg": 7.2,
+    "target_share": 0.257,
+    "air_yards_share": 0.459,
+    "wopr": 0.708
+   },
+   "efficiency": {
+    "ypt": 8.31,
+    "yac_per_rec": 3.84,
+    "epa_pg": 1.49
+   },
+   "consistency": {
+    "ppr_std": 7.1,
+    "floor": 8.6,
+    "ceiling": 17.9,
+    "boom_rate": 0.29
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 12.6,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "team": "CIN",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 14.1,
+   "opportunity": {
+    "touches_pg": 3.9,
+    "targets_pg": 6.5,
+    "target_share": 0.183,
+    "air_yards_share": 0.33,
+    "wopr": 0.505
+   },
+   "efficiency": {
+    "ypt": 8.63,
+    "yac_per_rec": 2.81,
+    "epa_pg": 2.4
+   },
+   "consistency": {
+    "ppr_std": 8.2,
+    "floor": 9.9,
+    "ceiling": 21.6,
+    "boom_rate": 0.33
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 11.5,
+     "games": 12
+    },
+    "2024": {
+     "ppg_ppr": 18.5,
+     "games": 12
+    },
+    "2025": {
+     "ppg_ppr": 14.1,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Kyle Pitts",
+   "pos": "TE",
+   "team": "ATL",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 12.4,
+   "opportunity": {
+    "touches_pg": 5.2,
+    "targets_pg": 6.9,
+    "target_share": 0.227,
+    "air_yards_share": 0.216,
+    "wopr": 0.492
+   },
+   "efficiency": {
+    "ypt": 7.86,
+    "yac_per_rec": 4.55,
+    "epa_pg": 1.45
+   },
+   "consistency": {
+    "ppr_std": 9.9,
+    "floor": 5.8,
+    "ceiling": 18.0,
+    "boom_rate": 0.47
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 8.1,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 7.7,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 12.4,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Stefon Diggs",
+   "pos": "WR",
+   "team": "NE",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 12.4,
+   "opportunity": {
+    "touches_pg": 5.0,
+    "targets_pg": 6.0,
+    "target_share": 0.219,
+    "air_yards_share": 0.202,
+    "wopr": 0.469
+   },
+   "efficiency": {
+    "ypt": 9.93,
+    "yac_per_rec": 4.16,
+    "epa_pg": 4.14
+   },
+   "consistency": {
+    "ppr_std": 6.8,
+    "floor": 5.8,
+    "ceiling": 22.1,
+    "boom_rate": 0.35
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 16.1,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 15.2,
+     "games": 8
+    },
+    "2025": {
+     "ppg_ppr": 12.4,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "team": "HOU",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 14.9,
+   "opportunity": {
+    "touches_pg": 3.4,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 4.48
+   },
+   "consistency": {
+    "ppr_std": 6.5,
+    "floor": 10.4,
+    "ceiling": 21.7,
+    "boom_rate": 0.21
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 18.4,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 13.0,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 14.9,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "Breece Hall",
+   "pos": "RB",
+   "team": "NYJ",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 13.0,
+   "opportunity": {
+    "touches_pg": 17.4,
+    "targets_pg": 3.0,
+    "target_share": 0.106,
+    "air_yards_share": -0.007,
+    "wopr": 0.154
+   },
+   "efficiency": {
+    "ypt": 7.29,
+    "yac_per_rec": 8.92,
+    "epa_pg": -0.78
+   },
+   "consistency": {
+    "ppr_std": 7.6,
+    "floor": 7.2,
+    "ceiling": 19.5,
+    "boom_rate": 0.44
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 17.1,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 15.1,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 13.0,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "team": "DEN",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 12.2,
+   "opportunity": {
+    "touches_pg": 11.4,
+    "targets_pg": 3.4,
+    "target_share": 0.102,
+    "air_yards_share": -0.01,
+    "wopr": 0.146
+   },
+   "efficiency": {
+    "ypt": 6.14,
+    "yac_per_rec": 7.66,
+    "epa_pg": -0.25
+   },
+   "consistency": {
+    "ppr_std": 7.7,
+    "floor": 6.0,
+    "ceiling": 22.0,
+    "boom_rate": 0.41
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 12.2,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "TreVeyon Henderson",
+   "pos": "RB",
+   "team": "NE",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 12.1,
+   "opportunity": {
+    "touches_pg": 12.6,
+    "targets_pg": 2.5,
+    "target_share": 0.084,
+    "air_yards_share": -0.0,
+    "wopr": 0.126
+   },
+   "efficiency": {
+    "ypt": 5.26,
+    "yac_per_rec": 6.97,
+    "epa_pg": 0.65
+   },
+   "consistency": {
+    "ppr_std": 9.6,
+    "floor": 5.5,
+    "ceiling": 28.0,
+    "boom_rate": 0.24
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 12.1,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Michael Pittman",
+   "pos": "WR",
+   "team": "IND",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 11.9,
+   "opportunity": {
+    "touches_pg": 4.7,
+    "targets_pg": 6.5,
+    "target_share": 0.206,
+    "air_yards_share": 0.21,
+    "wopr": 0.457
+   },
+   "efficiency": {
+    "ypt": 7.06,
+    "yac_per_rec": 3.24,
+    "epa_pg": 1.31
+   },
+   "consistency": {
+    "ppr_std": 7.5,
+    "floor": 4.0,
+    "ceiling": 20.5,
+    "boom_rate": 0.41
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 15.8,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 10.4,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 11.9,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Drake London",
+   "pos": "WR",
+   "team": "ATL",
+   "season": 2025,
+   "games": 12,
+   "ppg_ppr": 16.8,
+   "opportunity": {
+    "touches_pg": 5.7,
+    "targets_pg": 9.3,
+    "target_share": 0.297,
+    "air_yards_share": 0.402,
+    "wopr": 0.727
+   },
+   "efficiency": {
+    "ypt": 8.21,
+    "yac_per_rec": 3.37,
+    "epa_pg": 2.07
+   },
+   "consistency": {
+    "ppr_std": 11.5,
+    "floor": 8.2,
+    "ceiling": 25.0,
+    "boom_rate": 0.5
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 10.9,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 16.5,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 16.8,
+     "games": 12
+    }
+   }
+  },
+  {
+   "name": "DeVonta Smith",
+   "pos": "WR",
+   "team": "PHI",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 11.9,
+   "opportunity": {
+    "touches_pg": 4.5,
+    "targets_pg": 6.6,
+    "target_share": 0.246,
+    "air_yards_share": 0.321,
+    "wopr": 0.594
+   },
+   "efficiency": {
+    "ypt": 8.92,
+    "yac_per_rec": 3.81,
+    "epa_pg": 3.2
+   },
+   "consistency": {
+    "ppr_std": 7.8,
+    "floor": 7.0,
+    "ceiling": 19.4,
+    "boom_rate": 0.29
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 14.2,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 15.3,
+     "games": 13
+    },
+    "2025": {
+     "ppg_ppr": 11.9,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Justin Jefferson",
+   "pos": "WR",
+   "team": "MIN",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 11.9,
+   "opportunity": {
+    "touches_pg": 5.1,
+    "targets_pg": 8.3,
+    "target_share": 0.307,
+    "air_yards_share": 0.401,
+    "wopr": 0.741
+   },
+   "efficiency": {
+    "ypt": 7.43,
+    "yac_per_rec": 5.37,
+    "epa_pg": -0.82
+   },
+   "consistency": {
+    "ppr_std": 5.8,
+    "floor": 7.7,
+    "ceiling": 18.4,
+    "boom_rate": 0.24
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 20.2,
+     "games": 10
+    },
+    "2024": {
+     "ppg_ppr": 18.7,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 11.9,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "team": "DAL",
+   "season": 2025,
+   "games": 13,
+   "ppg_ppr": 15.5,
+   "opportunity": {
+    "touches_pg": 5.8,
+    "targets_pg": 9.0,
+    "target_share": 0.251,
+    "air_yards_share": 0.335,
+    "wopr": 0.611
+   },
+   "efficiency": {
+    "ypt": 9.21,
+    "yac_per_rec": 4.31,
+    "epa_pg": 2.21
+   },
+   "consistency": {
+    "ppr_std": 6.0,
+    "floor": 11.5,
+    "ceiling": 20.2,
+    "boom_rate": 0.62
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 23.7,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 17.6,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 15.5,
+     "games": 13
+    }
+   }
+  },
+  {
+   "name": "Emeka Egbuka",
+   "pos": "WR",
+   "team": "TB",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 11.5,
+   "opportunity": {
+    "touches_pg": 3.8,
+    "targets_pg": 7.5,
+    "target_share": 0.236,
+    "air_yards_share": 0.353,
+    "wopr": 0.601
+   },
+   "efficiency": {
+    "ypt": 7.39,
+    "yac_per_rec": 5.32,
+    "epa_pg": 0.32
+   },
+   "consistency": {
+    "ppr_std": 8.4,
+    "floor": 5.0,
+    "ceiling": 23.5,
+    "boom_rate": 0.24
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 11.5,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Jaylen Waddle",
+   "pos": "WR",
+   "team": "MIA",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 12.1,
+   "opportunity": {
+    "touches_pg": 4.1,
+    "targets_pg": 6.2,
+    "target_share": 0.233,
+    "air_yards_share": 0.427,
+    "wopr": 0.648
+   },
+   "efficiency": {
+    "ypt": 9.1,
+    "yac_per_rec": 3.56,
+    "epa_pg": 2.24
+   },
+   "consistency": {
+    "ppr_std": 6.9,
+    "floor": 7.0,
+    "ceiling": 19.4,
+    "boom_rate": 0.38
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 14.2,
+     "games": 14
+    },
+    "2024": {
+     "ppg_ppr": 10.0,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 12.1,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Travis Kelce",
+   "pos": "TE",
+   "team": "KC",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 11.4,
+   "opportunity": {
+    "touches_pg": 4.5,
+    "targets_pg": 6.4,
+    "target_share": 0.2,
+    "air_yards_share": 0.181,
+    "wopr": 0.427
+   },
+   "efficiency": {
+    "ypt": 7.88,
+    "yac_per_rec": 5.58,
+    "epa_pg": 2.27
+   },
+   "consistency": {
+    "ppr_std": 6.4,
+    "floor": 8.4,
+    "ceiling": 19.1,
+    "boom_rate": 0.47
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 14.6,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 12.2,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 11.4,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Kenneth Walker III",
+   "pos": "RB",
+   "team": "SEA",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 11.3,
+   "opportunity": {
+    "touches_pg": 14.8,
+    "targets_pg": 2.1,
+    "target_share": 0.083,
+    "air_yards_share": -0.021,
+    "wopr": 0.109
+   },
+   "efficiency": {
+    "ypt": 7.83,
+    "yac_per_rec": 10.94,
+    "epa_pg": -0.44
+   },
+   "consistency": {
+    "ppr_std": 6.5,
+    "floor": 6.6,
+    "ceiling": 18.8,
+    "boom_rate": 0.29
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 13.3,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 16.5,
+     "games": 11
+    },
+    "2025": {
+     "ppg_ppr": 11.3,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Tyler Warren",
+   "pos": "TE",
+   "team": "IND",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 11.1,
+   "opportunity": {
+    "touches_pg": 4.8,
+    "targets_pg": 6.6,
+    "target_share": 0.215,
+    "air_yards_share": 0.147,
+    "wopr": 0.425
+   },
+   "efficiency": {
+    "ypt": 7.29,
+    "yac_per_rec": 6.24,
+    "epa_pg": 0.65
+   },
+   "consistency": {
+    "ppr_std": 4.9,
+    "floor": 7.6,
+    "ceiling": 17.9,
+    "boom_rate": 0.35
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 11.1,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Deebo Samuel Sr.",
+   "pos": "WR",
+   "team": "WAS",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 11.8,
+   "opportunity": {
+    "touches_pg": 5.6,
+    "targets_pg": 6.2,
+    "target_share": 0.254,
+    "air_yards_share": 0.134,
+    "wopr": 0.475
+   },
+   "efficiency": {
+    "ypt": 7.34,
+    "yac_per_rec": 6.47,
+    "epa_pg": 1.11
+   },
+   "consistency": {
+    "ppr_std": 6.9,
+    "floor": 6.5,
+    "ceiling": 20.7,
+    "boom_rate": 0.31
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 16.2,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 10.4,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 11.8,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Jake Ferguson",
+   "pos": "TE",
+   "team": "DAL",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 11.1,
+   "opportunity": {
+    "touches_pg": 4.9,
+    "targets_pg": 6.0,
+    "target_share": 0.165,
+    "air_yards_share": 0.089,
+    "wopr": 0.31
+   },
+   "efficiency": {
+    "ypt": 5.88,
+    "yac_per_rec": 3.74,
+    "epa_pg": 1.08
+   },
+   "consistency": {
+    "ppr_std": 7.1,
+    "floor": 7.3,
+    "ceiling": 21.2,
+    "boom_rate": 0.35
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 10.4,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 7.5,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 11.1,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "DK Metcalf",
+   "pos": "WR",
+   "team": "PIT",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 12.5,
+   "opportunity": {
+    "touches_pg": 4.1,
+    "targets_pg": 6.6,
+    "target_share": 0.224,
+    "air_yards_share": 0.372,
+    "wopr": 0.596
+   },
+   "efficiency": {
+    "ypt": 8.59,
+    "yac_per_rec": 7.02,
+    "epa_pg": 2.31
+   },
+   "consistency": {
+    "ppr_std": 6.0,
+    "floor": 8.2,
+    "ceiling": 19.5,
+    "boom_rate": 0.27
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 14.1,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 12.7,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 12.5,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Cam Ward",
+   "pos": "QB",
+   "team": "TEN",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 11.0,
+   "opportunity": {
+    "touches_pg": 2.3,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": -5.92
+   },
+   "consistency": {
+    "ppr_std": 5.4,
+    "floor": 6.9,
+    "ceiling": 17.0,
+    "boom_rate": 0.06
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 11.0,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Harold Fannin Jr.",
+   "pos": "TE",
+   "team": "CLE",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 11.6,
+   "opportunity": {
+    "touches_pg": 4.9,
+    "targets_pg": 6.7,
+    "target_share": 0.218,
+    "air_yards_share": 0.187,
+    "wopr": 0.458
+   },
+   "efficiency": {
+    "ypt": 6.83,
+    "yac_per_rec": 4.89,
+    "epa_pg": -0.02
+   },
+   "consistency": {
+    "ppr_std": 5.7,
+    "floor": 8.4,
+    "ceiling": 18.4,
+    "boom_rate": 0.38
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 11.6,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Tony Pollard",
+   "pos": "RB",
+   "team": "TEN",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 10.9,
+   "opportunity": {
+    "touches_pg": 16.2,
+    "targets_pg": 2.4,
+    "target_share": 0.076,
+    "air_yards_share": 0.001,
+    "wopr": 0.114
+   },
+   "efficiency": {
+    "ypt": 5.02,
+    "yac_per_rec": 6.15,
+    "epa_pg": -1.97
+   },
+   "consistency": {
+    "ppr_std": 5.6,
+    "floor": 7.8,
+    "ceiling": 14.8,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 13.1,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 12.5,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 10.9,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Dallas Goedert",
+   "pos": "TE",
+   "team": "PHI",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 12.3,
+   "opportunity": {
+    "touches_pg": 4.0,
+    "targets_pg": 5.5,
+    "target_share": 0.208,
+    "air_yards_share": 0.152,
+    "wopr": 0.418
+   },
+   "efficiency": {
+    "ypt": 7.21,
+    "yac_per_rec": 3.9,
+    "epa_pg": 2.41
+   },
+   "consistency": {
+    "ppr_std": 7.2,
+    "floor": 8.3,
+    "ceiling": 19.7,
+    "boom_rate": 0.4
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 9.7,
+     "games": 14
+    },
+    "2024": {
+     "ppg_ppr": 10.4,
+     "games": 10
+    },
+    "2025": {
+     "ppg_ppr": 12.3,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Parker Washington",
+   "pos": "WR",
+   "team": "JAX",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 11.5,
+   "opportunity": {
+    "touches_pg": 4.1,
+    "targets_pg": 5.9,
+    "target_share": 0.18,
+    "air_yards_share": 0.242,
+    "wopr": 0.439
+   },
+   "efficiency": {
+    "ypt": 8.92,
+    "yac_per_rec": 4.57,
+    "epa_pg": 1.77
+   },
+   "consistency": {
+    "ppr_std": 7.4,
+    "floor": 5.9,
+    "ceiling": 19.0,
+    "boom_rate": 0.38
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 4.9,
+     "games": 8
+    },
+    "2024": {
+     "ppg_ppr": 6.9,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 11.5,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Alec Pierce",
+   "pos": "WR",
+   "team": "IND",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 12.2,
+   "opportunity": {
+    "touches_pg": 3.1,
+    "targets_pg": 5.6,
+    "target_share": 0.176,
+    "air_yards_share": 0.406,
+    "wopr": 0.548
+   },
+   "efficiency": {
+    "ypt": 11.94,
+    "yac_per_rec": 3.7,
+    "epa_pg": 3.72
+   },
+   "consistency": {
+    "ppr_std": 8.3,
+    "floor": 6.8,
+    "ceiling": 18.4,
+    "boom_rate": 0.33
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 5.6,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 10.1,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 12.2,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Keenan Allen",
+   "pos": "WR",
+   "team": "LAC",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 10.7,
+   "opportunity": {
+    "touches_pg": 4.8,
+    "targets_pg": 7.2,
+    "target_share": 0.221,
+    "air_yards_share": 0.228,
+    "wopr": 0.49
+   },
+   "efficiency": {
+    "ypt": 6.37,
+    "yac_per_rec": 2.85,
+    "epa_pg": 2.05
+   },
+   "consistency": {
+    "ppr_std": 6.8,
+    "floor": 6.7,
+    "ceiling": 19.5,
+    "boom_rate": 0.24
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 21.5,
+     "games": 13
+    },
+    "2024": {
+     "ppg_ppr": 12.3,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 10.7,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Zach Charbonnet",
+   "pos": "RB",
+   "team": "SEA",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 11.3,
+   "opportunity": {
+    "touches_pg": 12.8,
+    "targets_pg": 1.5,
+    "target_share": 0.052,
+    "air_yards_share": 0.012,
+    "wopr": 0.087
+   },
+   "efficiency": {
+    "ypt": 6.0,
+    "yac_per_rec": 6.15,
+    "epa_pg": -0.03
+   },
+   "consistency": {
+    "ppr_std": 6.7,
+    "floor": 6.7,
+    "ceiling": 18.7,
+    "boom_rate": 0.25
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 6.6,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 11.0,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 11.3,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Ladd McConkey",
+   "pos": "WR",
+   "team": "LAC",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 11.3,
+   "opportunity": {
+    "touches_pg": 4.1,
+    "targets_pg": 6.6,
+    "target_share": 0.211,
+    "air_yards_share": 0.26,
+    "wopr": 0.499
+   },
+   "efficiency": {
+    "ypt": 7.44,
+    "yac_per_rec": 4.7,
+    "epa_pg": 0.45
+   },
+   "consistency": {
+    "ppr_std": 6.9,
+    "floor": 4.3,
+    "ceiling": 20.7,
+    "boom_rate": 0.25
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 15.1,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 11.3,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Juwan Johnson",
+   "pos": "TE",
+   "team": "NO",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 10.6,
+   "opportunity": {
+    "touches_pg": 4.5,
+    "targets_pg": 6.0,
+    "target_share": 0.177,
+    "air_yards_share": 0.155,
+    "wopr": 0.374
+   },
+   "efficiency": {
+    "ypt": 8.72,
+    "yac_per_rec": 4.7,
+    "epa_pg": 2.07
+   },
+   "consistency": {
+    "ppr_std": 4.8,
+    "floor": 7.1,
+    "ceiling": 15.9,
+    "boom_rate": 0.41
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 7.5,
+     "games": 13
+    },
+    "2024": {
+     "ppg_ppr": 8.2,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 10.6,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Hunter Henry",
+   "pos": "TE",
+   "team": "NE",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 10.5,
+   "opportunity": {
+    "touches_pg": 3.5,
+    "targets_pg": 5.1,
+    "target_share": 0.174,
+    "air_yards_share": 0.154,
+    "wopr": 0.369
+   },
+   "efficiency": {
+    "ypt": 8.83,
+    "yac_per_rec": 5.58,
+    "epa_pg": 2.22
+   },
+   "consistency": {
+    "ppr_std": 7.3,
+    "floor": 6.6,
+    "ceiling": 15.5,
+    "boom_rate": 0.24
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 9.2,
+     "games": 13
+    },
+    "2024": {
+     "ppg_ppr": 9.1,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 10.5,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Rhamondre Stevenson",
+   "pos": "RB",
+   "team": "NE",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 12.8,
+   "opportunity": {
+    "touches_pg": 11.6,
+    "targets_pg": 2.6,
+    "target_share": 0.098,
+    "air_yards_share": 0.047,
+    "wopr": 0.181
+   },
+   "efficiency": {
+    "ypt": 9.32,
+    "yac_per_rec": 8.22,
+    "epa_pg": -0.37
+   },
+   "consistency": {
+    "ppr_std": 10.1,
+    "floor": 4.7,
+    "ceiling": 21.2,
+    "boom_rate": 0.36
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 12.1,
+     "games": 12
+    },
+    "2024": {
+     "ppg_ppr": 11.7,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 12.8,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "Dalton Schultz",
+   "pos": "TE",
+   "team": "HOU",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 10.5,
+   "opportunity": {
+    "touches_pg": 4.8,
+    "targets_pg": 6.2,
+    "target_share": 0.191,
+    "air_yards_share": 0.152,
+    "wopr": 0.393
+   },
+   "efficiency": {
+    "ypt": 7.33,
+    "yac_per_rec": 4.37,
+    "epa_pg": 2.16
+   },
+   "consistency": {
+    "ppr_std": 5.6,
+    "floor": 5.8,
+    "ceiling": 18.3,
+    "boom_rate": 0.35
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 10.0,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 7.0,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 10.5,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Brock Purdy",
+   "pos": "QB",
+   "team": "SF",
+   "season": 2025,
+   "games": 9,
+   "ppg_ppr": 19.7,
+   "opportunity": {
+    "touches_pg": 3.7,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 8.81
+   },
+   "consistency": {
+    "ppr_std": 10.3,
+    "floor": 16.8,
+    "ceiling": 30.9,
+    "boom_rate": 0.33
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 18.5,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 17.8,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 19.7,
+     "games": 9
+    }
+   }
+  },
+  {
+   "name": "Troy Franklin",
+   "pos": "WR",
+   "team": "DEN",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 10.4,
+   "opportunity": {
+    "touches_pg": 4.1,
+    "targets_pg": 6.1,
+    "target_share": 0.182,
+    "air_yards_share": 0.28,
+    "wopr": 0.469
+   },
+   "efficiency": {
+    "ypt": 6.82,
+    "yac_per_rec": 4.34,
+    "epa_pg": 0.47
+   },
+   "consistency": {
+    "ppr_std": 7.6,
+    "floor": 4.1,
+    "ceiling": 20.8,
+    "boom_rate": 0.24
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 4.2,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 10.4,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "team": "LV",
+   "season": 2025,
+   "games": 12,
+   "ppg_ppr": 14.7,
+   "opportunity": {
+    "touches_pg": 5.5,
+    "targets_pg": 7.2,
+    "target_share": 0.234,
+    "air_yards_share": 0.25,
+    "wopr": 0.526
+   },
+   "efficiency": {
+    "ypt": 7.91,
+    "yac_per_rec": 4.77,
+    "epa_pg": 1.85
+   },
+   "consistency": {
+    "ppr_std": 10.1,
+    "floor": 9.6,
+    "ceiling": 15.3,
+    "boom_rate": 0.5
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 15.5,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 14.7,
+     "games": 12
+    }
+   }
+  },
+  {
+   "name": "Jakobi Meyers",
+   "pos": "WR",
+   "team": "JAX",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 11.0,
+   "opportunity": {
+    "touches_pg": 5.0,
+    "targets_pg": 6.9,
+    "target_share": 0.229,
+    "air_yards_share": 0.282,
+    "wopr": 0.541
+   },
+   "efficiency": {
+    "ypt": 7.59,
+    "yac_per_rec": 3.76,
+    "epa_pg": 0.6
+   },
+   "consistency": {
+    "ppr_std": 4.4,
+    "floor": 7.9,
+    "ceiling": 15.0,
+    "boom_rate": 0.19
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 13.7,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 14.5,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 11.0,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Geno Smith",
+   "pos": "QB",
+   "team": "LV",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 11.6,
+   "opportunity": {
+    "touches_pg": 2.7,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": -4.97
+   },
+   "consistency": {
+    "ppr_std": 7.3,
+    "floor": 7.1,
+    "ceiling": 17.5,
+    "boom_rate": 0.13
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 15.2,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 15.6,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 11.6,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Jauan Jennings",
+   "pos": "WR",
+   "team": "SF",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 11.6,
+   "opportunity": {
+    "touches_pg": 3.7,
+    "targets_pg": 6.0,
+    "target_share": 0.199,
+    "air_yards_share": 0.256,
+    "wopr": 0.478
+   },
+   "efficiency": {
+    "ypt": 7.14,
+    "yac_per_rec": 3.29,
+    "epa_pg": -0.15
+   },
+   "consistency": {
+    "ppr_std": 5.7,
+    "floor": 7.5,
+    "ceiling": 18.1,
+    "boom_rate": 0.33
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 4.0,
+     "games": 13
+    },
+    "2024": {
+     "ppg_ppr": 14.0,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 11.6,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "DJ Moore",
+   "pos": "WR",
+   "team": "CHI",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 10.1,
+   "opportunity": {
+    "touches_pg": 3.8,
+    "targets_pg": 5.0,
+    "target_share": 0.161,
+    "air_yards_share": 0.199,
+    "wopr": 0.381
+   },
+   "efficiency": {
+    "ypt": 8.02,
+    "yac_per_rec": 4.44,
+    "epa_pg": 1.27
+   },
+   "consistency": {
+    "ppr_std": 8.2,
+    "floor": 3.1,
+    "ceiling": 22.9,
+    "boom_rate": 0.24
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 16.9,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 14.0,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 10.1,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Quentin Johnston",
+   "pos": "WR",
+   "team": "LAC",
+   "season": 2025,
+   "games": 13,
+   "ppg_ppr": 13.2,
+   "opportunity": {
+    "touches_pg": 4.1,
+    "targets_pg": 6.5,
+    "target_share": 0.2,
+    "air_yards_share": 0.28,
+    "wopr": 0.496
+   },
+   "efficiency": {
+    "ypt": 8.75,
+    "yac_per_rec": 4.33,
+    "epa_pg": 1.81
+   },
+   "consistency": {
+    "ppr_std": 7.4,
+    "floor": 9.2,
+    "ceiling": 20.4,
+    "boom_rate": 0.38
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 5.5,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 11.6,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 13.2,
+     "games": 13
+    }
+   }
+  },
+  {
+   "name": "Quinshon Judkins",
+   "pos": "RB",
+   "team": "CLE",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 12.1,
+   "opportunity": {
+    "touches_pg": 18.3,
+    "targets_pg": 2.6,
+    "target_share": 0.083,
+    "air_yards_share": -0.007,
+    "wopr": 0.119
+   },
+   "efficiency": {
+    "ypt": 4.75,
+    "yac_per_rec": 7.46,
+    "epa_pg": -2.38
+   },
+   "consistency": {
+    "ppr_std": 6.7,
+    "floor": 5.9,
+    "ceiling": 16.7,
+    "boom_rate": 0.36
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 12.1,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "David Montgomery",
+   "pos": "RB",
+   "team": "DET",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 9.8,
+   "opportunity": {
+    "touches_pg": 10.7,
+    "targets_pg": 1.7,
+    "target_share": 0.054,
+    "air_yards_share": 0.002,
+    "wopr": 0.083
+   },
+   "efficiency": {
+    "ypt": 6.62,
+    "yac_per_rec": 8.29,
+    "epa_pg": 0.11
+   },
+   "consistency": {
+    "ppr_std": 6.7,
+    "floor": 6.0,
+    "ceiling": 14.3,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 14.8,
+     "games": 14
+    },
+    "2024": {
+     "ppg_ppr": 15.8,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 9.8,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Khalil Shakir",
+   "pos": "WR",
+   "team": "BUF",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 10.4,
+   "opportunity": {
+    "touches_pg": 4.6,
+    "targets_pg": 5.9,
+    "target_share": 0.211,
+    "air_yards_share": 0.086,
+    "wopr": 0.377
+   },
+   "efficiency": {
+    "ypt": 7.57,
+    "yac_per_rec": 7.51,
+    "epa_pg": 0.46
+   },
+   "consistency": {
+    "ppr_std": 5.8,
+    "floor": 7.4,
+    "ceiling": 17.0,
+    "boom_rate": 0.19
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 7.1,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 12.2,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 10.4,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Romeo Doubs",
+   "pos": "WR",
+   "team": "GB",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 10.3,
+   "opportunity": {
+    "touches_pg": 3.4,
+    "targets_pg": 5.3,
+    "target_share": 0.189,
+    "air_yards_share": 0.28,
+    "wopr": 0.479
+   },
+   "efficiency": {
+    "ypt": 8.52,
+    "yac_per_rec": 2.96,
+    "epa_pg": 2.17
+   },
+   "consistency": {
+    "ppr_std": 7.3,
+    "floor": 5.6,
+    "ceiling": 16.1,
+    "boom_rate": 0.19
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 10.3,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 10.2,
+     "games": 13
+    },
+    "2025": {
+     "ppg_ppr": 10.3,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Colston Loveland",
+   "pos": "TE",
+   "team": "CHI",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 10.3,
+   "opportunity": {
+    "touches_pg": 3.7,
+    "targets_pg": 5.1,
+    "target_share": 0.166,
+    "air_yards_share": 0.163,
+    "wopr": 0.363
+   },
+   "efficiency": {
+    "ypt": 8.7,
+    "yac_per_rec": 4.31,
+    "epa_pg": 2.91
+   },
+   "consistency": {
+    "ppr_std": 8.5,
+    "floor": 5.4,
+    "ceiling": 21.4,
+    "boom_rate": 0.31
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 10.3,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Tre Tucker",
+   "pos": "WR",
+   "team": "LV",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 9.5,
+   "opportunity": {
+    "touches_pg": 4.0,
+    "targets_pg": 5.4,
+    "target_share": 0.19,
+    "air_yards_share": 0.264,
+    "wopr": 0.469
+   },
+   "efficiency": {
+    "ypt": 7.57,
+    "yac_per_rec": 5.11,
+    "epa_pg": 1.26
+   },
+   "consistency": {
+    "ppr_std": 8.9,
+    "floor": 5.0,
+    "ceiling": 13.4,
+    "boom_rate": 0.06
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 5.5,
+     "games": 13
+    },
+    "2024": {
+     "ppg_ppr": 7.6,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 9.5,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "George Kittle",
+   "pos": "TE",
+   "team": "SF",
+   "season": 2025,
+   "games": 11,
+   "ppg_ppr": 14.7,
+   "opportunity": {
+    "touches_pg": 5.3,
+    "targets_pg": 6.3,
+    "target_share": 0.215,
+    "air_yards_share": 0.185,
+    "wopr": 0.451
+   },
+   "efficiency": {
+    "ypt": 9.1,
+    "yac_per_rec": 4.42,
+    "epa_pg": 4.12
+   },
+   "consistency": {
+    "ppr_std": 8.3,
+    "floor": 10.7,
+    "ceiling": 24.5,
+    "boom_rate": 0.64
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 12.7,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 15.8,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 14.7,
+     "games": 11
+    }
+   }
+  },
+  {
+   "name": "Tyrone Tracy Jr.",
+   "pos": "RB",
+   "team": "NYG",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 10.7,
+   "opportunity": {
+    "touches_pg": 14.1,
+    "targets_pg": 3.2,
+    "target_share": 0.108,
+    "air_yards_share": 0.002,
+    "wopr": 0.163
+   },
+   "efficiency": {
+    "ypt": 6.0,
+    "yac_per_rec": 8.72,
+    "epa_pg": -0.65
+   },
+   "consistency": {
+    "ppr_std": 7.7,
+    "floor": 6.7,
+    "ceiling": 17.9,
+    "boom_rate": 0.27
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 10.7,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 10.7,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Tua Tagovailoa",
+   "pos": "QB",
+   "team": "MIA",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 11.5,
+   "opportunity": {
+    "touches_pg": 1.4,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 0.49
+   },
+   "consistency": {
+    "ppr_std": 7.3,
+    "floor": 6.6,
+    "ceiling": 18.6,
+    "boom_rate": 0.14
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 15.9,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 16.5,
+     "games": 11
+    },
+    "2025": {
+     "ppg_ppr": 11.5,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "Tyler Shough",
+   "pos": "QB",
+   "team": "NO",
+   "season": 2025,
+   "games": 11,
+   "ppg_ppr": 14.4,
+   "opportunity": {
+    "touches_pg": 4.1,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 0.28
+   },
+   "consistency": {
+    "ppr_std": 7.7,
+    "floor": 9.2,
+    "ceiling": 21.8,
+    "boom_rate": 0.27
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 14.4,
+     "games": 11
+    }
+   }
+  },
+  {
+   "name": "Rashid Shaheed",
+   "pos": "WR",
+   "team": "SEA",
+   "season": 2025,
+   "games": 18,
+   "ppg_ppr": 8.7,
+   "opportunity": {
+    "touches_pg": 3.8,
+    "targets_pg": 5.1,
+    "target_share": 0.162,
+    "air_yards_share": 0.224,
+    "wopr": 0.4
+   },
+   "efficiency": {
+    "ypt": 7.47,
+    "yac_per_rec": 3.0,
+    "epa_pg": -0.18
+   },
+   "consistency": {
+    "ppr_std": 5.8,
+    "floor": 3.3,
+    "ceiling": 14.5,
+    "boom_rate": 0.17
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 10.5,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 13.6,
+     "games": 6
+    },
+    "2025": {
+     "ppg_ppr": 8.7,
+     "games": 18
+    }
+   }
+  },
+  {
+   "name": "Rashee Rice",
+   "pos": "WR",
+   "team": "KC",
+   "season": 2025,
+   "games": 8,
+   "ppg_ppr": 18.8,
+   "opportunity": {
+    "touches_pg": 7.2,
+    "targets_pg": 9.8,
+    "target_share": 0.29,
+    "air_yards_share": 0.137,
+    "wopr": 0.531
+   },
+   "efficiency": {
+    "ypt": 7.32,
+    "yac_per_rec": 7.81,
+    "epa_pg": 2.24
+   },
+   "consistency": {
+    "ppr_std": 8.1,
+    "floor": 12.1,
+    "ceiling": 25.5,
+    "boom_rate": 0.62
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 13.3,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 16.2,
+     "games": 4
+    },
+    "2025": {
+     "ppg_ppr": 18.8,
+     "games": 8
+    }
+   }
+  },
+  {
+   "name": "AJ Barner",
+   "pos": "TE",
+   "team": "SEA",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 8.7,
+   "opportunity": {
+    "touches_pg": 3.6,
+    "targets_pg": 4.0,
+    "target_share": 0.138,
+    "air_yards_share": 0.077,
+    "wopr": 0.261
+   },
+   "efficiency": {
+    "ypt": 7.63,
+    "yac_per_rec": 5.21,
+    "epa_pg": 2.07
+   },
+   "consistency": {
+    "ppr_std": 6.5,
+    "floor": 3.4,
+    "ceiling": 15.0,
+    "boom_rate": 0.29
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 5.2,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 8.7,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Kyle Monangai",
+   "pos": "RB",
+   "team": "CHI",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 8.6,
+   "opportunity": {
+    "touches_pg": 11.0,
+    "targets_pg": 1.8,
+    "target_share": 0.057,
+    "air_yards_share": -0.0,
+    "wopr": 0.086
+   },
+   "efficiency": {
+    "ypt": 5.47,
+    "yac_per_rec": 9.0,
+    "epa_pg": -0.21
+   },
+   "consistency": {
+    "ppr_std": 6.3,
+    "floor": 3.3,
+    "ceiling": 17.4,
+    "boom_rate": 0.18
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 8.6,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Joe Flacco",
+   "pos": "QB",
+   "team": "CIN",
+   "season": 2025,
+   "games": 13,
+   "ppg_ppr": 11.3,
+   "opportunity": {
+    "touches_pg": 1.6,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": -2.73
+   },
+   "consistency": {
+    "ppr_std": 10.6,
+    "floor": 1.3,
+    "ceiling": 24.3,
+    "boom_rate": 0.23
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 20.2,
+     "games": 5
+    },
+    "2024": {
+     "ppg_ppr": 14.1,
+     "games": 7
+    },
+    "2025": {
+     "ppg_ppr": 11.3,
+     "games": 13
+    }
+   }
+  },
+  {
+   "name": "Rome Odunze",
+   "pos": "WR",
+   "team": "CHI",
+   "season": 2025,
+   "games": 12,
+   "ppg_ppr": 12.2,
+   "opportunity": {
+    "touches_pg": 3.7,
+    "targets_pg": 7.5,
+    "target_share": 0.236,
+    "air_yards_share": 0.353,
+    "wopr": 0.602
+   },
+   "efficiency": {
+    "ypt": 7.34,
+    "yac_per_rec": 4.86,
+    "epa_pg": 1.74
+   },
+   "consistency": {
+    "ppr_std": 9.2,
+    "floor": 5.2,
+    "ceiling": 18.4,
+    "boom_rate": 0.5
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 8.5,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 12.2,
+     "games": 12
+    }
+   }
+  },
+  {
+   "name": "Kareem Hunt",
+   "pos": "RB",
+   "team": "KC",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 8.6,
+   "opportunity": {
+    "touches_pg": 10.6,
+    "targets_pg": 1.5,
+    "target_share": 0.044,
+    "air_yards_share": -0.0,
+    "wopr": 0.066
+   },
+   "efficiency": {
+    "ypt": 5.72,
+    "yac_per_rec": 8.5,
+    "epa_pg": 0.65
+   },
+   "consistency": {
+    "ppr_std": 6.1,
+    "floor": 4.4,
+    "ceiling": 17.2,
+    "boom_rate": 0.18
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 7.9,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 12.0,
+     "games": 13
+    },
+    "2025": {
+     "ppg_ppr": 8.6,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Woody Marks",
+   "pos": "RB",
+   "team": "HOU",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 9.1,
+   "opportunity": {
+    "touches_pg": 13.8,
+    "targets_pg": 2.2,
+    "target_share": 0.068,
+    "air_yards_share": 0.018,
+    "wopr": 0.115
+   },
+   "efficiency": {
+    "ypt": 5.78,
+    "yac_per_rec": 9.29,
+    "epa_pg": -1.37
+   },
+   "consistency": {
+    "ppr_std": 6.9,
+    "floor": 4.8,
+    "ceiling": 15.6,
+    "boom_rate": 0.25
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 9.1,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Rachaad White",
+   "pos": "RB",
+   "team": "TB",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 8.4,
+   "opportunity": {
+    "touches_pg": 10.1,
+    "targets_pg": 2.6,
+    "target_share": 0.083,
+    "air_yards_share": -0.027,
+    "wopr": 0.105
+   },
+   "efficiency": {
+    "ypt": 4.84,
+    "yac_per_rec": 8.22,
+    "epa_pg": 0.51
+   },
+   "consistency": {
+    "ppr_std": 5.5,
+    "floor": 5.2,
+    "ceiling": 14.6,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 15.8,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 13.3,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 8.4,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Justin Fields",
+   "pos": "QB",
+   "team": "NYJ",
+   "season": 2025,
+   "games": 9,
+   "ppg_ppr": 15.9,
+   "opportunity": {
+    "touches_pg": 7.9,
+    "targets_pg": 0.1,
+    "target_share": 0.004,
+    "air_yards_share": 0.003,
+    "wopr": 0.009
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": -1.61
+   },
+   "consistency": {
+    "ppr_std": 10.8,
+    "floor": 4.9,
+    "ceiling": 27.1,
+    "boom_rate": 0.44
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 17.7,
+     "games": 13
+    },
+    "2024": {
+     "ppg_ppr": 11.9,
+     "games": 10
+    },
+    "2025": {
+     "ppg_ppr": 15.9,
+     "games": 9
+    }
+   }
+  },
+  {
+   "name": "Jacory Croskey-Merritt",
+   "pos": "RB",
+   "team": "WAS",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 8.3,
+   "opportunity": {
+    "touches_pg": 10.8,
+    "targets_pg": 0.8,
+    "target_share": 0.03,
+    "air_yards_share": -0.005,
+    "wopr": 0.041
+   },
+   "efficiency": {
+    "ypt": 5.23,
+    "yac_per_rec": 8.56,
+    "epa_pg": -0.32
+   },
+   "consistency": {
+    "ppr_std": 7.5,
+    "floor": 3.0,
+    "ceiling": 15.6,
+    "boom_rate": 0.18
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 8.3,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Brian Thomas Jr.",
+   "pos": "WR",
+   "team": "JAX",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 9.9,
+   "opportunity": {
+    "touches_pg": 3.6,
+    "targets_pg": 6.5,
+    "target_share": 0.193,
+    "air_yards_share": 0.316,
+    "wopr": 0.511
+   },
+   "efficiency": {
+    "ypt": 7.77,
+    "yac_per_rec": 3.31,
+    "epa_pg": 1.43
+   },
+   "consistency": {
+    "ppr_std": 5.0,
+    "floor": 7.5,
+    "ceiling": 12.0,
+    "boom_rate": 0.14
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 16.7,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 9.9,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "Bucky Irving",
+   "pos": "RB",
+   "team": "TB",
+   "season": 2025,
+   "games": 10,
+   "ppg_ppr": 13.8,
+   "opportunity": {
+    "touches_pg": 20.3,
+    "targets_pg": 3.5,
+    "target_share": 0.107,
+    "air_yards_share": -0.021,
+    "wopr": 0.146
+   },
+   "efficiency": {
+    "ypt": 7.91,
+    "yac_per_rec": 12.0,
+    "epa_pg": -2.68
+   },
+   "consistency": {
+    "ppr_std": 5.6,
+    "floor": 8.3,
+    "ceiling": 18.1,
+    "boom_rate": 0.4
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 14.4,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 13.8,
+     "games": 10
+    }
+   }
+  },
+  {
+   "name": "Josh Downs",
+   "pos": "WR",
+   "team": "IND",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 8.6,
+   "opportunity": {
+    "touches_pg": 3.8,
+    "targets_pg": 5.5,
+    "target_share": 0.175,
+    "air_yards_share": 0.168,
+    "wopr": 0.379
+   },
+   "efficiency": {
+    "ypt": 6.43,
+    "yac_per_rec": 2.48,
+    "epa_pg": 0.45
+   },
+   "consistency": {
+    "ppr_std": 4.7,
+    "floor": 5.4,
+    "ceiling": 12.9,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 9.2,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 13.1,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 8.6,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Marquise Brown",
+   "pos": "WR",
+   "team": "KC",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 8.6,
+   "opportunity": {
+    "touches_pg": 3.1,
+    "targets_pg": 4.6,
+    "target_share": 0.142,
+    "air_yards_share": 0.197,
+    "wopr": 0.351
+   },
+   "efficiency": {
+    "ypt": 7.93,
+    "yac_per_rec": 3.88,
+    "epa_pg": 1.4
+   },
+   "consistency": {
+    "ppr_std": 5.7,
+    "floor": 5.2,
+    "ceiling": 12.8,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 10.4,
+     "games": 13
+    },
+    "2024": {
+     "ppg_ppr": 9.0,
+     "games": 2
+    },
+    "2025": {
+     "ppg_ppr": 8.6,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Omarion Hampton",
+   "pos": "RB",
+   "team": "LAC",
+   "season": 2025,
+   "games": 9,
+   "ppg_ppr": 15.1,
+   "opportunity": {
+    "touches_pg": 17.3,
+    "targets_pg": 3.9,
+    "target_share": 0.118,
+    "air_yards_share": -0.03,
+    "wopr": 0.156
+   },
+   "efficiency": {
+    "ypt": 5.49,
+    "yac_per_rec": 7.66,
+    "epa_pg": -0.15
+   },
+   "consistency": {
+    "ppr_std": 8.1,
+    "floor": 8.1,
+    "ceiling": 24.9,
+    "boom_rate": 0.44
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 15.1,
+     "games": 9
+    }
+   }
+  },
+  {
+   "name": "Jordan Addison",
+   "pos": "WR",
+   "team": "MIN",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 9.6,
+   "opportunity": {
+    "touches_pg": 3.1,
+    "targets_pg": 5.6,
+    "target_share": 0.182,
+    "air_yards_share": 0.33,
+    "wopr": 0.504
+   },
+   "efficiency": {
+    "ypt": 7.72,
+    "yac_per_rec": 3.31,
+    "epa_pg": 1.56
+   },
+   "consistency": {
+    "ppr_std": 5.7,
+    "floor": 6.5,
+    "ceiling": 15.1,
+    "boom_rate": 0.21
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 13.0,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 14.2,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 9.6,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "Joe Burrow",
+   "pos": "QB",
+   "team": "CIN",
+   "season": 2025,
+   "games": 8,
+   "ppg_ppr": 16.8,
+   "opportunity": {
+    "touches_pg": 1.8,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 5.02
+   },
+   "consistency": {
+    "ppr_std": 8.6,
+    "floor": 8.8,
+    "ceiling": 23.4,
+    "boom_rate": 0.5
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 14.7,
+     "games": 10
+    },
+    "2024": {
+     "ppg_ppr": 21.9,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 16.8,
+     "games": 8
+    }
+   }
+  },
+  {
+   "name": "Christian Watson",
+   "pos": "WR",
+   "team": "GB",
+   "season": 2025,
+   "games": 10,
+   "ppg_ppr": 13.2,
+   "opportunity": {
+    "touches_pg": 3.6,
+    "targets_pg": 5.5,
+    "target_share": 0.203,
+    "air_yards_share": 0.348,
+    "wopr": 0.548
+   },
+   "efficiency": {
+    "ypt": 11.11,
+    "yac_per_rec": 3.37,
+    "epa_pg": 3.21
+   },
+   "consistency": {
+    "ppr_std": 7.7,
+    "floor": 6.5,
+    "ceiling": 22.3,
+    "boom_rate": 0.4
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 11.3,
+     "games": 9
+    },
+    "2024": {
+     "ppg_ppr": 7.5,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 13.2,
+     "games": 10
+    }
+   }
+  },
+  {
+   "name": "Oronde Gadsden II",
+   "pos": "TE",
+   "team": "LAC",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 8.8,
+   "opportunity": {
+    "touches_pg": 3.3,
+    "targets_pg": 4.6,
+    "target_share": 0.144,
+    "air_yards_share": 0.167,
+    "wopr": 0.333
+   },
+   "efficiency": {
+    "ypt": 9.62,
+    "yac_per_rec": 4.51,
+    "epa_pg": 1.1
+   },
+   "consistency": {
+    "ppr_std": 7.5,
+    "floor": 3.7,
+    "ceiling": 12.2,
+    "boom_rate": 0.2
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 8.8,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Mark Andrews",
+   "pos": "TE",
+   "team": "BAL",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 7.7,
+   "opportunity": {
+    "touches_pg": 3.4,
+    "targets_pg": 4.1,
+    "target_share": 0.171,
+    "air_yards_share": 0.163,
+    "wopr": 0.37
+   },
+   "efficiency": {
+    "ypt": 6.03,
+    "yac_per_rec": 2.1,
+    "epa_pg": 0.47
+   },
+   "consistency": {
+    "ppr_std": 6.8,
+    "floor": 3.4,
+    "ceiling": 15.7,
+    "boom_rate": 0.18
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 13.5,
+     "games": 10
+    },
+    "2024": {
+     "ppg_ppr": 11.1,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 7.7,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Mac Jones",
+   "pos": "QB",
+   "team": "SF",
+   "season": 2025,
+   "games": 11,
+   "ppg_ppr": 11.8,
+   "opportunity": {
+    "touches_pg": 3.3,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 3.58
+   },
+   "consistency": {
+    "ppr_std": 9.3,
+    "floor": 5.2,
+    "ceiling": 22.2,
+    "boom_rate": 0.27
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 9.7,
+     "games": 11
+    },
+    "2024": {
+     "ppg_ppr": 9.6,
+     "games": 10
+    },
+    "2025": {
+     "ppg_ppr": 11.8,
+     "games": 11
+    }
+   }
+  },
+  {
+   "name": "Colby Parkinson",
+   "pos": "TE",
+   "team": "LA",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 9.3,
+   "opportunity": {
+    "touches_pg": 3.1,
+    "targets_pg": 4.0,
+    "target_share": 0.117,
+    "air_yards_share": 0.045,
+    "wopr": 0.206
+   },
+   "efficiency": {
+    "ypt": 7.29,
+    "yac_per_rec": 6.3,
+    "epa_pg": 0.9
+   },
+   "consistency": {
+    "ppr_std": 7.3,
+    "floor": 3.7,
+    "ceiling": 14.1,
+    "boom_rate": 0.36
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 4.1,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 4.1,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 9.3,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "Jayden Higgins",
+   "pos": "WR",
+   "team": "HOU",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 7.6,
+   "opportunity": {
+    "touches_pg": 2.4,
+    "targets_pg": 4.0,
+    "target_share": 0.124,
+    "air_yards_share": 0.177,
+    "wopr": 0.309
+   },
+   "efficiency": {
+    "ypt": 7.72,
+    "yac_per_rec": 3.0,
+    "epa_pg": 0.99
+   },
+   "consistency": {
+    "ppr_std": 5.4,
+    "floor": 2.7,
+    "ceiling": 13.8,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 7.6,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Jordan Mason",
+   "pos": "RB",
+   "team": "MIN",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 8.1,
+   "opportunity": {
+    "touches_pg": 10.8,
+    "targets_pg": 1.0,
+    "target_share": 0.035,
+    "air_yards_share": -0.015,
+    "wopr": 0.042
+   },
+   "efficiency": {
+    "ypt": 3.19,
+    "yac_per_rec": 7.29,
+    "epa_pg": -0.65
+   },
+   "consistency": {
+    "ppr_std": 5.5,
+    "floor": 4.2,
+    "ceiling": 11.7,
+    "boom_rate": 0.06
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 2.8,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 9.6,
+     "games": 12
+    },
+    "2025": {
+     "ppg_ppr": 8.1,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Chimere Dike",
+   "pos": "WR",
+   "team": "TEN",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 7.5,
+   "opportunity": {
+    "touches_pg": 3.5,
+    "targets_pg": 4.4,
+    "target_share": 0.139,
+    "air_yards_share": 0.149,
+    "wopr": 0.313
+   },
+   "efficiency": {
+    "ypt": 5.72,
+    "yac_per_rec": 4.58,
+    "epa_pg": -0.16
+   },
+   "consistency": {
+    "ppr_std": 6.5,
+    "floor": 2.8,
+    "ceiling": 16.4,
+    "boom_rate": 0.18
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 7.5,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Luther Burden III",
+   "pos": "WR",
+   "team": "CHI",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 8.5,
+   "opportunity": {
+    "touches_pg": 3.5,
+    "targets_pg": 4.0,
+    "target_share": 0.131,
+    "air_yards_share": 0.107,
+    "wopr": 0.271
+   },
+   "efficiency": {
+    "ypt": 10.87,
+    "yac_per_rec": 7.11,
+    "epa_pg": 2.16
+   },
+   "consistency": {
+    "ppr_std": 7.5,
+    "floor": 3.1,
+    "ceiling": 14.4,
+    "boom_rate": 0.13
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 8.5,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Marvin Harrison Jr.",
+   "pos": "WR",
+   "team": "ARI",
+   "season": 2025,
+   "games": 12,
+   "ppg_ppr": 10.6,
+   "opportunity": {
+    "touches_pg": 3.4,
+    "targets_pg": 6.1,
+    "target_share": 0.181,
+    "air_yards_share": 0.33,
+    "wopr": 0.502
+   },
+   "efficiency": {
+    "ypt": 8.33,
+    "yac_per_rec": 2.9,
+    "epa_pg": 2.59
+   },
+   "consistency": {
+    "ppr_std": 7.1,
+    "floor": 5.2,
+    "ceiling": 18.1,
+    "boom_rate": 0.25
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 11.6,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 10.6,
+     "games": 12
+    }
+   }
+  },
+  {
+   "name": "Theo Johnson",
+   "pos": "TE",
+   "team": "NYG",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 8.5,
+   "opportunity": {
+    "touches_pg": 3.0,
+    "targets_pg": 4.9,
+    "target_share": 0.172,
+    "air_yards_share": 0.166,
+    "wopr": 0.375
+   },
+   "efficiency": {
+    "ypt": 7.14,
+    "yac_per_rec": 4.16,
+    "epa_pg": 0.59
+   },
+   "consistency": {
+    "ppr_std": 5.8,
+    "floor": 5.0,
+    "ceiling": 14.5,
+    "boom_rate": 0.2
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 6.2,
+     "games": 11
+    },
+    "2025": {
+     "ppg_ppr": 8.5,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Cam Skattebo",
+   "pos": "RB",
+   "team": "NYG",
+   "season": 2025,
+   "games": 8,
+   "ppg_ppr": 16.0,
+   "opportunity": {
+    "touches_pg": 15.6,
+    "targets_pg": 4.0,
+    "target_share": 0.129,
+    "air_yards_share": -0.007,
+    "wopr": 0.189
+   },
+   "efficiency": {
+    "ypt": 6.47,
+    "yac_per_rec": 8.71,
+    "epa_pg": -1.09
+   },
+   "consistency": {
+    "ppr_std": 8.6,
+    "floor": 13.0,
+    "ceiling": 24.1,
+    "boom_rate": 0.38
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 16.0,
+     "games": 8
+    }
+   },
+   "avoid": {
+    "source": "ESPN (Karabell)",
+    "reason": "Reckless style = injury risk; likely a committee with Tracy/Singletary/Harris; ADP too rich for that role."
+   }
+  },
+  {
+   "name": "Zach Ertz",
+   "pos": "TE",
+   "team": "WAS",
+   "season": 2025,
+   "games": 13,
+   "ppg_ppr": 9.7,
+   "opportunity": {
+    "touches_pg": 3.8,
+    "targets_pg": 5.5,
+    "target_share": 0.193,
+    "air_yards_share": 0.203,
+    "wopr": 0.431
+   },
+   "efficiency": {
+    "ypt": 7.0,
+    "yac_per_rec": 2.46,
+    "epa_pg": 0.9
+   },
+   "consistency": {
+    "ppr_std": 6.1,
+    "floor": 6.1,
+    "ceiling": 16.3,
+    "boom_rate": 0.31
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 7.4,
+     "games": 7
+    },
+    "2024": {
+     "ppg_ppr": 10.4,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 9.7,
+     "games": 13
+    }
+   }
+  },
+  {
+   "name": "Dalton Kincaid",
+   "pos": "TE",
+   "team": "BUF",
+   "season": 2025,
+   "games": 12,
+   "ppg_ppr": 10.5,
+   "opportunity": {
+    "touches_pg": 3.2,
+    "targets_pg": 4.1,
+    "target_share": 0.149,
+    "air_yards_share": 0.207,
+    "wopr": 0.369
+   },
+   "efficiency": {
+    "ypt": 11.65,
+    "yac_per_rec": 6.64,
+    "epa_pg": 3.28
+   },
+   "consistency": {
+    "ppr_std": 6.6,
+    "floor": 6.4,
+    "ceiling": 16.8,
+    "boom_rate": 0.42
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 9.4,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 7.8,
+     "games": 13
+    },
+    "2025": {
+     "ppg_ppr": 10.5,
+     "games": 12
+    }
+   }
+  },
+  {
+   "name": "Marcus Mariota",
+   "pos": "QB",
+   "team": "WAS",
+   "season": 2025,
+   "games": 10,
+   "ppg_ppr": 12.6,
+   "opportunity": {
+    "touches_pg": 5.0,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 0.28
+   },
+   "consistency": {
+    "ppr_std": 8.2,
+    "floor": 3.9,
+    "ceiling": 20.3,
+    "boom_rate": 0.2
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 5.9,
+     "games": 2
+    },
+    "2024": {
+     "ppg_ppr": 15.3,
+     "games": 3
+    },
+    "2025": {
+     "ppg_ppr": 12.6,
+     "games": 10
+    }
+   }
+  },
+  {
+   "name": "Chuba Hubbard",
+   "pos": "RB",
+   "team": "CAR",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 8.4,
+   "opportunity": {
+    "touches_pg": 10.9,
+    "targets_pg": 2.6,
+    "target_share": 0.088,
+    "air_yards_share": -0.035,
+    "wopr": 0.108
+   },
+   "efficiency": {
+    "ypt": 5.72,
+    "yac_per_rec": 9.7,
+    "epa_pg": -0.74
+   },
+   "consistency": {
+    "ppr_std": 6.1,
+    "floor": 3.8,
+    "ceiling": 17.9,
+    "boom_rate": 0.2
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 10.7,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 16.1,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 8.4,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "J.J. McCarthy",
+   "pos": "QB",
+   "team": "MIN",
+   "season": 2025,
+   "games": 10,
+   "ppg_ppr": 12.5,
+   "opportunity": {
+    "touches_pg": 3.7,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": -4.73
+   },
+   "consistency": {
+    "ppr_std": 8.5,
+    "floor": 6.0,
+    "ceiling": 22.2,
+    "boom_rate": 0.3
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 12.5,
+     "games": 10
+    }
+   }
+  },
+  {
+   "name": "Kayshon Boutte",
+   "pos": "WR",
+   "team": "NE",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 8.9,
+   "opportunity": {
+    "touches_pg": 2.4,
+    "targets_pg": 3.3,
+    "target_share": 0.12,
+    "air_yards_share": 0.215,
+    "wopr": 0.33
+   },
+   "efficiency": {
+    "ypt": 11.98,
+    "yac_per_rec": 1.15,
+    "epa_pg": 2.63
+   },
+   "consistency": {
+    "ppr_std": 7.4,
+    "floor": 3.5,
+    "ceiling": 16.3,
+    "boom_rate": 0.21
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 1.3,
+     "games": 3
+    },
+    "2024": {
+     "ppg_ppr": 8.1,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 8.9,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "Chig Okonkwo",
+   "pos": "TE",
+   "team": "TEN",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 7.3,
+   "opportunity": {
+    "touches_pg": 3.3,
+    "targets_pg": 4.6,
+    "target_share": 0.15,
+    "air_yards_share": 0.087,
+    "wopr": 0.286
+   },
+   "efficiency": {
+    "ypt": 7.09,
+    "yac_per_rec": 6.11,
+    "epa_pg": 0.75
+   },
+   "consistency": {
+    "ppr_std": 4.5,
+    "floor": 4.0,
+    "ceiling": 11.6,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 6.7,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 7.1,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 7.3,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Tyler Allgeier",
+   "pos": "RB",
+   "team": "ATL",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 7.2,
+   "opportunity": {
+    "touches_pg": 9.2,
+    "targets_pg": 0.9,
+    "target_share": 0.032,
+    "air_yards_share": -0.007,
+    "wopr": 0.043
+   },
+   "efficiency": {
+    "ypt": 6.0,
+    "yac_per_rec": 8.57,
+    "epa_pg": -0.52
+   },
+   "consistency": {
+    "ppr_std": 5.3,
+    "floor": 2.3,
+    "ceiling": 13.5,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 8.1,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 6.2,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 7.2,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Blake Corum",
+   "pos": "RB",
+   "team": "LA",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 7.2,
+   "opportunity": {
+    "touches_pg": 9.0,
+    "targets_pg": 0.8,
+    "target_share": 0.023,
+    "air_yards_share": 0.001,
+    "wopr": 0.035
+   },
+   "efficiency": {
+    "ypt": 2.57,
+    "yac_per_rec": 4.62,
+    "epa_pg": 0.59
+   },
+   "consistency": {
+    "ppr_std": 6.5,
+    "floor": 2.4,
+    "ceiling": 13.1,
+    "boom_rate": 0.06
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 2.2,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 7.2,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Cade Otton",
+   "pos": "TE",
+   "team": "TB",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 8.1,
+   "opportunity": {
+    "touches_pg": 3.9,
+    "targets_pg": 5.4,
+    "target_share": 0.174,
+    "air_yards_share": 0.116,
+    "wopr": 0.342
+   },
+   "efficiency": {
+    "ypt": 7.06,
+    "yac_per_rec": 5.24,
+    "epa_pg": 0.21
+   },
+   "consistency": {
+    "ppr_std": 6.0,
+    "floor": 4.8,
+    "ceiling": 13.5,
+    "boom_rate": 0.27
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 7.0,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 10.0,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 8.1,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Jerry Jeudy",
+   "pos": "WR",
+   "team": "CLE",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 7.1,
+   "opportunity": {
+    "touches_pg": 3.0,
+    "targets_pg": 6.2,
+    "target_share": 0.205,
+    "air_yards_share": 0.354,
+    "wopr": 0.555
+   },
+   "efficiency": {
+    "ypt": 5.68,
+    "yac_per_rec": 3.32,
+    "epa_pg": -1.74
+   },
+   "consistency": {
+    "ppr_std": 5.2,
+    "floor": 3.7,
+    "ceiling": 11.6,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 8.9,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 14.2,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 7.1,
+     "games": 17
+    }
+   },
+   "avoid": {
+    "source": "FantasyPros",
+    "reason": "Finished WR51 in 2025 with poor yards-per-route and points below expectation; Browns drafted two WRs early under new staff."
+   }
+  },
+  {
+   "name": "Michael Penix Jr.",
+   "pos": "QB",
+   "team": "ATL",
+   "season": 2025,
+   "games": 9,
+   "ppg_ppr": 13.4,
+   "opportunity": {
+    "touches_pg": 2.3,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": 1.36
+   },
+   "consistency": {
+    "ppr_std": 7.3,
+    "floor": 7.9,
+    "ceiling": 22.7,
+    "boom_rate": 0.22
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 8.8,
+     "games": 5
+    },
+    "2025": {
+     "ppg_ppr": 13.4,
+     "games": 9
+    }
+   }
+  },
+  {
+   "name": "Aaron Jones",
+   "pos": "RB",
+   "team": "MIN",
+   "season": 2025,
+   "games": 12,
+   "ppg_ppr": 9.9,
+   "opportunity": {
+    "touches_pg": 13.3,
+    "targets_pg": 3.4,
+    "target_share": 0.141,
+    "air_yards_share": -0.013,
+    "wopr": 0.203
+   },
+   "efficiency": {
+    "ypt": 4.85,
+    "yac_per_rec": 8.11,
+    "epa_pg": -0.83
+   },
+   "consistency": {
+    "ppr_std": 4.5,
+    "floor": 7.6,
+    "ceiling": 15.3,
+    "boom_rate": 0.25
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 12.3,
+     "games": 11
+    },
+    "2024": {
+     "ppg_ppr": 14.2,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 9.9,
+     "games": 12
+    }
+   }
+  },
+  {
+   "name": "Brenton Strange",
+   "pos": "TE",
+   "team": "JAX",
+   "season": 2025,
+   "games": 12,
+   "ppg_ppr": 9.8,
+   "opportunity": {
+    "touches_pg": 3.8,
+    "targets_pg": 5.0,
+    "target_share": 0.156,
+    "air_yards_share": 0.123,
+    "wopr": 0.32
+   },
+   "efficiency": {
+    "ypt": 9.0,
+    "yac_per_rec": 5.37,
+    "epa_pg": 2.61
+   },
+   "consistency": {
+    "ppr_std": 4.7,
+    "floor": 5.7,
+    "ceiling": 14.3,
+    "boom_rate": 0.42
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 2.1,
+     "games": 7
+    },
+    "2024": {
+     "ppg_ppr": 6.5,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 9.8,
+     "games": 12
+    }
+   }
+  },
+  {
+   "name": "Kimani Vidal",
+   "pos": "RB",
+   "team": "LAC",
+   "season": 2025,
+   "games": 13,
+   "ppg_ppr": 9.1,
+   "opportunity": {
+    "touches_pg": 13.2,
+    "targets_pg": 1.7,
+    "target_share": 0.054,
+    "air_yards_share": -0.007,
+    "wopr": 0.077
+   },
+   "efficiency": {
+    "ypt": 6.18,
+    "yac_per_rec": 10.62,
+    "epa_pg": -1.03
+   },
+   "consistency": {
+    "ppr_std": 8.4,
+    "floor": 2.9,
+    "ceiling": 19.7,
+    "boom_rate": 0.31
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 3.6,
+     "games": 9
+    },
+    "2025": {
+     "ppg_ppr": 9.1,
+     "games": 13
+    }
+   }
+  },
+  {
+   "name": "Tucker Kraft",
+   "pos": "TE",
+   "team": "GB",
+   "season": 2025,
+   "games": 8,
+   "ppg_ppr": 14.6,
+   "opportunity": {
+    "touches_pg": 4.1,
+    "targets_pg": 5.5,
+    "target_share": 0.19,
+    "air_yards_share": 0.096,
+    "wopr": 0.351
+   },
+   "efficiency": {
+    "ypt": 11.11,
+    "yac_per_rec": 10.75,
+    "epa_pg": 4.81
+   },
+   "consistency": {
+    "ppr_std": 9.9,
+    "floor": 9.9,
+    "ceiling": 24.4,
+    "boom_rate": 0.5
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 5.6,
+     "games": 14
+    },
+    "2024": {
+     "ppg_ppr": 9.6,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 14.6,
+     "games": 8
+    }
+   }
+  },
+  {
+   "name": "Malik Washington",
+   "pos": "WR",
+   "team": "MIA",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 6.9,
+   "opportunity": {
+    "touches_pg": 3.7,
+    "targets_pg": 3.8,
+    "target_share": 0.144,
+    "air_yards_share": 0.105,
+    "wopr": 0.29
+   },
+   "efficiency": {
+    "ypt": 4.88,
+    "yac_per_rec": 5.5,
+    "epa_pg": -0.57
+   },
+   "consistency": {
+    "ppr_std": 3.3,
+    "floor": 4.1,
+    "ceiling": 10.2,
+    "boom_rate": 0.0
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 4.1,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 6.9,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Elic Ayomanor",
+   "pos": "WR",
+   "team": "TEN",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 7.3,
+   "opportunity": {
+    "touches_pg": 2.6,
+    "targets_pg": 5.6,
+    "target_share": 0.185,
+    "air_yards_share": 0.325,
+    "wopr": 0.505
+   },
+   "efficiency": {
+    "ypt": 5.79,
+    "yac_per_rec": 2.8,
+    "epa_pg": -0.6
+   },
+   "consistency": {
+    "ppr_std": 4.2,
+    "floor": 3.8,
+    "ceiling": 13.7,
+    "boom_rate": 0.06
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 7.3,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Cooper Kupp",
+   "pos": "WR",
+   "team": "SEA",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 7.3,
+   "opportunity": {
+    "touches_pg": 2.9,
+    "targets_pg": 4.4,
+    "target_share": 0.16,
+    "air_yards_share": 0.145,
+    "wopr": 0.341
+   },
+   "efficiency": {
+    "ypt": 8.47,
+    "yac_per_rec": 6.23,
+    "epa_pg": 0.14
+   },
+   "consistency": {
+    "ppr_std": 4.1,
+    "floor": 4.9,
+    "ceiling": 11.9,
+    "boom_rate": 0.06
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 13.7,
+     "games": 12
+    },
+    "2024": {
+     "ppg_ppr": 14.6,
+     "games": 12
+    },
+    "2025": {
+     "ppg_ppr": 7.3,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "J.K. Dobbins",
+   "pos": "RB",
+   "team": "DEN",
+   "season": 2025,
+   "games": 10,
+   "ppg_ppr": 11.6,
+   "opportunity": {
+    "touches_pg": 16.4,
+    "targets_pg": 1.4,
+    "target_share": 0.046,
+    "air_yards_share": -0.011,
+    "wopr": 0.061
+   },
+   "efficiency": {
+    "ypt": 2.64,
+    "yac_per_rec": 5.09,
+    "epa_pg": -0.08
+   },
+   "consistency": {
+    "ppr_std": 4.1,
+    "floor": 9.0,
+    "ceiling": 15.4,
+    "boom_rate": 0.3
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 11.7,
+     "games": 1
+    },
+    "2024": {
+     "ppg_ppr": 14.8,
+     "games": 13
+    },
+    "2025": {
+     "ppg_ppr": 11.6,
+     "games": 10
+    }
+   }
+  },
+  {
+   "name": "Jayden Daniels",
+   "pos": "QB",
+   "team": "WAS",
+   "season": 2025,
+   "games": 7,
+   "ppg_ppr": 16.3,
+   "opportunity": {
+    "touches_pg": 8.3,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": -0.43
+   },
+   "consistency": {
+    "ppr_std": 6.4,
+    "floor": 17.1,
+    "ceiling": 20.1,
+    "boom_rate": 0.29
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 20.9,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 16.3,
+     "games": 7
+    }
+   }
+  },
+  {
+   "name": "Terry McLaurin",
+   "pos": "WR",
+   "team": "WAS",
+   "season": 2025,
+   "games": 10,
+   "ppg_ppr": 11.4,
+   "opportunity": {
+    "touches_pg": 3.8,
+    "targets_pg": 6.0,
+    "target_share": 0.232,
+    "air_yards_share": 0.371,
+    "wopr": 0.608
+   },
+   "efficiency": {
+    "ypt": 9.7,
+    "yac_per_rec": 2.45,
+    "epa_pg": 3.17
+   },
+   "consistency": {
+    "ppr_std": 5.1,
+    "floor": 8.3,
+    "ceiling": 15.9,
+    "boom_rate": 0.2
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 12.0,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 15.8,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 11.4,
+     "games": 10
+    }
+   }
+  },
+  {
+   "name": "Ryan Flournoy",
+   "pos": "WR",
+   "team": "DAL",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 7.6,
+   "opportunity": {
+    "touches_pg": 2.9,
+    "targets_pg": 3.7,
+    "target_share": 0.111,
+    "air_yards_share": 0.105,
+    "wopr": 0.24
+   },
+   "efficiency": {
+    "ypt": 8.48,
+    "yac_per_rec": 5.1,
+    "epa_pg": 1.94
+   },
+   "consistency": {
+    "ppr_std": 7.2,
+    "floor": 4.1,
+    "ceiling": 11.8,
+    "boom_rate": 0.13
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 2.0,
+     "games": 9
+    },
+    "2025": {
+     "ppg_ppr": 7.6,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Pat Freiermuth",
+   "pos": "TE",
+   "team": "PIT",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 7.6,
+   "opportunity": {
+    "touches_pg": 2.7,
+    "targets_pg": 3.6,
+    "target_share": 0.113,
+    "air_yards_share": 0.126,
+    "wopr": 0.257
+   },
+   "efficiency": {
+    "ypt": 9.0,
+    "yac_per_rec": 6.22,
+    "epa_pg": 1.55
+   },
+   "consistency": {
+    "ppr_std": 6.4,
+    "floor": 4.3,
+    "ceiling": 10.9,
+    "boom_rate": 0.07
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 7.0,
+     "games": 11
+    },
+    "2024": {
+     "ppg_ppr": 10.0,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 7.6,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Mack Hollins",
+   "pos": "WR",
+   "team": "NE",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 8.1,
+   "opportunity": {
+    "touches_pg": 3.4,
+    "targets_pg": 4.6,
+    "target_share": 0.162,
+    "air_yards_share": 0.206,
+    "wopr": 0.388
+   },
+   "efficiency": {
+    "ypt": 8.46,
+    "yac_per_rec": 2.35,
+    "epa_pg": 1.93
+   },
+   "consistency": {
+    "ppr_std": 4.6,
+    "floor": 5.0,
+    "ceiling": 13.9,
+    "boom_rate": 0.14
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 3.6,
+     "games": 12
+    },
+    "2024": {
+     "ppg_ppr": 5.8,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 8.1,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "T.J. Hockenson",
+   "pos": "TE",
+   "team": "MIN",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 7.5,
+   "opportunity": {
+    "touches_pg": 3.5,
+    "targets_pg": 4.4,
+    "target_share": 0.159,
+    "air_yards_share": 0.102,
+    "wopr": 0.311
+   },
+   "efficiency": {
+    "ypt": 6.64,
+    "yac_per_rec": 4.29,
+    "epa_pg": 0.87
+   },
+   "consistency": {
+    "ppr_std": 4.0,
+    "floor": 4.6,
+    "ceiling": 10.6,
+    "boom_rate": 0.07
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 14.6,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 8.6,
+     "games": 10
+    },
+    "2025": {
+     "ppg_ppr": 7.5,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Tyjae Spears",
+   "pos": "RB",
+   "team": "TEN",
+   "season": 2025,
+   "games": 13,
+   "ppg_ppr": 8.6,
+   "opportunity": {
+    "touches_pg": 9.0,
+    "targets_pg": 3.8,
+    "target_share": 0.123,
+    "air_yards_share": -0.049,
+    "wopr": 0.15
+   },
+   "efficiency": {
+    "ypt": 5.28,
+    "yac_per_rec": 8.02,
+    "epa_pg": -0.43
+   },
+   "consistency": {
+    "ppr_std": 5.6,
+    "floor": 6.5,
+    "ceiling": 9.7,
+    "boom_rate": 0.15
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 9.0,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 9.5,
+     "games": 12
+    },
+    "2025": {
+     "ppg_ppr": 8.6,
+     "games": 13
+    }
+   }
+  },
+  {
+   "name": "Xavier Worthy",
+   "pos": "WR",
+   "team": "KC",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 7.8,
+   "opportunity": {
+    "touches_pg": 3.8,
+    "targets_pg": 5.2,
+    "target_share": 0.161,
+    "air_yards_share": 0.268,
+    "wopr": 0.428
+   },
+   "efficiency": {
+    "ypt": 7.29,
+    "yac_per_rec": 4.6,
+    "epa_pg": 1.32
+   },
+   "consistency": {
+    "ppr_std": 4.5,
+    "floor": 5.5,
+    "ceiling": 11.1,
+    "boom_rate": 0.07
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 11.7,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 7.8,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "Devin Singletary",
+   "pos": "RB",
+   "team": "NYG",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 6.4,
+   "opportunity": {
+    "touches_pg": 8.1,
+    "targets_pg": 1.1,
+    "target_share": 0.04,
+    "air_yards_share": -0.006,
+    "wopr": 0.056
+   },
+   "efficiency": {
+    "ypt": 7.95,
+    "yac_per_rec": 9.0,
+    "epa_pg": 0.03
+   },
+   "consistency": {
+    "ppr_std": 6.3,
+    "floor": 1.1,
+    "ceiling": 17.0,
+    "boom_rate": 0.18
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 9.8,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 6.4,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 6.4,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Sam LaPorta",
+   "pos": "TE",
+   "team": "DET",
+   "season": 2025,
+   "games": 9,
+   "ppg_ppr": 11.9,
+   "opportunity": {
+    "touches_pg": 4.4,
+    "targets_pg": 5.4,
+    "target_share": 0.185,
+    "air_yards_share": 0.175,
+    "wopr": 0.399
+   },
+   "efficiency": {
+    "ypt": 9.98,
+    "yac_per_rec": 6.85,
+    "epa_pg": 4.05
+   },
+   "consistency": {
+    "ppr_std": 6.5,
+    "floor": 6.9,
+    "ceiling": 20.2,
+    "boom_rate": 0.44
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 14.1,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 10.9,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 11.9,
+     "games": 9
+    }
+   }
+  },
+  {
+   "name": "Dawson Knox",
+   "pos": "TE",
+   "team": "BUF",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 6.5,
+   "opportunity": {
+    "touches_pg": 2.2,
+    "targets_pg": 3.1,
+    "target_share": 0.11,
+    "air_yards_share": 0.123,
+    "wopr": 0.252
+   },
+   "efficiency": {
+    "ypt": 8.51,
+    "yac_per_rec": 5.08,
+    "epa_pg": 1.09
+   },
+   "consistency": {
+    "ppr_std": 5.2,
+    "floor": 3.5,
+    "ceiling": 10.4,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 5.5,
+     "games": 10
+    },
+    "2024": {
+     "ppg_ppr": 4.2,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 6.5,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Kirk Cousins",
+   "pos": "QB",
+   "team": "ATL",
+   "season": 2025,
+   "games": 10,
+   "ppg_ppr": 10.4,
+   "opportunity": {
+    "touches_pg": 1.4,
+    "targets_pg": 0.0,
+    "target_share": 0.0,
+    "air_yards_share": 0.0,
+    "wopr": 0.0
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": -0.34
+   },
+   "consistency": {
+    "ppr_std": 8.0,
+    "floor": 2.5,
+    "ceiling": 17.6,
+    "boom_rate": 0.1
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 18.7,
+     "games": 8
+    },
+    "2024": {
+     "ppg_ppr": 12.6,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 10.4,
+     "games": 10
+    }
+   }
+  },
+  {
+   "name": "Evan Engram",
+   "pos": "TE",
+   "team": "DEN",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 6.4,
+   "opportunity": {
+    "touches_pg": 3.2,
+    "targets_pg": 4.8,
+    "target_share": 0.137,
+    "air_yards_share": 0.147,
+    "wopr": 0.308
+   },
+   "efficiency": {
+    "ypt": 6.07,
+    "yac_per_rec": 6.04,
+    "epa_pg": 0.23
+   },
+   "consistency": {
+    "ppr_std": 3.9,
+    "floor": 3.2,
+    "ceiling": 9.9,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 13.5,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 9.9,
+     "games": 9
+    },
+    "2025": {
+     "ppg_ppr": 6.4,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Keon Coleman",
+   "pos": "WR",
+   "team": "BUF",
+   "season": 2025,
+   "games": 12,
+   "ppg_ppr": 8.5,
+   "opportunity": {
+    "touches_pg": 3.2,
+    "targets_pg": 4.9,
+    "target_share": 0.167,
+    "air_yards_share": 0.228,
+    "wopr": 0.41
+   },
+   "efficiency": {
+    "ypt": 6.85,
+    "yac_per_rec": 2.32,
+    "epa_pg": 1.03
+   },
+   "consistency": {
+    "ppr_std": 6.1,
+    "floor": 5.0,
+    "ceiling": 10.3,
+    "boom_rate": 0.08
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 8.6,
+     "games": 13
+    },
+    "2025": {
+     "ppg_ppr": 8.5,
+     "games": 12
+    }
+   }
+  },
+  {
+   "name": "Alvin Kamara",
+   "pos": "RB",
+   "team": "NO",
+   "season": 2025,
+   "games": 11,
+   "ppg_ppr": 9.2,
+   "opportunity": {
+    "touches_pg": 14.9,
+    "targets_pg": 3.5,
+    "target_share": 0.117,
+    "air_yards_share": 0.008,
+    "wopr": 0.18
+   },
+   "efficiency": {
+    "ypt": 4.77,
+    "yac_per_rec": 6.12,
+    "epa_pg": -3.68
+   },
+   "consistency": {
+    "ppr_std": 4.9,
+    "floor": 6.5,
+    "ceiling": 14.5,
+    "boom_rate": 0.09
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 17.9,
+     "games": 13
+    },
+    "2024": {
+     "ppg_ppr": 19.0,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 9.2,
+     "games": 11
+    }
+   }
+  },
+  {
+   "name": "Jalen Nailor",
+   "pos": "WR",
+   "team": "MIN",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 5.9,
+   "opportunity": {
+    "touches_pg": 1.8,
+    "targets_pg": 3.1,
+    "target_share": 0.117,
+    "air_yards_share": 0.171,
+    "wopr": 0.295
+   },
+   "efficiency": {
+    "ypt": 8.38,
+    "yac_per_rec": 3.86,
+    "epa_pg": 0.61
+   },
+   "consistency": {
+    "ppr_std": 6.7,
+    "floor": 0.0,
+    "ceiling": 9.2,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 2.0,
+     "games": 3
+    },
+    "2024": {
+     "ppg_ppr": 7.0,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 5.9,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Ty Johnson",
+   "pos": "RB",
+   "team": "BUF",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 5.9,
+   "opportunity": {
+    "touches_pg": 4.4,
+    "targets_pg": 1.9,
+    "target_share": 0.068,
+    "air_yards_share": -0.021,
+    "wopr": 0.088
+   },
+   "efficiency": {
+    "ypt": 7.97,
+    "yac_per_rec": 12.54,
+    "epa_pg": 0.84
+   },
+   "consistency": {
+    "ppr_std": 5.3,
+    "floor": 2.4,
+    "ceiling": 10.0,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 3.6,
+     "games": 9
+    },
+    "2024": {
+     "ppg_ppr": 5.4,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 5.9,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Garrett Wilson",
+   "pos": "WR",
+   "team": "NYJ",
+   "season": 2025,
+   "games": 7,
+   "ppg_ppr": 14.2,
+   "opportunity": {
+    "touches_pg": 5.1,
+    "targets_pg": 8.4,
+    "target_share": 0.354,
+    "air_yards_share": 0.563,
+    "wopr": 0.925
+   },
+   "efficiency": {
+    "ypt": 6.69,
+    "yac_per_rec": 2.78,
+    "epa_pg": -0.3
+   },
+   "consistency": {
+    "ppr_std": 9.7,
+    "floor": 9.0,
+    "ceiling": 22.5,
+    "boom_rate": 0.57
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 12.5,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 14.8,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 14.2,
+     "games": 7
+    }
+   }
+  },
+  {
+   "name": "Spencer Rattler",
+   "pos": "QB",
+   "team": "NO",
+   "season": 2025,
+   "games": 9,
+   "ppg_ppr": 11.0,
+   "opportunity": {
+    "touches_pg": 3.6,
+    "targets_pg": 0.2,
+    "target_share": 0.008,
+    "air_yards_share": 0.004,
+    "wopr": 0.015
+   },
+   "efficiency": {
+    "ypt": 0.0,
+    "yac_per_rec": 0.0,
+    "epa_pg": -1.99
+   },
+   "consistency": {
+    "ppr_std": 6.5,
+    "floor": 10.5,
+    "ceiling": 16.1,
+    "boom_rate": 0.11
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 9.6,
+     "games": 7
+    },
+    "2025": {
+     "ppg_ppr": 11.0,
+     "games": 9
+    }
+   }
+  },
+  {
+   "name": "Michael Carter",
+   "pos": "RB",
+   "team": "ARI",
+   "season": 2025,
+   "games": 13,
+   "ppg_ppr": 7.6,
+   "opportunity": {
+    "touches_pg": 9.6,
+    "targets_pg": 3.5,
+    "target_share": 0.092,
+    "air_yards_share": 0.015,
+    "wopr": 0.148
+   },
+   "efficiency": {
+    "ypt": 5.93,
+    "yac_per_rec": 7.79,
+    "epa_pg": -0.38
+   },
+   "consistency": {
+    "ppr_std": 4.9,
+    "floor": 5.6,
+    "ceiling": 11.4,
+    "boom_rate": 0.08
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 3.9,
+     "games": 15
+    },
+    "2024": {
+     "ppg_ppr": 11.9,
+     "games": 3
+    },
+    "2025": {
+     "ppg_ppr": 7.6,
+     "games": 13
+    }
+   }
+  },
+  {
+   "name": "Darius Slayton",
+   "pos": "WR",
+   "team": "NYG",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 7.1,
+   "opportunity": {
+    "touches_pg": 2.6,
+    "targets_pg": 4.5,
+    "target_share": 0.155,
+    "air_yards_share": 0.25,
+    "wopr": 0.407
+   },
+   "efficiency": {
+    "ypt": 8.54,
+    "yac_per_rec": 5.35,
+    "epa_pg": 1.29
+   },
+   "consistency": {
+    "ppr_std": 4.1,
+    "floor": 4.1,
+    "ceiling": 11.2,
+    "boom_rate": 0.0
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 8.9,
+     "games": 17
+    },
+    "2024": {
+     "ppg_ppr": 6.9,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 7.1,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "Xavier Hutchinson",
+   "pos": "WR",
+   "team": "HOU",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 6.1,
+   "opportunity": {
+    "touches_pg": 2.4,
+    "targets_pg": 3.6,
+    "target_share": 0.112,
+    "air_yards_share": 0.132,
+    "wopr": 0.26
+   },
+   "efficiency": {
+    "ypt": 7.51,
+    "yac_per_rec": 4.17,
+    "epa_pg": 0.92
+   },
+   "consistency": {
+    "ppr_std": 5.4,
+    "floor": 2.6,
+    "ceiling": 13.4,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 1.8,
+     "games": 12
+    },
+    "2024": {
+     "ppg_ppr": 1.7,
+     "games": 14
+    },
+    "2025": {
+     "ppg_ppr": 6.1,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "DeMario Douglas",
+   "pos": "WR",
+   "team": "NE",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 6.0,
+   "opportunity": {
+    "touches_pg": 2.4,
+    "targets_pg": 2.9,
+    "target_share": 0.098,
+    "air_yards_share": 0.101,
+    "wopr": 0.217
+   },
+   "efficiency": {
+    "ypt": 9.72,
+    "yac_per_rec": 6.9,
+    "epa_pg": 1.7
+   },
+   "consistency": {
+    "ppr_std": 5.2,
+    "floor": 2.7,
+    "ceiling": 8.2,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 7.7,
+     "games": 14
+    },
+    "2024": {
+     "ppg_ppr": 9.2,
+     "games": 16
+    },
+    "2025": {
+     "ppg_ppr": 6.0,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Marvin Mims Jr.",
+   "pos": "WR",
+   "team": "DEN",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 6.3,
+   "opportunity": {
+    "touches_pg": 3.3,
+    "targets_pg": 3.4,
+    "target_share": 0.099,
+    "air_yards_share": 0.097,
+    "wopr": 0.217
+   },
+   "efficiency": {
+    "ypt": 6.31,
+    "yac_per_rec": 6.24,
+    "epa_pg": 0.58
+   },
+   "consistency": {
+    "ppr_std": 5.5,
+    "floor": 3.7,
+    "ceiling": 10.4,
+    "boom_rate": 0.13
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 4.7,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 7.6,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 6.3,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Emanuel Wilson",
+   "pos": "RB",
+   "team": "GB",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 5.6,
+   "opportunity": {
+    "touches_pg": 8.2,
+    "targets_pg": 1.0,
+    "target_share": 0.037,
+    "air_yards_share": -0.019,
+    "wopr": 0.043
+   },
+   "efficiency": {
+    "ypt": 5.82,
+    "yac_per_rec": 8.87,
+    "epa_pg": -0.39
+   },
+   "consistency": {
+    "ppr_std": 6.9,
+    "floor": 1.4,
+    "ceiling": 11.7,
+    "boom_rate": 0.06
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 3.0,
+     "games": 5
+    },
+    "2024": {
+     "ppg_ppr": 5.6,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 5.6,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Jake Tonges",
+   "pos": "TE",
+   "team": "SF",
+   "season": 2025,
+   "games": 10,
+   "ppg_ppr": 9.3,
+   "opportunity": {
+    "touches_pg": 3.4,
+    "targets_pg": 4.6,
+    "target_share": 0.122,
+    "air_yards_share": 0.079,
+    "wopr": 0.238
+   },
+   "efficiency": {
+    "ypt": 6.37,
+    "yac_per_rec": 4.21,
+    "epa_pg": 1.42
+   },
+   "consistency": {
+    "ppr_std": 6.4,
+    "floor": 4.1,
+    "ceiling": 17.1,
+    "boom_rate": 0.3
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 0.0,
+     "games": 2
+    },
+    "2025": {
+     "ppg_ppr": 9.3,
+     "games": 10
+    }
+   }
+  },
+  {
+   "name": "Bam Knight",
+   "pos": "RB",
+   "team": "ARI",
+   "season": 2025,
+   "games": 12,
+   "ppg_ppr": 7.7,
+   "opportunity": {
+    "touches_pg": 8.7,
+    "targets_pg": 2.6,
+    "target_share": 0.063,
+    "air_yards_share": 0.01,
+    "wopr": 0.102
+   },
+   "efficiency": {
+    "ypt": 5.16,
+    "yac_per_rec": 6.86,
+    "epa_pg": -1.25
+   },
+   "consistency": {
+    "ppr_std": 5.9,
+    "floor": 4.3,
+    "ceiling": 13.2,
+    "boom_rate": 0.08
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 1.6,
+     "games": 2
+    },
+    "2025": {
+     "ppg_ppr": 7.7,
+     "games": 12
+    }
+   }
+  },
+  {
+   "name": "Tez Johnson",
+   "pos": "WR",
+   "team": "TB",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 6.2,
+   "opportunity": {
+    "touches_pg": 2.3,
+    "targets_pg": 2.9,
+    "target_share": 0.092,
+    "air_yards_share": 0.138,
+    "wopr": 0.234
+   },
+   "efficiency": {
+    "ypt": 7.32,
+    "yac_per_rec": 3.93,
+    "epa_pg": 1.01
+   },
+   "consistency": {
+    "ppr_std": 6.5,
+    "floor": 1.5,
+    "ceiling": 12.3,
+    "boom_rate": 0.13
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 6.2,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Kendrick Bourne",
+   "pos": "WR",
+   "team": "SF",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 6.6,
+   "opportunity": {
+    "touches_pg": 2.6,
+    "targets_pg": 3.8,
+    "target_share": 0.108,
+    "air_yards_share": 0.148,
+    "wopr": 0.266
+   },
+   "efficiency": {
+    "ypt": 10.4,
+    "yac_per_rec": 4.46,
+    "epa_pg": 1.47
+   },
+   "consistency": {
+    "ppr_std": 6.9,
+    "floor": 2.9,
+    "ceiling": 7.8,
+    "boom_rate": 0.14
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 12.5,
+     "games": 8
+    },
+    "2024": {
+     "ppg_ppr": 5.4,
+     "games": 12
+    },
+    "2025": {
+     "ppg_ppr": 6.6,
+     "games": 14
+    }
+   }
+  },
+  {
+   "name": "Chris Rodriguez Jr.",
+   "pos": "RB",
+   "team": "WAS",
+   "season": 2025,
+   "games": 12,
+   "ppg_ppr": 7.7,
+   "opportunity": {
+    "touches_pg": 9.6,
+    "targets_pg": 0.3,
+    "target_share": 0.013,
+    "air_yards_share": 0.003,
+    "wopr": 0.022
+   },
+   "efficiency": {
+    "ypt": 7.5,
+    "yac_per_rec": 8.67,
+    "epa_pg": 0.24
+   },
+   "consistency": {
+    "ppr_std": 4.8,
+    "floor": 5.2,
+    "ceiling": 12.5,
+    "boom_rate": 0.08
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 4.2,
+     "games": 9
+    },
+    "2024": {
+     "ppg_ppr": 4.5,
+     "games": 7
+    },
+    "2025": {
+     "ppg_ppr": 7.7,
+     "games": 12
+    }
+   }
+  },
+  {
+   "name": "Gunnar Helm",
+   "pos": "TE",
+   "team": "TEN",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 5.7,
+   "opportunity": {
+    "touches_pg": 2.8,
+    "targets_pg": 3.4,
+    "target_share": 0.107,
+    "air_yards_share": 0.08,
+    "wopr": 0.216
+   },
+   "efficiency": {
+    "ypt": 6.49,
+    "yac_per_rec": 3.61,
+    "epa_pg": 0.24
+   },
+   "consistency": {
+    "ppr_std": 4.0,
+    "floor": 2.6,
+    "ceiling": 10.3,
+    "boom_rate": 0.06
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 5.7,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Sean Tucker",
+   "pos": "RB",
+   "team": "TB",
+   "season": 2025,
+   "games": 17,
+   "ppg_ppr": 5.4,
+   "opportunity": {
+    "touches_pg": 5.5,
+    "targets_pg": 0.6,
+    "target_share": 0.019,
+    "air_yards_share": -0.001,
+    "wopr": 0.028
+   },
+   "efficiency": {
+    "ypt": 3.09,
+    "yac_per_rec": 6.12,
+    "epa_pg": -0.4
+   },
+   "consistency": {
+    "ppr_std": 8.2,
+    "floor": 0.0,
+    "ceiling": 8.9,
+    "boom_rate": 0.06
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 1.7,
+     "games": 3
+    },
+    "2024": {
+     "ppg_ppr": 4.0,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 5.4,
+     "games": 17
+    }
+   }
+  },
+  {
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "team": "CAR",
+   "season": 2025,
+   "games": 11,
+   "ppg_ppr": 8.2,
+   "opportunity": {
+    "touches_pg": 3.0,
+    "targets_pg": 3.9,
+    "target_share": 0.154,
+    "air_yards_share": 0.2,
+    "wopr": 0.371
+   },
+   "efficiency": {
+    "ypt": 9.16,
+    "yac_per_rec": 3.09,
+    "epa_pg": 1.99
+   },
+   "consistency": {
+    "ppr_std": 5.9,
+    "floor": 5.1,
+    "ceiling": 16.7,
+    "boom_rate": 0.18
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 8.4,
+     "games": 11
+    },
+    "2025": {
+     "ppg_ppr": 8.2,
+     "games": 11
+    }
+   }
+  },
+  {
+   "name": "Andrei Iosivas",
+   "pos": "WR",
+   "team": "CIN",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 6.0,
+   "opportunity": {
+    "touches_pg": 2.4,
+    "targets_pg": 3.9,
+    "target_share": 0.102,
+    "air_yards_share": 0.131,
+    "wopr": 0.245
+   },
+   "efficiency": {
+    "ypt": 7.5,
+    "yac_per_rec": 3.12,
+    "epa_pg": 0.77
+   },
+   "consistency": {
+    "ppr_std": 5.2,
+    "floor": 3.0,
+    "ceiling": 10.6,
+    "boom_rate": 0.07
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 4.6,
+     "games": 11
+    },
+    "2024": {
+     "ppg_ppr": 7.1,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 6.0,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Xavier Legette",
+   "pos": "WR",
+   "team": "CAR",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 6.0,
+   "opportunity": {
+    "touches_pg": 2.4,
+    "targets_pg": 4.3,
+    "target_share": 0.143,
+    "air_yards_share": 0.197,
+    "wopr": 0.352
+   },
+   "efficiency": {
+    "ypt": 5.67,
+    "yac_per_rec": 2.14,
+    "epa_pg": -0.31
+   },
+   "consistency": {
+    "ppr_std": 6.9,
+    "floor": 2.2,
+    "ceiling": 11.1,
+    "boom_rate": 0.13
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 8.3,
+     "games": 15
+    },
+    "2025": {
+     "ppg_ppr": 6.0,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Mason Taylor",
+   "pos": "TE",
+   "team": "NYJ",
+   "season": 2025,
+   "games": 13,
+   "ppg_ppr": 6.8,
+   "opportunity": {
+    "touches_pg": 3.4,
+    "targets_pg": 5.0,
+    "target_share": 0.172,
+    "air_yards_share": 0.138,
+    "wopr": 0.355
+   },
+   "efficiency": {
+    "ypt": 5.68,
+    "yac_per_rec": 3.02,
+    "epa_pg": 0.75
+   },
+   "consistency": {
+    "ppr_std": 5.2,
+    "floor": 3.0,
+    "ceiling": 11.5,
+    "boom_rate": 0.15
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 6.8,
+     "games": 13
+    }
+   }
+  },
+  {
+   "name": "Darren Waller",
+   "pos": "TE",
+   "team": "MIA",
+   "season": 2025,
+   "games": 9,
+   "ppg_ppr": 9.9,
+   "opportunity": {
+    "touches_pg": 2.8,
+    "targets_pg": 3.8,
+    "target_share": 0.146,
+    "air_yards_share": 0.221,
+    "wopr": 0.374
+   },
+   "efficiency": {
+    "ypt": 8.32,
+    "yac_per_rec": 3.04,
+    "epa_pg": 3.18
+   },
+   "consistency": {
+    "ppr_std": 8.9,
+    "floor": 2.7,
+    "ceiling": 18.8,
+    "boom_rate": 0.33
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 9.4,
+     "games": 12
+    },
+    "2025": {
+     "ppg_ppr": 9.9,
+     "games": 9
+    }
+   }
+  },
+  {
+   "name": "Ricky Pearsall",
+   "pos": "WR",
+   "team": "SF",
+   "season": 2025,
+   "games": 9,
+   "ppg_ppr": 9.8,
+   "opportunity": {
+    "touches_pg": 4.2,
+    "targets_pg": 5.9,
+    "target_share": 0.18,
+    "air_yards_share": 0.318,
+    "wopr": 0.492
+   },
+   "efficiency": {
+    "ypt": 9.96,
+    "yac_per_rec": 2.06,
+    "epa_pg": 2.78
+   },
+   "consistency": {
+    "ppr_std": 6.5,
+    "floor": 3.4,
+    "ceiling": 15.6,
+    "boom_rate": 0.22
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 8.5,
+     "games": 11
+    },
+    "2025": {
+     "ppg_ppr": 9.8,
+     "games": 9
+    }
+   }
+  },
+  {
+   "name": "Bhayshul Tuten",
+   "pos": "RB",
+   "team": "JAX",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 5.9,
+   "opportunity": {
+    "touches_pg": 6.2,
+    "targets_pg": 0.9,
+    "target_share": 0.03,
+    "air_yards_share": 0.002,
+    "wopr": 0.046
+   },
+   "efficiency": {
+    "ypt": 5.64,
+    "yac_per_rec": 8.0,
+    "epa_pg": -0.31
+   },
+   "consistency": {
+    "ppr_std": 4.9,
+    "floor": 2.1,
+    "ceiling": 9.6,
+    "boom_rate": 0.07
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 5.9,
+     "games": 15
+    }
+   },
+   "avoid": {
+    "source": "FanDuel / ESPN tiers",
+    "reason": "ADP climbed into the top ~60 on breakout hype, but his role is uncertain and he's shown little as a pass-catcher."
+   }
+  },
+  {
+   "name": "Nick Chubb",
+   "pos": "RB",
+   "team": "HOU",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 5.9,
+   "opportunity": {
+    "touches_pg": 9.0,
+    "targets_pg": 1.3,
+    "target_share": 0.04,
+    "air_yards_share": 0.004,
+    "wopr": 0.062
+   },
+   "efficiency": {
+    "ypt": 3.35,
+    "yac_per_rec": 4.85,
+    "epa_pg": -1.07
+   },
+   "consistency": {
+    "ppr_std": 4.4,
+    "floor": 2.5,
+    "ceiling": 9.4,
+    "boom_rate": 0.07
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 11.6,
+     "games": 2
+    },
+    "2024": {
+     "ppg_ppr": 7.9,
+     "games": 8
+    },
+    "2025": {
+     "ppg_ppr": 5.9,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Adonai Mitchell",
+   "pos": "WR",
+   "team": "NYJ",
+   "season": 2025,
+   "games": 16,
+   "ppg_ppr": 5.5,
+   "opportunity": {
+    "touches_pg": 2.1,
+    "targets_pg": 4.6,
+    "target_share": 0.153,
+    "air_yards_share": 0.303,
+    "wopr": 0.442
+   },
+   "efficiency": {
+    "ypt": 6.12,
+    "yac_per_rec": 2.42,
+    "epa_pg": -1.08
+   },
+   "consistency": {
+    "ppr_std": 6.8,
+    "floor": 1.7,
+    "ceiling": 10.6,
+    "boom_rate": 0.12
+   },
+   "ppg_by_season": {
+    "2024": {
+     "ppg_ppr": 3.2,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 5.5,
+     "games": 16
+    }
+   }
+  },
+  {
+   "name": "Dylan Sampson",
+   "pos": "RB",
+   "team": "CLE",
+   "season": 2025,
+   "games": 15,
+   "ppg_ppr": 5.8,
+   "opportunity": {
+    "touches_pg": 6.5,
+    "targets_pg": 2.7,
+    "target_share": 0.087,
+    "air_yards_share": -0.021,
+    "wopr": 0.115
+   },
+   "efficiency": {
+    "ypt": 6.78,
+    "yac_per_rec": 9.64,
+    "epa_pg": -0.66
+   },
+   "consistency": {
+    "ppr_std": 5.6,
+    "floor": 1.9,
+    "ceiling": 10.9,
+    "boom_rate": 0.13
+   },
+   "ppg_by_season": {
+    "2025": {
+     "ppg_ppr": 5.8,
+     "games": 15
+    }
+   }
+  },
+  {
+   "name": "Isiah Pacheco",
+   "pos": "RB",
+   "team": "KC",
+   "season": 2025,
+   "games": 13,
+   "ppg_ppr": 6.7,
+   "opportunity": {
+    "touches_pg": 10.5,
+    "targets_pg": 2.0,
+    "target_share": 0.068,
+    "air_yards_share": -0.006,
+    "wopr": 0.098
+   },
+   "efficiency": {
+    "ypt": 3.88,
+    "yac_per_rec": 6.37,
+    "epa_pg": -1.41
+   },
+   "consistency": {
+    "ppr_std": 3.9,
+    "floor": 3.9,
+    "ceiling": 12.4,
+    "boom_rate": 0.0
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 15.3,
+     "games": 14
+    },
+    "2024": {
+     "ppg_ppr": 8.1,
+     "games": 7
+    },
+    "2025": {
+     "ppg_ppr": 6.7,
+     "games": 13
+    }
+   }
+  },
+  {
+   "name": "David Njoku",
+   "pos": "TE",
+   "team": "CLE",
+   "season": 2025,
+   "games": 11,
+   "ppg_ppr": 7.8,
+   "opportunity": {
+    "touches_pg": 3.0,
+    "targets_pg": 4.4,
+    "target_share": 0.125,
+    "air_yards_share": 0.091,
+    "wopr": 0.251
+   },
+   "efficiency": {
+    "ypt": 6.1,
+    "yac_per_rec": 4.85,
+    "epa_pg": -0.33
+   },
+   "consistency": {
+    "ppr_std": 5.0,
+    "floor": 5.8,
+    "ceiling": 13.7,
+    "boom_rate": 0.18
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 12.6,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 13.5,
+     "games": 11
+    },
+    "2025": {
+     "ppg_ppr": 7.8,
+     "games": 11
+    }
+   }
+  },
+  {
+   "name": "Calvin Austin III",
+   "pos": "WR",
+   "team": "PIT",
+   "season": 2025,
+   "games": 14,
+   "ppg_ppr": 6.2,
+   "opportunity": {
+    "touches_pg": 2.2,
+    "targets_pg": 3.9,
+    "target_share": 0.131,
+    "air_yards_share": 0.255,
+    "wopr": 0.375
+   },
+   "efficiency": {
+    "ypt": 6.76,
+    "yac_per_rec": 4.13,
+    "epa_pg": -0.3
+   },
+   "consistency": {
+    "ppr_std": 5.5,
+    "floor": 1.8,
+    "ceiling": 12.4,
+    "boom_rate": 0.07
+   },
+   "ppg_by_season": {
+    "2023": {
+     "ppg_ppr": 3.3,
+     "games": 16
+    },
+    "2024": {
+     "ppg_ppr": 7.1,
+     "games": 17
+    },
+    "2025": {
+     "ppg_ppr": 6.2,
+     "games": 14
+    }
+   }
+  }
+ ]
+}
